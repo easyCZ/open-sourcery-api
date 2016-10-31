@@ -1,0 +1,19 @@
+{
+  "name": "open-sourcery-api",
+  "version": "1.0.0",
+  "description": "Open Sourcery Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyCZ/open-sourcery-api.git"
+  },
+  "author": "Milan Pavlik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easyCZ/open-sourcery-api/issues"
+  },
+  "homepage": "https://github.com/easyCZ/open-sourcery-api#readme"
+}
