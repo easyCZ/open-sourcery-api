@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/easyCZ/open-sourcery-api/issues"
   },
-  "homepage": "https://github.com/easyCZ/open-sourcery-api#readme"
+  "homepage": "https://github.com/easyCZ/open-sourcery-api#readme",
+  "dependencies": {
+    "firebase": "^3.5.2",
+    "github": "^6.0.1"
+  }
 }
