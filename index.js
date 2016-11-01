@@ -1,6 +1,7 @@
 const firebase = require('firebase');
-const GithubApi = require('github');
-const githubCredentials = require('./github.credentials.js');
+const github = require('./github.js');
+
+console.log('gh', github)
 
 
 firebase.initializeApp({
@@ -9,12 +10,13 @@ firebase.initializeApp({
 })
 
 const db = firebase.database();
-const github = new GithubApi({
-  host: 'api.github.com',
-  protocol: 'https',
-  headers: {
-    'user-agent': 'OpenSourcery v0.1'
-  }
-}).authenticate({
 
+
+// github.getMostStarred()
+//   .then()
+
+github.getAllLabels({
+  owner: 'FreeCodeCamp',
+  repo: 'FreeCodeCamp'
 })
+.then(res => console.log(res.length));
