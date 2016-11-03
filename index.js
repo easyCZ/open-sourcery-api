@@ -1,22 +1,30 @@
 const firebase = require('firebase');
 const github = require('./github.js');
-
-console.log('gh', github)
+const repository = require('./models/repository.js');
+const R = require('ramda');
 
 
 firebase.initializeApp({
   databaseURL: 'https://open-sourcery.firebaseio.com/',
-  serivceAccount: './service.credentials.json'
+  serviceAccount: require('./firebase.credentials.json')
 })
 
 const db = firebase.database();
 
 
-// github.getMostStarred()
-//   .then()
+github.getMostStarred()
+  .then(R.map(repository.map))
+  .then(repos => {
 
-github.getAllLabels({
-  owner: 'FreeCodeCamp',
-  repo: 'FreeCodeCamp'
-})
-.then(res => console.log(res.length));
+    repos.forEach(repo =>{
+      github.getAllLabels(repo)
+        .then(R.map(l => l.name))
+        .then(labels => {
+          repo = Object.assign({}, { labels }, repo);
+          db.ref('repositories/' + repo.full_name)
+            .set(repo)
+        })
+    })
+
+  })
+  .catch(err => console.error(err))
