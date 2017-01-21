@@ -1,8 +1,10 @@
 const R = require('ramda')
 
 
+const fullNameToId = R.replace(/(\.|\#|\$|\[|\])/g, '_')
+
 const map = (repo) => ({
-  id: repo.id,
+  id: fullNameToId(repo.full_name),
   owner: repo.owner.login,
   repo: repo.name,
   full_name: repo.full_name,
@@ -12,6 +14,8 @@ const map = (repo) => ({
 })
 
 
+
+
 module.exports = {
-  map
+  map,
 }

@@ -28,11 +28,13 @@ const getAllLabels = ({owner, repo}) =>
   iterate(github.issues.getLabels({ owner, repo, per_page: 100 }));
 
 
-const getMostStarred = () => github.search.repos({ q: 'stars:>1' })
+const getMostStarred = (page = 1, per_page = 100) => github.search
+  .repos({ q: 'stars:>1', per_page, page })
   .then(results => results.items)
 
 
 module.exports = {
+  github,
   getMostStarred,
   getAllLabels
 }
