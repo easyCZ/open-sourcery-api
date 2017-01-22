@@ -1,0 +1,9064 @@
+{
+  "+backtrace": [
+    "neovim/neovim"
+  ],
+  "+repro": [
+    "neovim/neovim"
+  ],
+  "+sent-to-vim_dev": [
+    "neovim/neovim"
+  ],
+  "+workaround": [
+    "neovim/neovim"
+  ],
+  "0.3": [
+    "impress/impress_js"
+  ],
+  "0.4": [
+    "impress/impress_js"
+  ],
+  "0.5": [
+    "impress/impress_js"
+  ],
+  "1.x": [
+    "vuejs/vue",
+    "ariya/phantomjs",
+    "ReactiveX/RxJava"
+  ],
+  "1.x-only": [
+    "jquery/jquery"
+  ],
+  "10.10": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "10.11": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "10.6": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "10.7": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "10.8": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "10.9": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "2.0": [
+    "vuejs/vue",
+    "ariya/phantomjs"
+  ],
+  "2.0 Big Themes": [
+    "google/material-design-lite"
+  ],
+  "2.0 Regression": [
+    "ariya/phantomjs"
+  ],
+  "2.1": [
+    "vuejs/vue",
+    "ariya/phantomjs"
+  ],
+  "2.1 Regression": [
+    "ariya/phantomjs"
+  ],
+  "2.x": [
+    "vuejs/vue",
+    "ReactiveX/RxJava"
+  ],
+  "2.x-only": [
+    "jquery/jquery"
+  ],
+  "3.x": [
+    "expressjs/express",
+    "ReactiveX/RxJava",
+    "select2/select2"
+  ],
+  "4.x": [
+    "expressjs/express",
+    "select2/select2"
+  ],
+  "5.x": [
+    "expressjs/express"
+  ],
+  ":Aggregations": [
+    "elastic/elasticsearch"
+  ],
+  ":Aliases": [
+    "elastic/elasticsearch"
+  ],
+  ":Allocation": [
+    "elastic/elasticsearch"
+  ],
+  ":Analysis": [
+    "elastic/elasticsearch"
+  ],
+  ":Benchmark": [
+    "elastic/elasticsearch"
+  ],
+  ":Bulk": [
+    "elastic/elasticsearch"
+  ],
+  ":CAT API": [
+    "elastic/elasticsearch"
+  ],
+  ":CRUD": [
+    "elastic/elasticsearch"
+  ],
+  ":Cache": [
+    "elastic/elasticsearch"
+  ],
+  ":Changes API": [
+    "elastic/elasticsearch"
+  ],
+  ":Circuit Breakers": [
+    "elastic/elasticsearch"
+  ],
+  ":Cluster": [
+    "elastic/elasticsearch"
+  ],
+  ":Core": [
+    "elastic/elasticsearch"
+  ],
+  ":Dates": [
+    "elastic/elasticsearch"
+  ],
+  ":Discovery": [
+    "elastic/elasticsearch"
+  ],
+  ":Engine": [
+    "elastic/elasticsearch"
+  ],
+  ":Exceptions": [
+    "elastic/elasticsearch"
+  ],
+  ":Expressions": [
+    "elastic/elasticsearch"
+  ],
+  ":Fielddata": [
+    "elastic/elasticsearch"
+  ],
+  ":Geo": [
+    "elastic/elasticsearch"
+  ],
+  ":Highlighting": [
+    "elastic/elasticsearch"
+  ],
+  ":Index APIs": [
+    "elastic/elasticsearch"
+  ],
+  ":Index Templates": [
+    "elastic/elasticsearch"
+  ],
+  ":Indexed Scripts/Templates": [
+    "elastic/elasticsearch"
+  ],
+  ":Ingest": [
+    "elastic/elasticsearch"
+  ],
+  ":Inner Hits": [
+    "elastic/elasticsearch"
+  ],
+  ":Internal": [
+    "elastic/elasticsearch"
+  ],
+  ":Java API": [
+    "elastic/elasticsearch"
+  ],
+  ":Java High Level REST Client": [
+    "elastic/elasticsearch"
+  ],
+  ":Java REST Client": [
+    "elastic/elasticsearch"
+  ],
+  ":Logging": [
+    "elastic/elasticsearch"
+  ],
+  ":Mapping": [
+    "elastic/elasticsearch"
+  ],
+  ":More Like This": [
+    "elastic/elasticsearch"
+  ],
+  ":Nested Docs": [
+    "elastic/elasticsearch"
+  ],
+  ":Network": [
+    "elastic/elasticsearch"
+  ],
+  ":Packaging": [
+    "elastic/elasticsearch"
+  ],
+  ":Parent/Child": [
+    "elastic/elasticsearch"
+  ],
+  ":Percolator": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Analysis ICU": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Analysis Kuromoji": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Analysis Phonetic": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Analysis Smartcn": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Analysis Stempel": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Cloud AWS": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Cloud Azure": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Cloud GCE": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Delete By Query": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Discovery Azure ARM": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Discovery Azure Classic": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Discovery EC2": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Discovery File": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Discovery GCE": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Discovery Multicast": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Ingest Attachment": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Ingest GeoIp": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Lang JS": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Lang Painless": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Lang Python": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Mapper Attachment": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Mapper Size": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Repository Azure": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Repository GCS": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Repository HDFS": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Repository S3": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Store SMB": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugin Transport Wares": [
+    "elastic/elasticsearch"
+  ],
+  ":Plugins": [
+    "elastic/elasticsearch"
+  ],
+  ":Query DSL": [
+    "elastic/elasticsearch"
+  ],
+  ":Query Refactoring": [
+    "elastic/elasticsearch"
+  ],
+  ":REST": [
+    "elastic/elasticsearch"
+  ],
+  ":Rank Evaluation": [
+    "elastic/elasticsearch"
+  ],
+  ":Recovery": [
+    "elastic/elasticsearch"
+  ],
+  ":Reducers": [
+    "elastic/elasticsearch"
+  ],
+  ":Reindex API": [
+    "elastic/elasticsearch"
+  ],
+  ":Scripting": [
+    "elastic/elasticsearch"
+  ],
+  ":Scroll": [
+    "elastic/elasticsearch"
+  ],
+  ":Search": [
+    "elastic/elasticsearch"
+  ],
+  ":Search Refactoring": [
+    "elastic/elasticsearch"
+  ],
+  ":Search Templates": [
+    "elastic/elasticsearch"
+  ],
+  ":Sequence IDs": [
+    "elastic/elasticsearch"
+  ],
+  ":Settings": [
+    "elastic/elasticsearch"
+  ],
+  ":Shadow Replicas": [
+    "elastic/elasticsearch"
+  ],
+  ":Similarities": [
+    "elastic/elasticsearch"
+  ],
+  ":Snapshot/Restore": [
+    "elastic/elasticsearch"
+  ],
+  ":Stats": [
+    "elastic/elasticsearch"
+  ],
+  ":Store": [
+    "elastic/elasticsearch"
+  ],
+  ":Suggesters": [
+    "elastic/elasticsearch"
+  ],
+  ":Task Manager": [
+    "elastic/elasticsearch"
+  ],
+  ":Templates": [
+    "elastic/elasticsearch"
+  ],
+  ":Term Vectors": [
+    "elastic/elasticsearch"
+  ],
+  ":Top Hits": [
+    "elastic/elasticsearch"
+  ],
+  ":Translog": [
+    "elastic/elasticsearch"
+  ],
+  ":Tribe Node": [
+    "elastic/elasticsearch"
+  ],
+  ":Upgrade API": [
+    "elastic/elasticsearch"
+  ],
+  ":Warmers": [
+    "elastic/elasticsearch"
+  ],
+  ":term": [
+    "neovim/neovim"
+  ],
+  "@font-face": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "A-ARM": [
+    "rust-lang/rust"
+  ],
+  "A-LLVM": [
+    "rust-lang/rust"
+  ],
+  "A-MIPS": [
+    "rust-lang/rust"
+  ],
+  "A-NVPTX": [
+    "rust-lang/rust"
+  ],
+  "A-PowerPC": [
+    "rust-lang/rust"
+  ],
+  "A-allocators": [
+    "rust-lang/rust"
+  ],
+  "A-amusing": [
+    "rust-lang/rust"
+  ],
+  "A-android": [
+    "rust-lang/rust"
+  ],
+  "A-asmjs": [
+    "rust-lang/rust"
+  ],
+  "A-associated-items": [
+    "rust-lang/rust"
+  ],
+  "A-attributes": [
+    "rust-lang/rust"
+  ],
+  "A-benchmarks": [
+    "rust-lang/rust"
+  ],
+  "A-bitrig": [
+    "rust-lang/rust"
+  ],
+  "A-book": [
+    "rust-lang/rust"
+  ],
+  "A-borrow-checker": [
+    "rust-lang/rust"
+  ],
+  "A-bsd": [
+    "rust-lang/rust"
+  ],
+  "A-build": [
+    "rust-lang/rust"
+  ],
+  "A-closures": [
+    "rust-lang/rust"
+  ],
+  "A-codegen": [
+    "rust-lang/rust"
+  ],
+  "A-collections": [
+    "rust-lang/rust"
+  ],
+  "A-compiler": [
+    "rust-lang/rust"
+  ],
+  "A-concurrency": [
+    "rust-lang/rust"
+  ],
+  "A-const-fn": [
+    "rust-lang/rust"
+  ],
+  "A-cross": [
+    "rust-lang/rust"
+  ],
+  "A-debuginfo": [
+    "rust-lang/rust"
+  ],
+  "A-destructors": [
+    "rust-lang/rust"
+  ],
+  "A-diagnostics": [
+    "rust-lang/rust"
+  ],
+  "A-docs": [
+    "rust-lang/rust"
+  ],
+  "A-dragonflybsd": [
+    "rust-lang/rust"
+  ],
+  "A-driver": [
+    "rust-lang/rust"
+  ],
+  "A-dst": [
+    "rust-lang/rust"
+  ],
+  "A-ffi": [
+    "rust-lang/rust"
+  ],
+  "A-freebsd": [
+    "rust-lang/rust"
+  ],
+  "A-freestanding": [
+    "rust-lang/rust"
+  ],
+  "A-frontend": [
+    "rust-lang/rust"
+  ],
+  "A-grammar": [
+    "rust-lang/rust"
+  ],
+  "A-hir": [
+    "rust-lang/rust"
+  ],
+  "A-iOS": [
+    "rust-lang/rust"
+  ],
+  "A-incr-comp": [
+    "rust-lang/rust"
+  ],
+  "A-infrastructure": [
+    "rust-lang/rust"
+  ],
+  "A-inline-assembly": [
+    "rust-lang/rust"
+  ],
+  "A-io": [
+    "rust-lang/rust"
+  ],
+  "A-lang": [
+    "rust-lang/rust"
+  ],
+  "A-libs": [
+    "rust-lang/rust"
+  ],
+  "A-lifetimes": [
+    "rust-lang/rust"
+  ],
+  "A-linkage": [
+    "rust-lang/rust"
+  ],
+  "A-lint": [
+    "rust-lang/rust"
+  ],
+  "A-linux": [
+    "rust-lang/rust"
+  ],
+  "A-macOS": [
+    "rust-lang/rust"
+  ],
+  "A-macros": [
+    "rust-lang/rust"
+  ],
+  "A-metadata": [
+    "rust-lang/rust"
+  ],
+  "A-mir": [
+    "rust-lang/rust"
+  ],
+  "A-naked": [
+    "rust-lang/rust"
+  ],
+  "A-netbsd": [
+    "rust-lang/rust"
+  ],
+  "A-nomicon": [
+    "rust-lang/rust"
+  ],
+  "A-openbsd": [
+    "rust-lang/rust"
+  ],
+  "A-optimization": [
+    "rust-lang/rust"
+  ],
+  "A-parser": [
+    "rust-lang/rust"
+  ],
+  "A-plugin": [
+    "rust-lang/rust"
+  ],
+  "A-pretty": [
+    "rust-lang/rust"
+  ],
+  "A-refactor": [
+    "rust-lang/rust"
+  ],
+  "A-resolve": [
+    "rust-lang/rust"
+  ],
+  "A-runtime": [
+    "rust-lang/rust"
+  ],
+  "A-rustbook": [
+    "rust-lang/rust"
+  ],
+  "A-rustbuild": [
+    "rust-lang/rust"
+  ],
+  "A-rustdoc": [
+    "rust-lang/rust"
+  ],
+  "A-security": [
+    "rust-lang/rust"
+  ],
+  "A-servo": [
+    "rust-lang/rust"
+  ],
+  "A-specialization": [
+    "rust-lang/rust"
+  ],
+  "A-spurious": [
+    "rust-lang/rust"
+  ],
+  "A-stability": [
+    "rust-lang/rust"
+  ],
+  "A-syntaxext": [
+    "rust-lang/rust"
+  ],
+  "A-testsuite": [
+    "rust-lang/rust"
+  ],
+  "A-tools": [
+    "rust-lang/rust"
+  ],
+  "A-traits": [
+    "rust-lang/rust"
+  ],
+  "A-typesystem": [
+    "rust-lang/rust"
+  ],
+  "A-unicode": [
+    "rust-lang/rust"
+  ],
+  "A-visibility": [
+    "rust-lang/rust"
+  ],
+  "A-wasm": [
+    "rust-lang/rust"
+  ],
+  "A-windows": [
+    "rust-lang/rust"
+  ],
+  "A-windows-gnu": [
+    "rust-lang/rust"
+  ],
+  "A-windows-msvc": [
+    "rust-lang/rust"
+  ],
+  "A-x86": [
+    "rust-lang/rust"
+  ],
+  "A-x86_64": [
+    "rust-lang/rust"
+  ],
+  "AOF": [
+    "antirez/redis"
+  ],
+  "API Change: Breaking": [
+    "chartjs/Chart_js"
+  ],
+  "API Change: Compatible": [
+    "chartjs/Chart_js"
+  ],
+  "API promotion": [
+    "ReactiveX/RxJava"
+  ],
+  "API review": [
+    "tensorflow/tensorflow"
+  ],
+  "AV": [
+    "getlantern/lantern"
+  ],
+  "Abide": [
+    "zurb/foundation-sites"
+  ],
+  "Accessibility": [
+    "adobe/brackets",
+    "google/material-design-lite",
+    "Dogfalo/materialize",
+    "callemall/material-ui",
+    "harvesthq/chosen"
+  ],
+  "Ajax": [
+    "jquery/jquery"
+  ],
+  "Already Fixed": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Android": [
+    "facebook/react-native",
+    "ReactiveX/RxJava",
+    "harvesthq/chosen"
+  ],
+  "Angular 1": [
+    "johnpapa/angular-styleguide"
+  ],
+  "Angular 2": [
+    "johnpapa/angular-styleguide"
+  ],
+  "Animated": [
+    "facebook/react-native"
+  ],
+  "Announcement": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Answered": [
+    "socketio/socket_io"
+  ],
+  "As Expected": [
+    "ariya/phantomjs"
+  ],
+  "Attributes": [
+    "jquery/jquery"
+  ],
+  "Awaiting CLA": [
+    "elastic/elasticsearch"
+  ],
+  "Awaiting Reply": [
+    "harvesthq/chosen"
+  ],
+  "Awaiting Sizzle Update": [
+    "jquery/jquery"
+  ],
+  "B-RFC-approved": [
+    "rust-lang/rust"
+  ],
+  "B-RFC-implemented": [
+    "rust-lang/rust"
+  ],
+  "B-unstable": [
+    "rust-lang/rust"
+  ],
+  "BC Break": [
+    "google/material-design-lite"
+  ],
+  "BLOCKER": [
+    "getlantern/lantern"
+  ],
+  "BREAKING CHANGE": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "BREAKING-CHANGE": [
+    "jekyll/jekyll"
+  ],
+  "BUG": [
+    "impress/impress_js"
+  ],
+  "Badge": [
+    "google/material-design-lite"
+  ],
+  "Behavior Change": [
+    "jquery/jquery"
+  ],
+  "BigIssue": [
+    "elastic/elasticsearch"
+  ],
+  "Blocked": [
+    "golang/go"
+  ],
+  "Blocker": [
+    "jquery/jquery"
+  ],
+  "Breaking API Change": [
+    "kennethreitz/requests"
+  ],
+  "Browser Specific": [
+    "moment/moment"
+  ],
+  "Browser: IE": [
+    "facebook/react"
+  ],
+  "Browser: Safari": [
+    "facebook/react"
+  ],
+  "Bug": [
+    "jquery/jquery",
+    "mrdoob/three_js",
+    "socketio/socket_io",
+    "moment/moment",
+    "laravel/laravel",
+    "kennethreitz/requests",
+    "callemall/material-ui",
+    "ariya/phantomjs",
+    "ReactiveX/RxJava",
+    "harvesthq/chosen"
+  ],
+  "Bug Fixing / DOD": [
+    "adobe/brackets"
+  ],
+  "Bug-fix": [
+    "moment/moment"
+  ],
+  "Build": [
+    "jquery/jquery",
+    "ReactiveX/RxJava"
+  ],
+  "Build Tools": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Build system": [
+    "ariya/phantomjs"
+  ],
+  "Build/Release": [
+    "moment/moment"
+  ],
+  "Builders": [
+    "golang/go"
+  ],
+  "Button": [
+    "google/material-design-lite"
+  ],
+  "CI-requeued": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "CLA Signed": [
+    "facebook/react",
+    "facebook/react-native",
+    "facebookincubator/create-react-app"
+  ],
+  "CLA: Error": [
+    "jquery/jquery"
+  ],
+  "CLA: Valid": [
+    "jquery/jquery"
+  ],
+  "CLT": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "COULD NOT REPRODUCE": [
+    "getlantern/lantern"
+  ],
+  "CSS": [
+    "jquery/jquery"
+  ],
+  "Callbacks": [
+    "jquery/jquery"
+  ],
+  "Cannot Fix": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Cannot Reproduce": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Cards": [
+    "google/material-design-lite"
+  ],
+  "Category: Bug": [
+    "chartjs/Chart_js"
+  ],
+  "Category: Documentation": [
+    "chartjs/Chart_js"
+  ],
+  "Category: Enhancement": [
+    "chartjs/Chart_js"
+  ],
+  "Category: Infrastructure": [
+    "chartjs/Chart_js"
+  ],
+  "Category: New chart types": [
+    "chartjs/Chart_js"
+  ],
+  "Category: Question": [
+    "chartjs/Chart_js"
+  ],
+  "Category: Support": [
+    "chartjs/Chart_js"
+  ],
+  "Checkbox": [
+    "google/material-design-lite"
+  ],
+  "Chrome": [
+    "callemall/material-ui"
+  ],
+  "Cleanup": [
+    "ReactiveX/RxJava"
+  ],
+  "Closed due to inactivity": [
+    "socketio/socket_io"
+  ],
+  "Color Palettes": [
+    "google/material-design-lite"
+  ],
+  "Column Layout": [
+    "google/material-design-lite"
+  ],
+  "Comanche055": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Command line interface": [
+    "ariya/phantomjs"
+  ],
+  "Community": [
+    "adobe/brackets"
+  ],
+  "Community Responsibility": [
+    "facebook/react-native"
+  ],
+  "Component Handler": [
+    "google/material-design-lite"
+  ],
+  "Component: Addons / ReactLink": [
+    "facebook/react"
+  ],
+  "Component: Addons / TestUtils": [
+    "facebook/react"
+  ],
+  "Component: Addons / TestUtils / Shallow Render": [
+    "facebook/react"
+  ],
+  "Component: Addons / TransitionGroup": [
+    "facebook/react"
+  ],
+  "Component: Addons / Update": [
+    "facebook/react"
+  ],
+  "Component: Batching": [
+    "facebook/react"
+  ],
+  "Component: Build & Tooling": [
+    "facebook/react"
+  ],
+  "Component: Classic": [
+    "facebook/react"
+  ],
+  "Component: Core": [
+    "facebook/react"
+  ],
+  "Component: DOM": [
+    "facebook/react"
+  ],
+  "Component: Documentation & Website": [
+    "facebook/react"
+  ],
+  "Component: JSXTransformer": [
+    "facebook/react"
+  ],
+  "Component: NPM React": [
+    "facebook/react"
+  ],
+  "Component: NPM ReactTools": [
+    "facebook/react"
+  ],
+  "Component: Optimizing Compiler": [
+    "facebook/react"
+  ],
+  "Component: Perf": [
+    "facebook/react"
+  ],
+  "Composability": [
+    "callemall/material-ui"
+  ],
+  "Configuration": [
+    "socketio/socket_io"
+  ],
+  "Confirmed": [
+    "ariya/phantomjs"
+  ],
+  "Confirmed Bug": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Contains Potential Question Keywords": [
+    "facebook/react-native"
+  ],
+  "Contributor Friendly": [
+    "kennethreitz/requests"
+  ],
+  "Core": [
+    "jquery/jquery",
+    "callemall/material-ui"
+  ],
+  "Core Team": [
+    "facebook/react-native"
+  ],
+  "Coverage": [
+    "ReactiveX/RxJava"
+  ],
+  "Crash": [
+    "ariya/phantomjs"
+  ],
+  "Cross Browser Support": [
+    "callemall/material-ui"
+  ],
+  "D0: My First Commit (Contrib. Difficulty)": [
+    "webpack/webpack"
+  ],
+  "D1: Easy (Contrib. Difficulty)": [
+    "webpack/webpack"
+  ],
+  "D2: Medium (Contrib. Difficulty)": [
+    "webpack/webpack"
+  ],
+  "D3: Hard (Contrib. Difficulty)": [
+    "webpack/webpack"
+  ],
+  "DRM": [
+    "rg3/youtube-dl"
+  ],
+  "Data": [
+    "jquery/jquery"
+  ],
+  "Data Table": [
+    "google/material-design-lite"
+  ],
+  "Declined": [
+    "ariya/phantomjs"
+  ],
+  "Deferred": [
+    "jquery/jquery"
+  ],
+  "Deployment": [
+    "callemall/material-ui"
+  ],
+  "Deprecate": [
+    "moment/moment"
+  ],
+  "Deprecation": [
+    "adobe/brackets"
+  ],
+  "Design": [
+    "getlantern/lantern"
+  ],
+  "Dev": [
+    "ariya/phantomjs"
+  ],
+  "Dev regression": [
+    "ariya/phantomjs"
+  ],
+  "Development": [
+    "adobe/brackets"
+  ],
+  "Dialog": [
+    "google/material-design-lite"
+  ],
+  "Difficulty - Advanced": [
+    "zurb/foundation-sites"
+  ],
+  "Difficulty - Beginner": [
+    "zurb/foundation-sites"
+  ],
+  "Difficulty - Intermediate": [
+    "zurb/foundation-sites"
+  ],
+  "Dimensions": [
+    "jquery/jquery"
+  ],
+  "Discussion": [
+    "jquery/jquery",
+    "Semantic-Org/Semantic-UI",
+    "callemall/material-ui",
+    "ReactiveX/RxJava"
+  ],
+  "Do Not Merge": [
+    "kennethreitz/requests"
+  ],
+  "Docs": [
+    "jquery/jquery",
+    "callemall/material-ui"
+  ],
+  "Docs Issue": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Documentation": [
+    "facebook/react-native",
+    "socketio/socket_io",
+    "moment/moment",
+    "google/material-design-lite",
+    "Dogfalo/materialize",
+    "golang/go",
+    "kennethreitz/requests",
+    "ariya/phantomjs",
+    "ReactiveX/RxJava",
+    "harvesthq/chosen"
+  ],
+  "Documentation Revamp": [
+    "google/material-design-lite"
+  ],
+  "Documentation: needs merge to stable": [
+    "facebook/react"
+  ],
+  "Drawer": [
+    "google/material-design-lite"
+  ],
+  "Duplicate": [
+    "Semantic-Org/Semantic-UI",
+    "mrdoob/three_js",
+    "moment/moment",
+    "callemall/material-ui",
+    "ariya/phantomjs",
+    "ReactiveX/RxJava",
+    "harvesthq/chosen"
+  ],
+  "E-easy": [
+    "rust-lang/rust"
+  ],
+  "E-hard": [
+    "rust-lang/rust"
+  ],
+  "E-help-wanted": [
+    "rust-lang/rust"
+  ],
+  "E-medium": [
+    "rust-lang/rust"
+  ],
+  "E-mentor": [
+    "rust-lang/rust"
+  ],
+  "E-needstest": [
+    "rust-lang/rust"
+  ],
+  "ES6 Support": [
+    "adobe/brackets"
+  ],
+  "Edge": [
+    "callemall/material-ui"
+  ],
+  "Effects": [
+    "jquery/jquery"
+  ],
+  "Enhancement": [
+    "Semantic-Org/Semantic-UI",
+    "mrdoob/three_js",
+    "moment/moment",
+    "adobe/brackets",
+    "ReactiveX/RxJava"
+  ],
+  "Epic": [
+    "getlantern/lantern"
+  ],
+  "Equalizer": [
+    "zurb/foundation-sites"
+  ],
+  "Evaluating Bug / Change": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Evaluation In Progress": [
+    "getlantern/lantern"
+  ],
+  "Event": [
+    "jquery/jquery"
+  ],
+  "Experiment": [
+    "google/material-design-lite"
+  ],
+  "ExpertNeeded": [
+    "golang/go"
+  ],
+  "Extension Available": [
+    "adobe/brackets"
+  ],
+  "Extension Idea": [
+    "adobe/brackets"
+  ],
+  "External": [
+    "Microsoft/vscode"
+  ],
+  "External Dependency": [
+    "callemall/material-ui"
+  ],
+  "F Code Folding": [
+    "adobe/brackets"
+  ],
+  "F Code Hints": [
+    "adobe/brackets"
+  ],
+  "F Code Inspection (Linting)": [
+    "adobe/brackets"
+  ],
+  "F Color Picker": [
+    "adobe/brackets"
+  ],
+  "F Command-Line Integration": [
+    "adobe/brackets"
+  ],
+  "F Debug Features": [
+    "adobe/brackets"
+  ],
+  "F Editor": [
+    "adobe/brackets"
+  ],
+  "F Extension APIs": [
+    "adobe/brackets"
+  ],
+  "F Extension Manager": [
+    "adobe/brackets"
+  ],
+  "F Extension Registry": [
+    "adobe/brackets"
+  ],
+  "F Extract": [
+    "adobe/brackets"
+  ],
+  "F File System": [
+    "adobe/brackets"
+  ],
+  "F Find and Replace": [
+    "adobe/brackets"
+  ],
+  "F General UI": [
+    "adobe/brackets"
+  ],
+  "F Image Preview": [
+    "adobe/brackets"
+  ],
+  "F Infrastructure": [
+    "adobe/brackets"
+  ],
+  "F Installer": [
+    "adobe/brackets"
+  ],
+  "F JS Code Hints": [
+    "adobe/brackets"
+  ],
+  "F Live Preview": [
+    "adobe/brackets"
+  ],
+  "F Live Preview MultiBrowser": [
+    "adobe/brackets"
+  ],
+  "F Menus/Key Bindings": [
+    "adobe/brackets"
+  ],
+  "F Node": [
+    "adobe/brackets"
+  ],
+  "F Preferences": [
+    "adobe/brackets"
+  ],
+  "F Project Management": [
+    "adobe/brackets"
+  ],
+  "F Project Meta Tools": [
+    "adobe/brackets"
+  ],
+  "F Quick Docs": [
+    "adobe/brackets"
+  ],
+  "F Quick Edit": [
+    "adobe/brackets"
+  ],
+  "F Quick Open": [
+    "adobe/brackets"
+  ],
+  "F Quick View": [
+    "adobe/brackets"
+  ],
+  "F Shapes editor": [
+    "adobe/brackets"
+  ],
+  "F Split View": [
+    "adobe/brackets"
+  ],
+  "F Status Bar": [
+    "adobe/brackets"
+  ],
+  "F Themes": [
+    "adobe/brackets"
+  ],
+  "FAQ": [
+    "google/material-design-icons"
+  ],
+  "FORUM ;)": [
+    "impress/impress_js"
+  ],
+  "Failed": [
+    "getlantern/lantern"
+  ],
+  "Failed Commands": [
+    "facebook/react-native"
+  ],
+  "Feature": [
+    "jquery/jquery"
+  ],
+  "Feature - Confirmed": [
+    "laravel/laravel"
+  ],
+  "Feature - Pending": [
+    "laravel/laravel"
+  ],
+  "Feature Request": [
+    "facebook/react-native",
+    "kennethreitz/requests",
+    "callemall/material-ui",
+    "harvesthq/chosen"
+  ],
+  "Feature request": [
+    "socketio/socket_io"
+  ],
+  "Feature-Request": [
+    "ReactiveX/RxJava"
+  ],
+  "FeatureRequest": [
+    "golang/go"
+  ],
+  "Firefox": [
+    "callemall/material-ui",
+    "harvesthq/chosen"
+  ],
+  "Firewall/Permissions issue": [
+    "adobe/brackets"
+  ],
+  "Fix/Change Declined": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Fixed": [
+    "kennethreitz/requests"
+  ],
+  "Fixed in 2.0": [
+    "ariya/phantomjs"
+  ],
+  "Fixed in 2.1": [
+    "ariya/phantomjs"
+  ],
+  "Fixed in dev": [
+    "ariya/phantomjs"
+  ],
+  "FlashSocket": [
+    "socketio/socket_io"
+  ],
+  "Flux": [
+    "facebook/react"
+  ],
+  "Footer": [
+    "google/material-design-lite"
+  ],
+  "For Discussion": [
+    "facebook/react-native"
+  ],
+  "For Stack Overflow": [
+    "facebook/react-native"
+  ],
+  "Forgiving parsing": [
+    "moment/moment"
+  ],
+  "Forms": [
+    "driftyco/ionic"
+  ],
+  "Foundation 5": [
+    "zurb/foundation-sites"
+  ],
+  "Foundation 7": [
+    "zurb/foundation-sites"
+  ],
+  "French": [
+    "adobe/brackets"
+  ],
+  "FrozenDueToAge": [
+    "golang/go"
+  ],
+  "GH Review: accepted": [
+    "facebook/react",
+    "facebook/react-native"
+  ],
+  "GH Review: needs-revision": [
+    "facebook/react",
+    "facebook/react-native"
+  ],
+  "GH Review: review-needed": [
+    "facebook/react",
+    "facebook/react-native"
+  ],
+  "GarbageCollector": [
+    "golang/go"
+  ],
+  "Go2": [
+    "golang/go"
+  ],
+  "GoCommand": [
+    "golang/go"
+  ],
+  "Good First Task": [
+    "facebook/react-native"
+  ],
+  "Grid": [
+    "google/material-design-lite"
+  ],
+  "HTML": [
+    "facebook/react"
+  ],
+  "HTMLFile": [
+    "socketio/socket_io"
+  ],
+  "HTTPS": [
+    "socketio/socket_io"
+  ],
+  "Hacktoberfest": [
+    "nwjs/nw_js",
+    "ariya/phantomjs",
+    "babel/babel"
+  ],
+  "Handshakes": [
+    "socketio/socket_io"
+  ],
+  "Has PR": [
+    "babel/babel"
+  ],
+  "Has Pull Request": [
+    "jquery/jquery"
+  ],
+  "Has Solution": [
+    "harvesthq/chosen"
+  ],
+  "Help (please use Stackoverflow)": [
+    "mrdoob/three_js"
+  ],
+  "Help Wanted": [
+    "facebook/react-native",
+    "moment/moment"
+  ],
+  "Help wanted": [
+    "chartjs/Chart_js"
+  ],
+  "HelpWanted": [
+    "golang/go"
+  ],
+  "High Priority": [
+    "Semantic-Org/Semantic-UI",
+    "moment/moment"
+  ],
+  "I hate to say I told you so": [
+    "elastic/elasticsearch"
+  ],
+  "I-ICE": [
+    "rust-lang/rust"
+  ],
+  "I-cleanup": [
+    "rust-lang/rust"
+  ],
+  "I-compiletime": [
+    "rust-lang/rust"
+  ],
+  "I-crash": [
+    "rust-lang/rust"
+  ],
+  "I-enhancement": [
+    "rust-lang/rust"
+  ],
+  "I-needs-decision": [
+    "rust-lang/rust"
+  ],
+  "I-nominated": [
+    "rust-lang/rust"
+  ],
+  "I-papercut": [
+    "rust-lang/rust"
+  ],
+  "I-slow": [
+    "rust-lang/rust"
+  ],
+  "I-unsound": [
+    "rust-lang/rust"
+  ],
+  "I-wishlist": [
+    "rust-lang/rust"
+  ],
+  "I-wrong": [
+    "rust-lang/rust"
+  ],
+  "IE": [
+    "harvesthq/chosen"
+  ],
+  "IE8": [
+    "FortAwesome/Font-Awesome",
+    "moment/moment"
+  ],
+  "IQE": [
+    "adobe/brackets"
+  ],
+  "Icebox": [
+    "facebook/react-native"
+  ],
+  "Icons": [
+    "google/material-design-lite"
+  ],
+  "Impact:few": [
+    "meteor/meteor"
+  ],
+  "Impact:most": [
+    "meteor/meteor"
+  ],
+  "Impact:some": [
+    "meteor/meteor"
+  ],
+  "Implement as plug-in": [
+    "chartjs/Chart_js"
+  ],
+  "Import Failed": [
+    "facebook/react-native"
+  ],
+  "Import Started": [
+    "facebook/react-native"
+  ],
+  "Important": [
+    "Dogfalo/materialize"
+  ],
+  "Improvement": [
+    "ariya/phantomjs"
+  ],
+  "In Progress": [
+    "angular/angular_js",
+    "socketio/socket_io"
+  ],
+  "In progress": [
+    "ariya/phantomjs"
+  ],
+  "Inactive: duplicate": [
+    "chartjs/Chart_js"
+  ],
+  "Inactive: invalid": [
+    "chartjs/Chart_js"
+  ],
+  "Inactive: wontfix": [
+    "chartjs/Chart_js"
+  ],
+  "Information": [
+    "ReactiveX/RxJava"
+  ],
+  "Integration": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Intent-To-Deprecate": [
+    "angular/angular_js"
+  ],
+  "Interchange": [
+    "zurb/foundation-sites"
+  ],
+  "Intermittent": [
+    "adobe/brackets"
+  ],
+  "Invalid": [
+    "ariya/phantomjs"
+  ],
+  "JRuby": [
+    "rails/rails"
+  ],
+  "JS": [
+    "facebook/react-native"
+  ],
+  "JSONP-polling": [
+    "socketio/socket_io"
+  ],
+  "JSX (React Flavored)": [
+    "facebook/react"
+  ],
+  "Japanese": [
+    "adobe/brackets"
+  ],
+  "JarHell YEAH!!": [
+    "elastic/elasticsearch"
+  ],
+  "Known Issue": [
+    "angular/angular_js",
+    "moment/moment"
+  ],
+  "LGTM": [
+    "google/material-design-lite"
+  ],
+  "LTS": [
+    "TryGhost/Ghost"
+  ],
+  "Language": [
+    "moment/moment"
+  ],
+  "LanguageChange": [
+    "golang/go"
+  ],
+  "Lantern 2.0": [
+    "getlantern/lantern"
+  ],
+  "Lantern Pi": [
+    "getlantern/lantern"
+  ],
+  "Layout": [
+    "google/material-design-lite"
+  ],
+  "Library": [
+    "ariya/phantomjs"
+  ],
+  "Linux only": [
+    "adobe/brackets"
+  ],
+  "List": [
+    "google/material-design-lite"
+  ],
+  "Loading": [
+    "moment/moment"
+  ],
+  "LongTerm": [
+    "golang/go"
+  ],
+  "Lots of comments": [
+    "angular/angular_js"
+  ],
+  "Low Priority": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Luminary099": [
+    "chrislgarry/Apollo-11"
+  ],
+  "MD Alignment": [
+    "google/material-design-lite"
+  ],
+  "MD Guidance Needed": [
+    "google/material-design-lite"
+  ],
+  "Mac only": [
+    "adobe/brackets"
+  ],
+  "Magellan": [
+    "zurb/foundation-sites"
+  ],
+  "Manipulation": [
+    "jquery/jquery"
+  ],
+  "Material Design Spec": [
+    "callemall/material-ui"
+  ],
+  "Menu": [
+    "google/material-design-lite"
+  ],
+  "Meta": [
+    "ariya/phantomjs",
+    "elastic/elasticsearch"
+  ],
+  "Microsite": [
+    "google/material-design-lite"
+  ],
+  "Migration Needed": [
+    "zurb/foundation-sites"
+  ],
+  "Minion Seal of Approval": [
+    "kennethreitz/requests"
+  ],
+  "Mongoose": [
+    "ariya/phantomjs"
+  ],
+  "Motion UI": [
+    "zurb/foundation-sites"
+  ],
+  "Moved to ProjectTalk": [
+    "Semantic-Org/Semantic-UI",
+    "getlantern/lantern"
+  ],
+  "MySQL": [
+    "rails/rails"
+  ],
+  "NIT(Nerd In Training)": [
+    "adobe/brackets"
+  ],
+  "NOT TESTABLE IN QA": [
+    "getlantern/lantern"
+  ],
+  "Namespaces": [
+    "socketio/socket_io"
+  ],
+  "Need Help": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Need Investigation": [
+    "impress/impress_js"
+  ],
+  "Need code": [
+    "ariya/phantomjs"
+  ],
+  "Need design": [
+    "ariya/phantomjs"
+  ],
+  "Need minimized test case": [
+    "ariya/phantomjs"
+  ],
+  "Need more information": [
+    "ariya/phantomjs"
+  ],
+  "Need reproduction": [
+    "ariya/phantomjs"
+  ],
+  "Need testing": [
+    "ariya/phantomjs"
+  ],
+  "Needs BDFL Input": [
+    "kennethreitz/requests"
+  ],
+  "Needs Info": [
+    "kennethreitz/requests",
+    "babel/babel"
+  ],
+  "Needs Investigation": [
+    "chartjs/Chart_js"
+  ],
+  "Needs Milestone": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Needs More Information": [
+    "kennethreitz/requests"
+  ],
+  "Needs Response from Author": [
+    "facebook/react-native"
+  ],
+  "Needs Review": [
+    "socketio/socket_io"
+  ],
+  "Needs Revision": [
+    "moment/moment"
+  ],
+  "Needs Test Case": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Needs info": [
+    "jquery/jquery"
+  ],
+  "Needs more information": [
+    "facebook/react-native"
+  ],
+  "Needs review": [
+    "jquery/jquery"
+  ],
+  "Needs test case": [
+    "chartjs/Chart_js"
+  ],
+  "Needs tests": [
+    "moment/moment"
+  ],
+  "NeedsDecision": [
+    "golang/go"
+  ],
+  "NeedsFix": [
+    "golang/go"
+  ],
+  "NeedsInvestigation": [
+    "golang/go"
+  ],
+  "New Component": [
+    "callemall/material-ui"
+  ],
+  "New Feature": [
+    "vhf/free-programming-books",
+    "moment/moment",
+    "Dogfalo/materialize",
+    "callemall/material-ui",
+    "ariya/phantomjs"
+  ],
+  "Not Ready To Merge": [
+    "kennethreitz/requests"
+  ],
+  "OAuth": [
+    "TryGhost/Ghost"
+  ],
+  "OPEN SOURCE": [
+    "getlantern/lantern"
+  ],
+  "OS-Android": [
+    "golang/go"
+  ],
+  "OS-Darwin": [
+    "golang/go"
+  ],
+  "OS-Dragonfly": [
+    "golang/go"
+  ],
+  "OS-FreeBSD": [
+    "golang/go"
+  ],
+  "OS-Linux": [
+    "golang/go"
+  ],
+  "OS-NaCl": [
+    "golang/go"
+  ],
+  "OS-NetBSD": [
+    "golang/go"
+  ],
+  "OS-OpenBSD": [
+    "golang/go"
+  ],
+  "OS-Plan9": [
+    "golang/go"
+  ],
+  "OS-Solaris": [
+    "golang/go"
+  ],
+  "OS-Windows": [
+    "golang/go"
+  ],
+  "Offset": [
+    "jquery/jquery"
+  ],
+  "Orbit": [
+    "zurb/foundation-sites"
+  ],
+  "P-0": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "P-1": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "P-2": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "P-3": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "P-high": [
+    "rust-lang/rust"
+  ],
+  "P-low": [
+    "rust-lang/rust"
+  ],
+  "P-medium": [
+    "rust-lang/rust"
+  ],
+  "P0": [
+    "google/material-design-lite",
+    "getlantern/lantern"
+  ],
+  "P0: Critical": [
+    "webpack/webpack"
+  ],
+  "P0: critical": [
+    "driftyco/ionic"
+  ],
+  "P1": [
+    "google/material-design-lite",
+    "getlantern/lantern",
+    "ansible/ansible"
+  ],
+  "P1: Urgent": [
+    "webpack/webpack"
+  ],
+  "P1: urgent": [
+    "driftyco/ionic"
+  ],
+  "P2": [
+    "google/material-design-lite",
+    "getlantern/lantern",
+    "ansible/ansible"
+  ],
+  "P2: Very Important": [
+    "webpack/webpack"
+  ],
+  "P2: required": [
+    "driftyco/ionic"
+  ],
+  "P3": [
+    "getlantern/lantern"
+  ],
+  "P3: Important": [
+    "webpack/webpack"
+  ],
+  "P3: important": [
+    "driftyco/ionic"
+  ],
+  "P4: Nice To Have": [
+    "webpack/webpack"
+  ],
+  "P4: nice to have": [
+    "driftyco/ionic"
+  ],
+  "PENDING MERGE": [
+    "getlantern/lantern"
+  ],
+  "PICK ME UP": [
+    "adobe/brackets"
+  ],
+  "PITA": [
+    "elastic/elasticsearch"
+  ],
+  "PJS core": [
+    "ariya/phantomjs"
+  ],
+  "PR Triage Complete": [
+    "adobe/brackets"
+  ],
+  "PR open": [
+    "zurb/foundation-sites"
+  ],
+  "PR pending": [
+    "adobe/brackets"
+  ],
+  "PR welcome": [
+    "socketio/socket_io",
+    "ReactiveX/RxJava"
+  ],
+  "PR: Breaking Change": [
+    "callemall/material-ui"
+  ],
+  "PR: Merge after CI Passes": [
+    "webpack/webpack"
+  ],
+  "PR: Needs Rebase": [
+    "callemall/material-ui"
+  ],
+  "PR: Needs Review": [
+    "callemall/material-ui"
+  ],
+  "PR: Needs Revision": [
+    "callemall/material-ui"
+  ],
+  "PR: On Hold": [
+    "callemall/material-ui"
+  ],
+  "PR: Resolve Conflicts": [
+    "webpack/webpack"
+  ],
+  "PR: Review Accepted": [
+    "callemall/material-ui"
+  ],
+  "PR: breaking change": [
+    "webpack/webpack"
+  ],
+  "PR: direction fine": [
+    "webpack/webpack"
+  ],
+  "PR: finish details": [
+    "webpack/webpack"
+  ],
+  "PR: investigating if direction is fine": [
+    "webpack/webpack"
+  ],
+  "PR: merge it": [
+    "webpack/webpack"
+  ],
+  "PR: tests needed": [
+    "webpack/webpack"
+  ],
+  "PR: waiting for other changes": [
+    "webpack/webpack"
+  ],
+  "PR: wrong way": [
+    "webpack/webpack"
+  ],
+  "PRs plz!": [
+    "angular/angular_js"
+  ],
+  "PTAL": [
+    "google/material-design-lite"
+  ],
+  "Packager": [
+    "facebook/react-native"
+  ],
+  "Packaging": [
+    "harvesthq/chosen"
+  ],
+  "Panini": [
+    "zurb/foundation-sites"
+  ],
+  "Parser": [
+    "socketio/socket_io"
+  ],
+  "Patch Welcome": [
+    "jquery/jquery"
+  ],
+  "Patch available": [
+    "ariya/phantomjs"
+  ],
+  "Pending Next Release": [
+    "moment/moment"
+  ],
+  "Pending empirical verification": [
+    "getlantern/lantern"
+  ],
+  "Pending-close": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "Perf": [
+    "facebook/react-native"
+  ],
+  "Performance": [
+    "socketio/socket_io",
+    "chartjs/Chart_js",
+    "google/material-design-lite",
+    "golang/go",
+    "callemall/material-ui",
+    "ReactiveX/RxJava",
+    "harvesthq/chosen"
+  ],
+  "Performance: allocation": [
+    "ReactiveX/RxJava"
+  ],
+  "Performance: throughput": [
+    "ReactiveX/RxJava"
+  ],
+  "Pioneer Program": [
+    "elastic/elasticsearch"
+  ],
+  "Planned": [
+    "kennethreitz/requests"
+  ],
+  "Planned feature": [
+    "socketio/socket_io"
+  ],
+  "Platform Feature": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Please Review": [
+    "kennethreitz/requests"
+  ],
+  "Please-Review": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "PostgreSQL": [
+    "rails/rails"
+  ],
+  "Pretty Bloody Important": [
+    "elastic/elasticsearch"
+  ],
+  "Primary Focus": [
+    "angular/angular_js"
+  ],
+  "Priority: High": [
+    "babel/babel"
+  ],
+  "Priority: Low": [
+    "babel/babel"
+  ],
+  "Priority: p0": [
+    "chartjs/Chart_js"
+  ],
+  "Priority: p1": [
+    "chartjs/Chart_js"
+  ],
+  "Priority: p2": [
+    "chartjs/Chart_js"
+  ],
+  "Progress": [
+    "google/material-design-lite"
+  ],
+  "Project: Package Split": [
+    "facebook/react"
+  ],
+  "Project:Accounts (in user apps)": [
+    "meteor/meteor"
+  ],
+  "Project:Accounts:OAuth": [
+    "meteor/meteor"
+  ],
+  "Project:Accounts:Password": [
+    "meteor/meteor"
+  ],
+  "Project:Accounts:UI": [
+    "meteor/meteor"
+  ],
+  "Project:Angular": [
+    "meteor/meteor"
+  ],
+  "Project:Blaze": [
+    "meteor/meteor"
+  ],
+  "Project:Blaze:Components": [
+    "meteor/meteor"
+  ],
+  "Project:Blaze:Spacebars": [
+    "meteor/meteor"
+  ],
+  "Project:Build Farm": [
+    "meteor/meteor"
+  ],
+  "Project:CSS": [
+    "meteor/meteor"
+  ],
+  "Project:DDP": [
+    "meteor/meteor"
+  ],
+  "Project:DDP:RateLimiter": [
+    "meteor/meteor"
+  ],
+  "Project:Deploy Server": [
+    "meteor/meteor"
+  ],
+  "Project:Developer Accounts": [
+    "meteor/meteor"
+  ],
+  "Project:Docs": [
+    "meteor/meteor"
+  ],
+  "Project:EJSON": [
+    "meteor/meteor"
+  ],
+  "Project:Examples": [
+    "meteor/meteor"
+  ],
+  "Project:Imported Packages": [
+    "meteor/meteor"
+  ],
+  "Project:Installer": [
+    "meteor/meteor"
+  ],
+  "Project:Isobuild": [
+    "meteor/meteor"
+  ],
+  "Project:Isobuild:Minifiers": [
+    "meteor/meteor"
+  ],
+  "Project:Isobuild:Performance": [
+    "meteor/meteor"
+  ],
+  "Project:JS Environment": [
+    "meteor/meteor"
+  ],
+  "Project:JS Environment:Typescript": [
+    "meteor/meteor"
+  ],
+  "Project:Livequery": [
+    "meteor/meteor"
+  ],
+  "Project:Minimongo": [
+    "meteor/meteor"
+  ],
+  "Project:Mobile": [
+    "meteor/meteor"
+  ],
+  "Project:Mongo Driver": [
+    "meteor/meteor"
+  ],
+  "Project:NPM": [
+    "meteor/meteor"
+  ],
+  "Project:Package Server": [
+    "meteor/meteor"
+  ],
+  "Project:Release Process": [
+    "meteor/meteor"
+  ],
+  "Project:Server Performance": [
+    "meteor/meteor"
+  ],
+  "Project:Testing": [
+    "meteor/meteor"
+  ],
+  "Project:Tinytest": [
+    "meteor/meteor"
+  ],
+  "Project:Tool": [
+    "meteor/meteor"
+  ],
+  "Project:Tool:Shell": [
+    "meteor/meteor"
+  ],
+  "Project:Tracker": [
+    "meteor/meteor"
+  ],
+  "Project:Tutorial": [
+    "meteor/meteor"
+  ],
+  "Project:Utilities": [
+    "meteor/meteor"
+  ],
+  "Project:Utilities:Email": [
+    "meteor/meteor"
+  ],
+  "Project:Utilities:HTTP": [
+    "meteor/meteor"
+  ],
+  "Project:Version Solver": [
+    "meteor/meteor"
+  ],
+  "Project:Webapp": [
+    "meteor/meteor"
+  ],
+  "Project:Webapp:Appcache": [
+    "meteor/meteor"
+  ],
+  "Project:Webapp:Autoupdate": [
+    "meteor/meteor"
+  ],
+  "Project:Webapp:Browser Policy": [
+    "meteor/meteor"
+  ],
+  "Project:Webapp:Force SSL": [
+    "meteor/meteor"
+  ],
+  "Project:Webapp:Spiderable": [
+    "meteor/meteor"
+  ],
+  "Project:Windows": [
+    "meteor/meteor"
+  ],
+  "Project:www.meteor.com": [
+    "meteor/meteor"
+  ],
+  "Proposal": [
+    "golang/go"
+  ],
+  "Proposal-Accepted": [
+    "golang/go"
+  ],
+  "Proposal-Declined": [
+    "golang/go"
+  ],
+  "Proposal-Hold": [
+    "golang/go"
+  ],
+  "Propose Close": [
+    "kennethreitz/requests"
+  ],
+  "QA": [
+    "freeCodeCamp/freeCodeCamp",
+    "getlantern/lantern",
+    "TryGhost/Ghost"
+  ],
+  "Qt": [
+    "ariya/phantomjs"
+  ],
+  "Qt/Webkit": [
+    "ariya/phantomjs"
+  ],
+  "Quality Days": [
+    "getlantern/lantern"
+  ],
+  "Question": [
+    "mrdoob/three_js",
+    "callemall/material-ui",
+    "ReactiveX/RxJava",
+    "harvesthq/chosen"
+  ],
+  "Question/Not a bug": [
+    "kennethreitz/requests"
+  ],
+  "RDB": [
+    "antirez/redis"
+  ],
+  "RDY": [
+    "neovim/neovim"
+  ],
+  "RFC": [
+    "neovim/neovim"
+  ],
+  "RFC/Proposal": [
+    "webpack/webpack"
+  ],
+  "RGSoC": [
+    "impress/impress_js"
+  ],
+  "RaceDetector": [
+    "golang/go"
+  ],
+  "RaceReport": [
+    "golang/go"
+  ],
+  "Radio": [
+    "google/material-design-lite"
+  ],
+  "Ran Commands": [
+    "facebook/react-native"
+  ],
+  "React Native": [
+    "callemall/material-ui"
+  ],
+  "Ready": [
+    "adobe/brackets"
+  ],
+  "Ready To Merge": [
+    "kennethreitz/requests"
+  ],
+  "Refactor (ES5 => ES6)": [
+    "webpack/webpack"
+  ],
+  "Refactor (Increase Coverage)": [
+    "webpack/webpack"
+  ],
+  "Refactoring": [
+    "callemall/material-ui"
+  ],
+  "Regression": [
+    "callemall/material-ui"
+  ],
+  "Requires-decision": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "Resolution: Duplicate": [
+    "facebook/react"
+  ],
+  "Resolution: Invalid": [
+    "facebook/react"
+  ],
+  "Resolution: Unsolved": [
+    "facebook/react"
+  ],
+  "Resolution: Wontfix": [
+    "facebook/react"
+  ],
+  "Review": [
+    "adobe/brackets"
+  ],
+  "Ripple": [
+    "google/material-design-lite"
+  ],
+  "S-confirmed-bug": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "S-confirmed-feature": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "S-maybe-close": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "S1: Confusing": [
+    "webpack/webpack"
+  ],
+  "S2: Inconvenient": [
+    "webpack/webpack"
+  ],
+  "S3: Memory Leak": [
+    "webpack/webpack"
+  ],
+  "S4: Broken": [
+    "webpack/webpack"
+  ],
+  "S5: Regression": [
+    "webpack/webpack"
+  ],
+  "S6: Security": [
+    "webpack/webpack"
+  ],
+  "SMALL": [
+    "adobe/brackets"
+  ],
+  "STORY": [
+    "adobe/brackets"
+  ],
+  "SVG": [
+    "facebook/react"
+  ],
+  "Safari": [
+    "callemall/material-ui"
+  ],
+  "Sass Functions": [
+    "zurb/foundation-sites"
+  ],
+  "Sass Mixins": [
+    "zurb/foundation-sites"
+  ],
+  "Scripting API": [
+    "ariya/phantomjs"
+  ],
+  "Search": [
+    "harvesthq/chosen"
+  ],
+  "Security": [
+    "google/material-design-lite",
+    "golang/go",
+    "ariya/phantomjs"
+  ],
+  "Selector": [
+    "jquery/jquery"
+  ],
+  "Serialize": [
+    "jquery/jquery"
+  ],
+  "Severity:blocks-development": [
+    "meteor/meteor"
+  ],
+  "Severity:has-workaround": [
+    "meteor/meteor"
+  ],
+  "Severity:production": [
+    "meteor/meteor"
+  ],
+  "Shadows": [
+    "google/material-design-lite"
+  ],
+  "Short-Term Candidate": [
+    "getlantern/lantern"
+  ],
+  "Shortcoming": [
+    "ReactiveX/RxJava"
+  ],
+  "Should Post to Forum - See Readme": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "Showcase": [
+    "mrdoob/three_js"
+  ],
+  "Size: Huge": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Size: Large": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Size: Moderate": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Size: Small": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Size: Tiny": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Sizing": [
+    "harvesthq/chosen"
+  ],
+  "Slider": [
+    "google/material-design-lite"
+  ],
+  "Snackbar": [
+    "google/material-design-lite"
+  ],
+  "Socket.IO client": [
+    "socketio/socket_io"
+  ],
+  "Spam": [
+    "ariya/phantomjs"
+  ],
+  "Spinner": [
+    "google/material-design-lite"
+  ],
+  "Starter bug": [
+    "adobe/brackets"
+  ],
+  "Status: Abandoned": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Accepted": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Available": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Blocked": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Completed": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Help Wanted": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: In Progress": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: New": [
+    "facebook/react"
+  ],
+  "Status: On Hold": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Pending": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Reverted": [
+    "facebook/react"
+  ],
+  "Status: Review Needed": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Revision Needed": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Status: Unconfirmed": [
+    "facebook/react"
+  ],
+  "Status: Wont Fix": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Sticky": [
+    "zurb/foundation-sites"
+  ],
+  "Style Sherpa": [
+    "zurb/foundation-sites"
+  ],
+  "Suggested": [
+    "golang/go"
+  ],
+  "Suggestion": [
+    "mrdoob/three_js"
+  ],
+  "Support": [
+    "jquery/jquery",
+    "laravel/laravel"
+  ],
+  "Switch": [
+    "google/material-design-lite"
+  ],
+  "T-compiler": [
+    "rust-lang/rust"
+  ],
+  "T-core": [
+    "rust-lang/rust"
+  ],
+  "T-doc": [
+    "rust-lang/rust"
+  ],
+  "T-lang": [
+    "rust-lang/rust"
+  ],
+  "T-libs": [
+    "rust-lang/rust"
+  ],
+  "T-tools": [
+    "rust-lang/rust"
+  ],
+  "TZ Testing": [
+    "moment/moment"
+  ],
+  "Tabs": [
+    "google/material-design-lite"
+  ],
+  "Tasking": [
+    "adobe/brackets"
+  ],
+  "Template Request": [
+    "google/material-design-lite"
+  ],
+  "Templates": [
+    "google/material-design-lite"
+  ],
+  "Test": [
+    "ReactiveX/RxJava"
+  ],
+  "Test - Queue": [
+    "laravel/laravel"
+  ],
+  "Test 2.0": [
+    "ariya/phantomjs"
+  ],
+  "Test 2.1": [
+    "ariya/phantomjs"
+  ],
+  "Test dev": [
+    "ariya/phantomjs"
+  ],
+  "Test suite": [
+    "ariya/phantomjs"
+  ],
+  "Test-Failures": [
+    "ReactiveX/RxJava"
+  ],
+  "Tested - Broken": [
+    "laravel/laravel"
+  ],
+  "Tested - Working": [
+    "laravel/laravel"
+  ],
+  "Testing": [
+    "adobe/brackets",
+    "google/material-design-lite",
+    "golang/go"
+  ],
+  "Tests": [
+    "jquery/jquery",
+    "callemall/material-ui"
+  ],
+  "Textfield": [
+    "google/material-design-lite"
+  ],
+  "Thinking": [
+    "golang/go"
+  ],
+  "Timezones": [
+    "moment/moment"
+  ],
+  "Toggler": [
+    "zurb/foundation-sites"
+  ],
+  "ToolSpeed": [
+    "golang/go"
+  ],
+  "Tooling": [
+    "facebook/react-native",
+    "google/material-design-lite"
+  ],
+  "Tools": [
+    "ReactiveX/RxJava"
+  ],
+  "Tooltip": [
+    "google/material-design-lite"
+  ],
+  "Touch": [
+    "harvesthq/chosen"
+  ],
+  "Traversing": [
+    "jquery/jquery"
+  ],
+  "Troubleshooting": [
+    "moment/moment"
+  ],
+  "Type: Bug": [
+    "facebook/react",
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Duplicate": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Enhancement": [
+    "facebook/react",
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Feature Request": [
+    "facebook/react"
+  ],
+  "Type: Humour": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Invalid": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Maintenance": [
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Question": [
+    "facebook/react",
+    "chrislgarry/Apollo-11"
+  ],
+  "Type: Regression": [
+    "facebook/react"
+  ],
+  "Type: Typo": [
+    "chrislgarry/Apollo-11"
+  ],
+  "TypeScript": [
+    "moment/moment"
+  ],
+  "Typography": [
+    "google/material-design-lite"
+  ],
+  "UI Component": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "USER REQUESTED": [
+    "getlantern/lantern"
+  ],
+  "UX": [
+    "freeCodeCamp/freeCodeCamp",
+    "getlantern/lantern"
+  ],
+  "Umbrella": [
+    "callemall/material-ui"
+  ],
+  "Unable to reproduce": [
+    "socketio/socket_io"
+  ],
+  "Unclear": [
+    "ariya/phantomjs"
+  ],
+  "Unfortunate": [
+    "golang/go"
+  ],
+  "Unit Test Failed": [
+    "moment/moment"
+  ],
+  "Unit Tests Only": [
+    "moment/moment"
+  ],
+  "UnitTestArchitecture": [
+    "adobe/brackets"
+  ],
+  "Unix": [
+    "ariya/phantomjs"
+  ],
+  "Unreproducible": [
+    "ariya/phantomjs"
+  ],
+  "Up-For-Grabs": [
+    "moment/moment"
+  ],
+  "Upstream Issue": [
+    "google/material-design-lite"
+  ],
+  "Usage Question": [
+    "Semantic-Org/Semantic-UI"
+  ],
+  "V8": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "V8_inspector": [
+    "nodejs/node"
+  ],
+  "VIM": [
+    "Microsoft/vscode"
+  ],
+  "VS Code Tracked": [
+    "Microsoft/vscode"
+  ],
+  "Vendoring": [
+    "golang/go"
+  ],
+  "Version: 1.x": [
+    "chartjs/Chart_js"
+  ],
+  "WIP": [
+    "nvbn/thefuck",
+    "neovim/neovim",
+    "elastic/elasticsearch",
+    "babel/babel"
+  ],
+  "WWDC Followup": [
+    "AFNetworking/AFNetworking"
+  ],
+  "WWW": [
+    "getlantern/lantern"
+  ],
+  "Waiting for user": [
+    "adobe/brackets"
+  ],
+  "Waiting-for-reporter-feedback": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "Waiting/Dependent": [
+    "adobe/brackets"
+  ],
+  "WaitingForInfo": [
+    "golang/go"
+  ],
+  "Web Standards": [
+    "jquery/jquery"
+  ],
+  "Web standards": [
+    "ariya/phantomjs"
+  ],
+  "WebSocket": [
+    "socketio/socket_io"
+  ],
+  "Webdriver API": [
+    "ariya/phantomjs"
+  ],
+  "Webkit": [
+    "ariya/phantomjs"
+  ],
+  "Win only": [
+    "adobe/brackets"
+  ],
+  "Windows": [
+    "facebook/react-native",
+    "ariya/phantomjs",
+    "harvesthq/chosen"
+  ],
+  "With reproduction steps": [
+    "rails/rails"
+  ],
+  "Wontfix": [
+    "callemall/material-ui"
+  ],
+  "Works For Me": [
+    "jquery/jquery"
+  ],
+  "Wrap": [
+    "jquery/jquery"
+  ],
+  "X0: need more information": [
+    "webpack/webpack"
+  ],
+  "X1: Inspection required": [
+    "webpack/webpack"
+  ],
+  "X2: answer required": [
+    "webpack/webpack"
+  ],
+  "X3: discussion required": [
+    "webpack/webpack"
+  ],
+  "X4: work required": [
+    "webpack/webpack"
+  ],
+  "X5: work required (PR / Help Wanted)": [
+    "webpack/webpack"
+  ],
+  "X6: work required (3rd-party)": [
+    "webpack/webpack"
+  ],
+  "X7: waiting on upstream": [
+    "webpack/webpack"
+  ],
+  "X8: in progress": [
+    "webpack/webpack"
+  ],
+  "X9: waiting on confirmation": [
+    "webpack/webpack"
+  ],
+  "XHR-polling": [
+    "socketio/socket_io"
+  ],
+  "accessibility": [
+    "freeCodeCamp/freeCodeCamp",
+    "twbs/bootstrap",
+    "FortAwesome/Font-Awesome",
+    "electron/electron",
+    "driftyco/ionic",
+    "zurb/foundation-sites",
+    "Microsoft/vscode"
+  ],
+  "accordion": [
+    "zurb/foundation-sites"
+  ],
+  "account-management": [
+    "nylas/N1"
+  ],
+  "account-needed": [
+    "rg3/youtube-dl"
+  ],
+  "accounts": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "actioncable": [
+    "rails/rails"
+  ],
+  "actionmailer": [
+    "rails/rails"
+  ],
+  "actionpack": [
+    "rails/rails"
+  ],
+  "actionsheet": [
+    "driftyco/ionic"
+  ],
+  "actionview": [
+    "rails/rails"
+  ],
+  "activejob": [
+    "rails/rails"
+  ],
+  "activemodel": [
+    "rails/rails"
+  ],
+  "activerecord": [
+    "rails/rails"
+  ],
+  "activesupport": [
+    "rails/rails"
+  ],
+  "added": [
+    "AFNetworking/AFNetworking"
+  ],
+  "addon": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "addons": [
+    "nodejs/node"
+  ],
+  "admin-client": [
+    "TryGhost/Ghost"
+  ],
+  "adoptme": [
+    "elastic/elasticsearch"
+  ],
+  "affects_1.6": [
+    "ansible/ansible"
+  ],
+  "affects_1.7": [
+    "ansible/ansible"
+  ],
+  "affects_1.8": [
+    "ansible/ansible"
+  ],
+  "affects_1.9": [
+    "ansible/ansible"
+  ],
+  "affects_2.0": [
+    "ansible/ansible"
+  ],
+  "affects_2.1": [
+    "ansible/ansible"
+  ],
+  "affects_2.2": [
+    "ansible/ansible"
+  ],
+  "affects_2.3": [
+    "ansible/ansible"
+  ],
+  "agilityjs": [
+    "tastejs/todomvc"
+  ],
+  "aix": [
+    "nodejs/node"
+  ],
+  "alert": [
+    "driftyco/ionic"
+  ],
+  "alias": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "android": [
+    "getlantern/lantern"
+  ],
+  "angular": [
+    "yarnpkg/yarn"
+  ],
+  "angularjs_perf": [
+    "tastejs/todomvc"
+  ],
+  "angularjs_require": [
+    "tastejs/todomvc"
+  ],
+  "animation": [
+    "driftyco/ionic"
+  ],
+  "announcement": [
+    "webpack/webpack"
+  ],
+  "api": [
+    "atom/atom",
+    "Microsoft/vscode",
+    "TryGhost/Ghost",
+    "neovim/neovim"
+  ],
+  "api-change": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "app update": [
+    "tastejs/todomvc"
+  ],
+  "approved": [
+    "kubernetes/kubernetes"
+  ],
+  "apps": [
+    "TryGhost/Ghost"
+  ],
+  "architecture": [
+    "adobe/brackets"
+  ],
+  "area/HA": [
+    "kubernetes/kubernetes"
+  ],
+  "area/admin": [
+    "kubernetes/kubernetes"
+  ],
+  "area/admission-control": [
+    "kubernetes/kubernetes"
+  ],
+  "area/api": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "area/apiserver": [
+    "kubernetes/kubernetes"
+  ],
+  "area/app-lifecycle": [
+    "kubernetes/kubernetes"
+  ],
+  "area/batch": [
+    "kubernetes/kubernetes"
+  ],
+  "area/build-release": [
+    "kubernetes/kubernetes"
+  ],
+  "area/builder": [
+    "docker/docker"
+  ],
+  "area/bundles": [
+    "docker/docker"
+  ],
+  "area/cadvisor": [
+    "kubernetes/kubernetes"
+  ],
+  "area/cli": [
+    "docker/docker"
+  ],
+  "area/client-libraries": [
+    "kubernetes/kubernetes"
+  ],
+  "area/cloudprovider": [
+    "kubernetes/kubernetes"
+  ],
+  "area/configmap-api": [
+    "kubernetes/kubernetes"
+  ],
+  "area/controller-manager": [
+    "kubernetes/kubernetes"
+  ],
+  "area/daemon": [
+    "docker/docker"
+  ],
+  "area/declarative-configuration": [
+    "kubernetes/kubernetes"
+  ],
+  "area/distribution": [
+    "docker/docker"
+  ],
+  "area/dns": [
+    "kubernetes/kubernetes"
+  ],
+  "area/docker": [
+    "kubernetes/kubernetes"
+  ],
+  "area/docs": [
+    "docker/docker"
+  ],
+  "area/downward-api": [
+    "kubernetes/kubernetes"
+  ],
+  "area/ecosystem": [
+    "kubernetes/kubernetes"
+  ],
+  "area/etcd": [
+    "kubernetes/kubernetes"
+  ],
+  "area/example": [
+    "kubernetes/kubernetes"
+  ],
+  "area/example/cassandra": [
+    "kubernetes/kubernetes"
+  ],
+  "area/extensibility": [
+    "kubernetes/kubernetes"
+  ],
+  "area/images": [
+    "docker/docker"
+  ],
+  "area/images-registry": [
+    "kubernetes/kubernetes"
+  ],
+  "area/ingress": [
+    "kubernetes/kubernetes"
+  ],
+  "area/introspection": [
+    "kubernetes/kubernetes"
+  ],
+  "area/isolation": [
+    "kubernetes/kubernetes"
+  ],
+  "area/kernel": [
+    "docker/docker"
+  ],
+  "area/kube-proxy": [
+    "kubernetes/kubernetes"
+  ],
+  "area/kubeadm": [
+    "kubernetes/kubernetes"
+  ],
+  "area/kubectl": [
+    "kubernetes/kubernetes"
+  ],
+  "area/kubelet": [
+    "kubernetes/kubernetes"
+  ],
+  "area/kubelet-api": [
+    "kubernetes/kubernetes"
+  ],
+  "area/logging": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "area/monitoring": [
+    "kubernetes/kubernetes"
+  ],
+  "area/networking": [
+    "docker/docker"
+  ],
+  "area/node-e2e": [
+    "kubernetes/kubernetes"
+  ],
+  "area/nodecontroller": [
+    "kubernetes/kubernetes"
+  ],
+  "area/os/coreos": [
+    "kubernetes/kubernetes"
+  ],
+  "area/os/fedora": [
+    "kubernetes/kubernetes"
+  ],
+  "area/os/gci": [
+    "kubernetes/kubernetes"
+  ],
+  "area/os/ubuntu": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/aws": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/azure": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/gce": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/gke": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/mesos": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/vagrant": [
+    "kubernetes/kubernetes"
+  ],
+  "area/platform/vsphere": [
+    "kubernetes/kubernetes"
+  ],
+  "area/plugins": [
+    "docker/docker"
+  ],
+  "area/project": [
+    "docker/docker"
+  ],
+  "area/release-infra": [
+    "kubernetes/kubernetes"
+  ],
+  "area/reliability": [
+    "kubernetes/kubernetes"
+  ],
+  "area/rkt": [
+    "kubernetes/kubernetes"
+  ],
+  "area/runtime": [
+    "docker/docker"
+  ],
+  "area/secret-api": [
+    "kubernetes/kubernetes"
+  ],
+  "area/security": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "area/security/apparmor": [
+    "docker/docker"
+  ],
+  "area/security/seccomp": [
+    "docker/docker"
+  ],
+  "area/security/selinux": [
+    "docker/docker"
+  ],
+  "area/security/trust": [
+    "docker/docker"
+  ],
+  "area/security/userns": [
+    "docker/docker"
+  ],
+  "area/stateful-apps": [
+    "kubernetes/kubernetes"
+  ],
+  "area/storage": [
+    "docker/docker"
+  ],
+  "area/storage/aufs": [
+    "docker/docker"
+  ],
+  "area/storage/btrfs": [
+    "docker/docker"
+  ],
+  "area/storage/devicemapper": [
+    "docker/docker"
+  ],
+  "area/storage/overlay": [
+    "docker/docker"
+  ],
+  "area/storage/zfs": [
+    "docker/docker"
+  ],
+  "area/swagger": [
+    "kubernetes/kubernetes"
+  ],
+  "area/swarm": [
+    "docker/docker"
+  ],
+  "area/system-requirement": [
+    "kubernetes/kubernetes"
+  ],
+  "area/systemd": [
+    "docker/docker"
+  ],
+  "area/teardown": [
+    "kubernetes/kubernetes"
+  ],
+  "area/test": [
+    "kubernetes/kubernetes"
+  ],
+  "area/test-infra": [
+    "kubernetes/kubernetes"
+  ],
+  "area/testing": [
+    "docker/docker"
+  ],
+  "area/ui": [
+    "kubernetes/kubernetes"
+  ],
+  "area/upgrade": [
+    "kubernetes/kubernetes"
+  ],
+  "area/usability": [
+    "kubernetes/kubernetes"
+  ],
+  "area/volumes": [
+    "docker/docker"
+  ],
+  "area/workload-api/cronjob": [
+    "kubernetes/kubernetes"
+  ],
+  "area/workload-api/daemonset": [
+    "kubernetes/kubernetes"
+  ],
+  "area/workload-api/deployment": [
+    "kubernetes/kubernetes"
+  ],
+  "area/workload-api/job": [
+    "kubernetes/kubernetes"
+  ],
+  "area/workload-api/replicaset": [
+    "kubernetes/kubernetes"
+  ],
+  "ariatemplates": [
+    "tastejs/todomvc"
+  ],
+  "arm": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "as-designed": [
+    "Microsoft/vscode"
+  ],
+  "asar": [
+    "electron/electron"
+  ],
+  "assert": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "asset pipeline": [
+    "rails/rails"
+  ],
+  "async": [
+    "adobe/brackets"
+  ],
+  "async operation": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "async_hooks": [
+    "nodejs/node"
+  ],
+  "async_wrap": [
+    "nodejs/node"
+  ],
+  "asynclistener": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "atmajs": [
+    "tastejs/todomvc"
+  ],
+  "atom": [
+    "atom/atom"
+  ],
+  "atom.io": [
+    "atom/atom"
+  ],
+  "attached PR": [
+    "rails/rails"
+  ],
+  "auto-indent": [
+    "atom/atom"
+  ],
+  "auto-updater": [
+    "electron/electron",
+    "atom/atom"
+  ],
+  "automerge": [
+    "ansible/ansible"
+  ],
+  "awaiting feedback": [
+    "h5bp/html5-boilerplate",
+    "necolas/normalize_css"
+  ],
+  "awaiting googler": [
+    "tensorflow/tensorflow"
+  ],
+  "awaiting reply": [
+    "twbs/bootstrap",
+    "zurb/foundation-sites",
+    "babel/babel"
+  ],
+  "awaiting response": [
+    "tensorflow/tensorflow"
+  ],
+  "awaiting review": [
+    "tensorflow/tensorflow"
+  ],
+  "awaiting testing (then merge)": [
+    "tensorflow/tensorflow"
+  ],
+  "awaiting-review": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "aws": [
+    "robbyrussell/oh-my-zsh",
+    "ansible/ansible"
+  ],
+  "azure": [
+    "ansible/ansible"
+  ],
+  "backbone": [
+    "tastejs/todomvc"
+  ],
+  "backbone_marionette": [
+    "tastejs/todomvc"
+  ],
+  "backbone_marionette_require": [
+    "tastejs/todomvc"
+  ],
+  "backbone_require": [
+    "tastejs/todomvc"
+  ],
+  "backburner": [
+    "yarnpkg/yarn"
+  ],
+  "backlog": [
+    "vuejs/vue",
+    "impress/impress_js",
+    "TryGhost/Ghost"
+  ],
+  "backport": [
+    "google/material-design-lite",
+    "ansible/ansible"
+  ],
+  "badge": [
+    "zurb/foundation-sites"
+  ],
+  "batman": [
+    "tastejs/todomvc"
+  ],
+  "beginner": [
+    "electron/electron",
+    "atom/atom",
+    "Microsoft/vscode",
+    "TryGhost/Ghost"
+  ],
+  "beginner friendly": [
+    "pallets/flask"
+  ],
+  "beginner-friendly": [
+    "babel/babel"
+  ],
+  "behaves correctly": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "benchmark": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "beta": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "beta-accepted": [
+    "rust-lang/rust"
+  ],
+  "beta-nominated": [
+    "rust-lang/rust"
+  ],
+  "big picture": [
+    "facebook/react"
+  ],
+  "bike shedding": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "bindkey": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "blame chrome": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "blame ie": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "blame safari": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "blocked": [
+    "freeCodeCamp/freeCodeCamp",
+    "electron/electron",
+    "atom/atom",
+    "nodejs/node",
+    "AFNetworking/AFNetworking",
+    "driftyco/ionic",
+    "google/material-design-lite",
+    "Alamofire/Alamofire",
+    "neovim/neovim"
+  ],
+  "blocked-on-electron": [
+    "nylas/N1"
+  ],
+  "blocked:external": [
+    "neovim/neovim"
+  ],
+  "blocked:needs-feedback": [
+    "neovim/neovim"
+  ],
+  "blocker": [
+    "pallets/flask",
+    "yarnpkg/yarn",
+    "TryGhost/Ghost",
+    "elastic/elasticsearch"
+  ],
+  "blueprints": [
+    "pallets/flask"
+  ],
+  "bootstrap": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "bot_broken": [
+    "ansible/ansible"
+  ],
+  "bounty": [
+    "nwjs/nw_js"
+  ],
+  "brackets-electron": [
+    "adobe/brackets"
+  ],
+  "branch: 1.2.x": [
+    "angular/angular_js"
+  ],
+  "branch: 1.3.x": [
+    "angular/angular_js"
+  ],
+  "branch: 1.4.x": [
+    "angular/angular_js"
+  ],
+  "branch: 1.5.x": [
+    "angular/angular_js"
+  ],
+  "branch: 1.6.x": [
+    "angular/angular_js"
+  ],
+  "brand icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "breadcrumbs": [
+    "zurb/foundation-sites"
+  ],
+  "breaking": [
+    "elastic/elasticsearch"
+  ],
+  "breaking build": [
+    "tensorflow/tensorflow"
+  ],
+  "breaking-change": [
+    "caolan/async"
+  ],
+  "breaking-java": [
+    "elastic/elasticsearch"
+  ],
+  "broken-IE": [
+    "rg3/youtube-dl"
+  ],
+  "browser bug": [
+    "twbs/bootstrap",
+    "daneden/animate_css",
+    "blueimp/jQuery-File-Upload"
+  ],
+  "browser-tests": [
+    "tastejs/todomvc"
+  ],
+  "browser: Firefox": [
+    "angular/angular_js"
+  ],
+  "browser: FirefoxOS": [
+    "angular/angular_js"
+  ],
+  "browser: IE Edge": [
+    "angular/angular_js"
+  ],
+  "browser: IE mobile": [
+    "angular/angular_js"
+  ],
+  "browser: IE10": [
+    "angular/angular_js"
+  ],
+  "browser: IE11": [
+    "angular/angular_js"
+  ],
+  "browser: IE8": [
+    "angular/angular_js"
+  ],
+  "browser: IE9": [
+    "angular/angular_js"
+  ],
+  "browser: Opera": [
+    "angular/angular_js"
+  ],
+  "browser: Phonegap": [
+    "angular/angular_js"
+  ],
+  "browser: Safari": [
+    "angular/angular_js"
+  ],
+  "browser: chrome": [
+    "angular/angular_js"
+  ],
+  "browser: iOS": [
+    "angular/angular_js"
+  ],
+  "browser: old android": [
+    "angular/angular_js"
+  ],
+  "buffer": [
+    "nodejs/node"
+  ],
+  "buffers": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "bug": [
+    "freeCodeCamp/freeCodeCamp",
+    "vhf/free-programming-books",
+    "d3/d3",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "robbyrussell/oh-my-zsh",
+    "FortAwesome/Font-Awesome",
+    "airbnb/javascript",
+    "tensorflow/tensorflow",
+    "electron/electron",
+    "vuejs/vue",
+    "meteor/meteor",
+    "h5bp/html5-boilerplate",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "nwjs/nw_js",
+    "expressjs/express",
+    "Homebrew/legacy-homebrew",
+    "vinta/awesome-python",
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "jkbrzt/httpie",
+    "google/material-design-icons",
+    "reactjs/redux",
+    "resume/resume_github_com",
+    "NARKOZ/hacker-scripts",
+    "jashkenas/backbone",
+    "blueimp/jQuery-File-Upload",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "zurb/foundation-sites",
+    "pallets/flask",
+    "necolas/normalize_css",
+    "Dogfalo/materialize",
+    "nvbn/thefuck",
+    "webpack/webpack",
+    "django/django",
+    "rg3/youtube-dl",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "TryGhost/Ghost",
+    "johnpapa/angular-styleguide",
+    "nylas/N1",
+    "Alamofire/Alamofire",
+    "neovim/neovim",
+    "lodash/lodash",
+    "Trinea/android-open-project",
+    "elastic/elasticsearch",
+    "wasabeef/awesome-android-ui",
+    "caolan/async",
+    "jashkenas/underscore",
+    "tastejs/todomvc",
+    "babel/babel",
+    "josephmisiti/awesome-machine-learning",
+    "select2/select2",
+    "open-source-society/computer-science",
+    "facebookincubator/create-react-app",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "bug fix": [
+    "daneden/animate_css",
+    "zurb/foundation-sites"
+  ],
+  "bug-crash": [
+    "neovim/neovim"
+  ],
+  "bug-security": [
+    "neovim/neovim"
+  ],
+  "bug-vim": [
+    "neovim/neovim"
+  ],
+  "bug_report": [
+    "ansible/ansible"
+  ],
+  "bugfix_pull_request": [
+    "ansible/ansible"
+  ],
+  "build": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node",
+    "driftyco/ionic",
+    "zurb/foundation-sites",
+    "neovim/neovim",
+    "elastic/elasticsearch"
+  ],
+  "build system": [
+    "antirez/redis"
+  ],
+  "build-error": [
+    "atom/atom"
+  ],
+  "build/update": [
+    "rg3/youtube-dl"
+  ],
+  "builder": [
+    "Modernizr/Modernizr"
+  ],
+  "building blocks": [
+    "zurb/foundation-sites"
+  ],
+  "bullsh**": [
+    "tiimgreen/github-cheat-sheet"
+  ],
+  "button": [
+    "zurb/foundation-sites"
+  ],
+  "button group": [
+    "zurb/foundation-sites"
+  ],
+  "c++": [
+    "nodejs/node"
+  ],
+  "c:cli/": [
+    "ansible/ansible"
+  ],
+  "c:compat/six": [
+    "ansible/ansible"
+  ],
+  "c:compat/tests": [
+    "ansible/ansible"
+  ],
+  "c:constants": [
+    "ansible/ansible"
+  ],
+  "c:errors/": [
+    "ansible/ansible"
+  ],
+  "c:executor/module_common": [
+    "ansible/ansible"
+  ],
+  "c:executor/play_iterator": [
+    "ansible/ansible"
+  ],
+  "c:executor/playbook_executor": [
+    "ansible/ansible"
+  ],
+  "c:executor/process/worker": [
+    "ansible/ansible"
+  ],
+  "c:executor/stats": [
+    "ansible/ansible"
+  ],
+  "c:executor/task_executor": [
+    "ansible/ansible"
+  ],
+  "c:executor/task_queue_manager": [
+    "ansible/ansible"
+  ],
+  "c:executor/task_result": [
+    "ansible/ansible"
+  ],
+  "c:galaxy/": [
+    "ansible/ansible"
+  ],
+  "c:inventory/contrib_script": [
+    "ansible/ansible"
+  ],
+  "c:inventory/dir": [
+    "ansible/ansible"
+  ],
+  "c:inventory/expand_hosts": [
+    "ansible/ansible"
+  ],
+  "c:inventory/group": [
+    "ansible/ansible"
+  ],
+  "c:inventory/host": [
+    "ansible/ansible"
+  ],
+  "c:inventory/ini": [
+    "ansible/ansible"
+  ],
+  "c:inventory/inventory": [
+    "ansible/ansible"
+  ],
+  "c:inventory/script": [
+    "ansible/ansible"
+  ],
+  "c:inventory/yaml": [
+    "ansible/ansible"
+  ],
+  "c:module_utils/": [
+    "ansible/ansible"
+  ],
+  "c:module_utils/basic": [
+    "ansible/ansible"
+  ],
+  "c:module_utils/facts": [
+    "ansible/ansible"
+  ],
+  "c:module_utils/urls": [
+    "ansible/ansible"
+  ],
+  "c:parsing/data_loader": [
+    "ansible/ansible"
+  ],
+  "c:parsing/mod_args": [
+    "ansible/ansible"
+  ],
+  "c:parsing/quoting": [
+    "ansible/ansible"
+  ],
+  "c:parsing/splitter": [
+    "ansible/ansible"
+  ],
+  "c:parsing/utils/": [
+    "ansible/ansible"
+  ],
+  "c:parsing/vault/": [
+    "ansible/ansible"
+  ],
+  "c:parsing/yaml/": [
+    "ansible/ansible"
+  ],
+  "c:playbook/attribute": [
+    "ansible/ansible"
+  ],
+  "c:playbook/base": [
+    "ansible/ansible"
+  ],
+  "c:playbook/become": [
+    "ansible/ansible"
+  ],
+  "c:playbook/block": [
+    "ansible/ansible"
+  ],
+  "c:playbook/conditional": [
+    "ansible/ansible"
+  ],
+  "c:playbook/handler*": [
+    "ansible/ansible"
+  ],
+  "c:playbook/helpers": [
+    "ansible/ansible"
+  ],
+  "c:playbook/included_file": [
+    "ansible/ansible"
+  ],
+  "c:playbook/loop_control": [
+    "ansible/ansible"
+  ],
+  "c:playbook/play": [
+    "ansible/ansible"
+  ],
+  "c:playbook/play_context": [
+    "ansible/ansible"
+  ],
+  "c:playbook/playbook": [
+    "ansible/ansible"
+  ],
+  "c:playbook/playbook_include": [
+    "ansible/ansible"
+  ],
+  "c:playbook/role/*": [
+    "ansible/ansible"
+  ],
+  "c:playbook/role_include": [
+    "ansible/ansible"
+  ],
+  "c:playbook/taggable": [
+    "ansible/ansible"
+  ],
+  "c:playbook/task": [
+    "ansible/ansible"
+  ],
+  "c:playbook/task_include": [
+    "ansible/ansible"
+  ],
+  "c:plugins/action": [
+    "ansible/ansible"
+  ],
+  "c:plugins/cache": [
+    "ansible/ansible"
+  ],
+  "c:plugins/callback": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/chroot": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/docker": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/local": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/network_cli": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/paramiko_ssh": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/persistent": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/ssh": [
+    "ansible/ansible"
+  ],
+  "c:plugins/connection/winrm": [
+    "ansible/ansible"
+  ],
+  "c:plugins/filter": [
+    "ansible/ansible"
+  ],
+  "c:plugins/lookup": [
+    "ansible/ansible"
+  ],
+  "c:plugins/plugin_loader": [
+    "ansible/ansible"
+  ],
+  "c:plugins/shell": [
+    "ansible/ansible"
+  ],
+  "c:plugins/strategy": [
+    "ansible/ansible"
+  ],
+  "c:plugins/terminal": [
+    "ansible/ansible"
+  ],
+  "c:plugins/test": [
+    "ansible/ansible"
+  ],
+  "c:plugins/vars": [
+    "ansible/ansible"
+  ],
+  "c:template/other": [
+    "ansible/ansible"
+  ],
+  "c:template/safe_eval": [
+    "ansible/ansible"
+  ],
+  "c:template/templar": [
+    "ansible/ansible"
+  ],
+  "c:utils/cmd_functions": [
+    "ansible/ansible"
+  ],
+  "c:utils/color": [
+    "ansible/ansible"
+  ],
+  "c:utils/display": [
+    "ansible/ansible"
+  ],
+  "c:utils/encrypt": [
+    "ansible/ansible"
+  ],
+  "c:utils/hashing": [
+    "ansible/ansible"
+  ],
+  "c:utils/helpers": [
+    "ansible/ansible"
+  ],
+  "c:utils/listify": [
+    "ansible/ansible"
+  ],
+  "c:utils/path": [
+    "ansible/ansible"
+  ],
+  "c:utils/shlex": [
+    "ansible/ansible"
+  ],
+  "c:utils/ssh_functions": [
+    "ansible/ansible"
+  ],
+  "c:utils/vars": [
+    "ansible/ansible"
+  ],
+  "c:vars/hostvars": [
+    "ansible/ansible"
+  ],
+  "c:vars/unsafe_proxy": [
+    "ansible/ansible"
+  ],
+  "c:vars/variable_manager": [
+    "ansible/ansible"
+  ],
+  "callout": [
+    "zurb/foundation-sites"
+  ],
+  "can't-reproduce": [
+    "meteor/meteor"
+  ],
+  "candidate": [
+    "Microsoft/vscode"
+  ],
+  "cannot reproduce": [
+    "Alamofire/Alamofire",
+    "select2/select2"
+  ],
+  "cant-reproduce": [
+    "rg3/youtube-dl"
+  ],
+  "card": [
+    "zurb/foundation-sites"
+  ],
+  "cares": [
+    "nodejs/node"
+  ],
+  "carthage": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "category: es3": [
+    "babel/babel"
+  ],
+  "caused-by-extension": [
+    "Microsoft/vscode"
+  ],
+  "cdn": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "cef": [
+    "adobe/brackets"
+  ],
+  "change": [
+    "hakimel/reveal_js",
+    "jashkenas/backbone",
+    "lodash/lodash",
+    "jashkenas/underscore"
+  ],
+  "changed": [
+    "AFNetworking/AFNetworking"
+  ],
+  "changes requested": [
+    "adobe/brackets"
+  ],
+  "chaplin-brunch": [
+    "tastejs/todomvc"
+  ],
+  "checkbox": [
+    "driftyco/ionic"
+  ],
+  "cherrypick-approved": [
+    "kubernetes/kubernetes"
+  ],
+  "cherrypick-candidate": [
+    "kubernetes/kubernetes"
+  ],
+  "child_process": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "chrome-api": [
+    "electron/electron"
+  ],
+  "ci": [
+    "neovim/neovim"
+  ],
+  "cla-already-signed": [
+    "Microsoft/vscode"
+  ],
+  "cla-not-required": [
+    "Microsoft/vscode"
+  ],
+  "cla-not-signed": [
+    "adobe/brackets"
+  ],
+  "cla-problem": [
+    "moment/moment"
+  ],
+  "cla-required": [
+    "Microsoft/vscode"
+  ],
+  "cla-signed": [
+    "Microsoft/vscode"
+  ],
+  "cla: error": [
+    "lodash/lodash"
+  ],
+  "cla: human-approved": [
+    "kubernetes/kubernetes"
+  ],
+  "cla: maybe": [
+    "angular/angular_js"
+  ],
+  "cla: no": [
+    "angular/angular_js",
+    "tensorflow/tensorflow",
+    "google/material-design-icons",
+    "google/material-design-lite",
+    "kubernetes/kubernetes",
+    "angular/angular"
+  ],
+  "cla: valid": [
+    "lodash/lodash"
+  ],
+  "cla: yes": [
+    "angular/angular_js",
+    "tensorflow/tensorflow",
+    "google/material-design-icons",
+    "google/material-design-lite",
+    "kubernetes/kubernetes",
+    "angular/angular"
+  ],
+  "clarification-needed": [
+    "rg3/youtube-dl"
+  ],
+  "cleanup": [
+    "yarnpkg/yarn"
+  ],
+  "cli": [
+    "nodejs/node",
+    "jkbrzt/httpie",
+    "zurb/foundation-sites",
+    "pallets/flask"
+  ],
+  "clipboard": [
+    "electron/electron",
+    "neovim/neovim"
+  ],
+  "close button": [
+    "zurb/foundation-sites"
+  ],
+  "close:invalid": [
+    "zurb/foundation-sites"
+  ],
+  "close:resolved": [
+    "zurb/foundation-sites"
+  ],
+  "close:won't fix": [
+    "zurb/foundation-sites"
+  ],
+  "closed-functionality-pr": [
+    "harvesthq/chosen"
+  ],
+  "closing candidate": [
+    "pallets/flask"
+  ],
+  "closure": [
+    "tastejs/todomvc"
+  ],
+  "cloud": [
+    "ansible/ansible"
+  ],
+  "cluster": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node",
+    "antirez/redis"
+  ],
+  "cmv4": [
+    "adobe/brackets"
+  ],
+  "cncf-cla: no": [
+    "kubernetes/kubernetes"
+  ],
+  "cncf-cla: yes": [
+    "kubernetes/kubernetes"
+  ],
+  "cocoapods": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "code": [
+    "d3/d3"
+  ],
+  "code cleanup": [
+    "adobe/brackets"
+  ],
+  "code standards": [
+    "neovim/neovim"
+  ],
+  "code-actions": [
+    "Microsoft/vscode"
+  ],
+  "code-and-learn": [
+    "nodejs/node"
+  ],
+  "code-navigation": [
+    "Microsoft/vscode"
+  ],
+  "code_cleanup": [
+    "ansible/ansible"
+  ],
+  "codebase": [
+    "zurb/foundation-sites"
+  ],
+  "codemirror": [
+    "adobe/brackets"
+  ],
+  "codepen": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "collection-repeat": [
+    "driftyco/ionic"
+  ],
+  "color-palette": [
+    "Microsoft/vscode"
+  ],
+  "comitter_review": [
+    "ansible/ansible"
+  ],
+  "comment attachment": [
+    "babel/babel"
+  ],
+  "committer_review": [
+    "ansible/ansible"
+  ],
+  "community": [
+    "getlantern/lantern",
+    "neovim/neovim"
+  ],
+  "community support": [
+    "tensorflow/tensorflow"
+  ],
+  "community_review": [
+    "ansible/ansible"
+  ],
+  "comp: animations": [
+    "angular/angular"
+  ],
+  "comp: benchpress": [
+    "angular/angular"
+  ],
+  "comp: build & ci": [
+    "angular/angular"
+  ],
+  "comp: common": [
+    "angular/angular"
+  ],
+  "comp: core & compiler": [
+    "angular/angular"
+  ],
+  "comp: docs": [
+    "angular/angular"
+  ],
+  "comp: forms": [
+    "angular/angular"
+  ],
+  "comp: http": [
+    "angular/angular"
+  ],
+  "comp: i18n": [
+    "angular/angular"
+  ],
+  "comp: language service": [
+    "angular/angular"
+  ],
+  "comp: metadata-extractor": [
+    "angular/angular"
+  ],
+  "comp: packaging": [
+    "angular/angular"
+  ],
+  "comp: performance": [
+    "angular/angular"
+  ],
+  "comp: router": [
+    "angular/angular"
+  ],
+  "comp: security": [
+    "angular/angular"
+  ],
+  "comp: testing": [
+    "angular/angular"
+  ],
+  "comp: upgrade/dynamic": [
+    "angular/angular"
+  ],
+  "comp: upgrade/static": [
+    "angular/angular"
+  ],
+  "comp: web-worker": [
+    "angular/angular"
+  ],
+  "comp: zones": [
+    "angular/angular"
+  ],
+  "compatibility": [
+    "yarnpkg/yarn",
+    "neovim/neovim"
+  ],
+  "completion": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "complexity:high": [
+    "neovim/neovim"
+  ],
+  "complexity:low": [
+    "neovim/neovim"
+  ],
+  "complexity:medium": [
+    "neovim/neovim"
+  ],
+  "component request": [
+    "zurb/foundation-sites"
+  ],
+  "component: $compile": [
+    "angular/angular_js"
+  ],
+  "component: $http": [
+    "angular/angular_js"
+  ],
+  "component: $location": [
+    "angular/angular_js"
+  ],
+  "component: $parse": [
+    "angular/angular_js"
+  ],
+  "component: $q": [
+    "angular/angular_js"
+  ],
+  "component: AppBar": [
+    "callemall/material-ui"
+  ],
+  "component: AutoComplete": [
+    "callemall/material-ui"
+  ],
+  "component: Avatar": [
+    "callemall/material-ui"
+  ],
+  "component: Badge": [
+    "callemall/material-ui"
+  ],
+  "component: BottomNavigation": [
+    "callemall/material-ui"
+  ],
+  "component: Card": [
+    "callemall/material-ui"
+  ],
+  "component: Checkbox": [
+    "callemall/material-ui"
+  ],
+  "component: Chip": [
+    "callemall/material-ui"
+  ],
+  "component: CircularProgress": [
+    "callemall/material-ui"
+  ],
+  "component: DatePicker": [
+    "callemall/material-ui"
+  ],
+  "component: Dialog": [
+    "callemall/material-ui"
+  ],
+  "component: Divider": [
+    "callemall/material-ui"
+  ],
+  "component: Drawer": [
+    "callemall/material-ui"
+  ],
+  "component: DropDownMenu": [
+    "callemall/material-ui"
+  ],
+  "component: FlatButton": [
+    "callemall/material-ui"
+  ],
+  "component: FloatingActionButton": [
+    "callemall/material-ui"
+  ],
+  "component: FontIcon": [
+    "callemall/material-ui"
+  ],
+  "component: GridList": [
+    "callemall/material-ui"
+  ],
+  "component: IconButton": [
+    "callemall/material-ui"
+  ],
+  "component: IconMenu": [
+    "callemall/material-ui"
+  ],
+  "component: Layout": [
+    "callemall/material-ui"
+  ],
+  "component: LinearProgress": [
+    "callemall/material-ui"
+  ],
+  "component: List": [
+    "callemall/material-ui"
+  ],
+  "component: Menu": [
+    "callemall/material-ui"
+  ],
+  "component: MenuItem": [
+    "callemall/material-ui"
+  ],
+  "component: Paper": [
+    "callemall/material-ui"
+  ],
+  "component: Popover": [
+    "callemall/material-ui"
+  ],
+  "component: RadioButton": [
+    "callemall/material-ui"
+  ],
+  "component: RaisedButton": [
+    "callemall/material-ui"
+  ],
+  "component: RefreshIndicator": [
+    "callemall/material-ui"
+  ],
+  "component: SelectField": [
+    "callemall/material-ui"
+  ],
+  "component: Slider": [
+    "callemall/material-ui"
+  ],
+  "component: Snackbar": [
+    "callemall/material-ui"
+  ],
+  "component: Stepper": [
+    "callemall/material-ui"
+  ],
+  "component: Subheader": [
+    "callemall/material-ui"
+  ],
+  "component: SvgIcon": [
+    "callemall/material-ui"
+  ],
+  "component: Switch": [
+    "callemall/material-ui"
+  ],
+  "component: Table": [
+    "callemall/material-ui"
+  ],
+  "component: Tabs": [
+    "callemall/material-ui"
+  ],
+  "component: TextField": [
+    "callemall/material-ui"
+  ],
+  "component: TimePicker": [
+    "callemall/material-ui"
+  ],
+  "component: Toolbar": [
+    "callemall/material-ui"
+  ],
+  "component: component router": [
+    "angular/angular_js"
+  ],
+  "component: di": [
+    "angular/angular_js"
+  ],
+  "component: filters": [
+    "angular/angular_js"
+  ],
+  "component: forms": [
+    "angular/angular_js"
+  ],
+  "component: jqLite": [
+    "angular/angular_js"
+  ],
+  "component: misc core": [
+    "angular/angular_js"
+  ],
+  "component: ngAnimate": [
+    "angular/angular_js"
+  ],
+  "component: ngAria": [
+    "angular/angular_js"
+  ],
+  "component: ngCookies": [
+    "angular/angular_js"
+  ],
+  "component: ngCsp": [
+    "angular/angular_js"
+  ],
+  "component: ngLocale": [
+    "angular/angular_js"
+  ],
+  "component: ngMessageFormat": [
+    "angular/angular_js"
+  ],
+  "component: ngMessages": [
+    "angular/angular_js"
+  ],
+  "component: ngMock": [
+    "angular/angular_js"
+  ],
+  "component: ngRepeat": [
+    "angular/angular_js"
+  ],
+  "component: ngResource": [
+    "angular/angular_js"
+  ],
+  "component: ngRoute": [
+    "angular/angular_js"
+  ],
+  "component: ngSanitize": [
+    "angular/angular_js"
+  ],
+  "component: ngTouch": [
+    "angular/angular_js"
+  ],
+  "component: scenario runner": [
+    "angular/angular_js"
+  ],
+  "component: scopes": [
+    "angular/angular_js"
+  ],
+  "componentjs": [
+    "tastejs/todomvc"
+  ],
+  "composer": [
+    "nylas/N1"
+  ],
+  "config": [
+    "Microsoft/vscode",
+    "TryGhost/Ghost"
+  ],
+  "confirmed": [
+    "freeCodeCamp/freeCodeCamp",
+    "twbs/bootstrap",
+    "meteor/meteor",
+    "google/material-design-lite",
+    "babel/babel"
+  ],
+  "confirmed-bug": [
+    "nodejs/node"
+  ],
+  "considering": [
+    "jkbrzt/httpie"
+  ],
+  "console": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "continuous integration": [
+    "AFNetworking/AFNetworking"
+  ],
+  "contrib": [
+    "neovim/neovim"
+  ],
+  "contribution welcome": [
+    "vuejs/vue",
+    "NARKOZ/hacker-scripts"
+  ],
+  "contributions welcome": [
+    "tensorflow/tensorflow"
+  ],
+  "contributor-friendly": [
+    "jkbrzt/httpie"
+  ],
+  "core": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "core-team": [
+    "nwjs/nw_js"
+  ],
+  "core_review": [
+    "ansible/ansible"
+  ],
+  "cpu efficiency": [
+    "antirez/redis"
+  ],
+  "crash": [
+    "electron/electron",
+    "atom/atom"
+  ],
+  "crash report": [
+    "antirez/redis"
+  ],
+  "crash-reporter": [
+    "electron/electron"
+  ],
+  "critical": [
+    "getlantern/lantern",
+    "elastic/elasticsearch"
+  ],
+  "critical bug": [
+    "antirez/redis"
+  ],
+  "critical path": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "cross-platform-bug": [
+    "Dogfalo/materialize"
+  ],
+  "crypto": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "csp": [
+    "vuejs/vue"
+  ],
+  "css": [
+    "twbs/bootstrap",
+    "FortAwesome/Font-Awesome",
+    "h5bp/html5-boilerplate",
+    "driftyco/ionic",
+    "zurb/foundation-sites",
+    "TryGhost/Ghost"
+  ],
+  "css-less-sass": [
+    "Microsoft/vscode"
+  ],
+  "ctc-agenda": [
+    "nodejs/node"
+  ],
+  "ctc-review": [
+    "nodejs/node"
+  ],
+  "cuda": [
+    "tensorflow/tensorflow"
+  ],
+  "currency icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "curriculum": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "customizer": [
+    "twbs/bootstrap",
+    "zurb/foundation-sites"
+  ],
+  "cxx11": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "cygwin": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "das awesome": [
+    "elastic/elasticsearch"
+  ],
+  "data": [
+    "TryGhost/Ghost"
+  ],
+  "data-loss": [
+    "atom/atom"
+  ],
+  "datetime": [
+    "driftyco/ionic"
+  ],
+  "dco/no": [
+    "docker/docker"
+  ],
+  "debt": [
+    "Microsoft/vscode"
+  ],
+  "debug": [
+    "Microsoft/vscode"
+  ],
+  "debug-console": [
+    "Microsoft/vscode"
+  ],
+  "debugger": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "decayed": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "decision": [
+    "neovim/neovim"
+  ],
+  "defaults": [
+    "neovim/neovim"
+  ],
+  "defer-to-converged": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "demo site": [
+    "daneden/animate_css"
+  ],
+  "dependency": [
+    "jekyll/jekyll"
+  ],
+  "deprecate": [
+    "expressjs/express"
+  ],
+  "deprecation": [
+    "elastic/elasticsearch"
+  ],
+  "deprecation-help": [
+    "atom/atom"
+  ],
+  "deps": [
+    "expressjs/express",
+    "Homebrew/legacy-homebrew"
+  ],
+  "derby": [
+    "tastejs/todomvc"
+  ],
+  "dermis": [
+    "tastejs/todomvc"
+  ],
+  "design": [
+    "zurb/foundation-sites",
+    "TryGhost/Ghost",
+    "nylas/N1",
+    "neovim/neovim"
+  ],
+  "detect needed": [
+    "Modernizr/Modernizr"
+  ],
+  "device specific": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "devtools": [
+    "electron/electron"
+  ],
+  "dgram": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "diff-editor": [
+    "Microsoft/vscode"
+  ],
+  "difficult": [
+    "webpack/webpack"
+  ],
+  "digital_ocean": [
+    "ansible/ansible"
+  ],
+  "dijon": [
+    "tastejs/todomvc"
+  ],
+  "directional icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "discuss": [
+    "nodejs/node",
+    "expressjs/express",
+    "neovim/neovim",
+    "elastic/elasticsearch"
+  ],
+  "discussing": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "discussion": [
+    "vhf/free-programming-books",
+    "robbyrussell/oh-my-zsh",
+    "electron/electron",
+    "vuejs/vue",
+    "nodejs/node-v0_x-archive",
+    "jekyll/jekyll",
+    "reactjs/redux",
+    "yarnpkg/yarn",
+    "tastejs/todomvc",
+    "babel/babel",
+    "facebookincubator/create-react-app"
+  ],
+  "discussion wanted": [
+    "github/gitignore"
+  ],
+  "discussion-around-behavior": [
+    "nylas/N1"
+  ],
+  "discussion-wanted": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "discussion/long-term": [
+    "pallets/flask"
+  ],
+  "disproven": [
+    "getlantern/lantern"
+  ],
+  "dist": [
+    "zurb/foundation-sites"
+  ],
+  "distribution": [
+    "neovim/neovim"
+  ],
+  "distribution issue": [
+    "pallets/flask"
+  ],
+  "dns": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "do not merge": [
+    "Homebrew/legacy-homebrew",
+    "adobe/brackets"
+  ],
+  "do-not-merge": [
+    "jekyll/jekyll",
+    "rg3/youtube-dl",
+    "kubernetes/kubernetes"
+  ],
+  "doc": [
+    "FortAwesome/Font-Awesome",
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "docker": [
+    "ansible/ansible"
+  ],
+  "docs": [
+    "twbs/bootstrap",
+    "d3/d3",
+    "rails/rails",
+    "expressjs/express",
+    "jkbrzt/httpie",
+    "driftyco/ionic",
+    "reactjs/redux",
+    "zurb/foundation-sites",
+    "pallets/flask",
+    "TryGhost/Ghost",
+    "elastic/elasticsearch",
+    "caolan/async",
+    "facebookincubator/create-react-app"
+  ],
+  "docs/revisit": [
+    "docker/docker"
+  ],
+  "docs_pull_request": [
+    "ansible/ansible"
+  ],
+  "docs_report": [
+    "ansible/ansible"
+  ],
+  "documentation": [
+    "freeCodeCamp/freeCodeCamp",
+    "robbyrussell/oh-my-zsh",
+    "electron/electron",
+    "h5bp/html5-boilerplate",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "nwjs/nw_js",
+    "Homebrew/legacy-homebrew",
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "adobe/brackets",
+    "gulpjs/gulp",
+    "webpack/webpack",
+    "rg3/youtube-dl",
+    "getlantern/lantern",
+    "Alamofire/Alamofire",
+    "antirez/redis",
+    "neovim/neovim",
+    "lodash/lodash",
+    "select2/select2"
+  ],
+  "dojo": [
+    "tastejs/todomvc"
+  ],
+  "domain": [
+    "nodejs/node"
+  ],
+  "domains": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "done-pending-release": [
+    "nylas/N1"
+  ],
+  "dont-land-on-v4.x": [
+    "nodejs/node"
+  ],
+  "dont-land-on-v6.x": [
+    "nodejs/node"
+  ],
+  "dont-land-on-v7.x": [
+    "nodejs/node"
+  ],
+  "dont-merge-yet": [
+    "google/material-design-lite"
+  ],
+  "download request": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "downstream-issue": [
+    "jekyll/jekyll"
+  ],
+  "downstream:github-pages": [
+    "jekyll/jekyll"
+  ],
+  "dpd": [
+    "nwjs/nw_js"
+  ],
+  "drilldown menu": [
+    "zurb/foundation-sites"
+  ],
+  "droid": [
+    "d3/d3"
+  ],
+  "dropdown": [
+    "zurb/foundation-sites"
+  ],
+  "dropdown menu": [
+    "zurb/foundation-sites"
+  ],
+  "dtrace": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "duel": [
+    "tastejs/todomvc"
+  ],
+  "duplicate": [
+    "vhf/free-programming-books",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "airbnb/javascript",
+    "tensorflow/tensorflow",
+    "electron/electron",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "nodejs/node",
+    "expressjs/express",
+    "jlevy/the-art-of-command-line",
+    "vinta/awesome-python",
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "jkbrzt/httpie",
+    "google/material-design-icons",
+    "driftyco/ionic",
+    "NARKOZ/hacker-scripts",
+    "jashkenas/backbone",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "zurb/foundation-sites",
+    "nvbn/thefuck",
+    "django/django",
+    "rg3/youtube-dl",
+    "getlantern/lantern",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "johnpapa/angular-styleguide",
+    "Alamofire/Alamofire",
+    "neovim/neovim",
+    "lodash/lodash",
+    "Trinea/android-open-project",
+    "tiimgreen/github-cheat-sheet",
+    "wasabeef/awesome-android-ui",
+    "caolan/async",
+    "jashkenas/underscore",
+    "Modernizr/Modernizr",
+    "babel/babel",
+    "josephmisiti/awesome-machine-learning",
+    "open-source-society/computer-science",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "durandal": [
+    "tastejs/todomvc"
+  ],
+  "easy": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "easyfix": [
+    "ansible/ansible"
+  ],
+  "ecosystem": [
+    "reactjs/redux"
+  ],
+  "editor": [
+    "Microsoft/vscode",
+    "TryGhost/Ghost"
+  ],
+  "editor-brackets": [
+    "Microsoft/vscode"
+  ],
+  "editor-contrib": [
+    "Microsoft/vscode"
+  ],
+  "editor-core": [
+    "Microsoft/vscode"
+  ],
+  "editor-find-widget": [
+    "Microsoft/vscode"
+  ],
+  "editor-folding": [
+    "Microsoft/vscode"
+  ],
+  "editor-multicursor": [
+    "Microsoft/vscode"
+  ],
+  "editor-rendering": [
+    "atom/atom"
+  ],
+  "editorial": [
+    "getify/You-Dont-Know-JS",
+    "airbnb/javascript"
+  ],
+  "effort1: easy (hours)": [
+    "angular/angular"
+  ],
+  "effort2: medium (days)": [
+    "angular/angular"
+  ],
+  "effort3: hard (weeks)": [
+    "angular/angular"
+  ],
+  "electron": [
+    "atom/atom"
+  ],
+  "electron-update": [
+    "Microsoft/vscode"
+  ],
+  "ember": [
+    "yarnpkg/yarn"
+  ],
+  "emberjs": [
+    "tastejs/todomvc"
+  ],
+  "emmet": [
+    "Microsoft/vscode"
+  ],
+  "encoding": [
+    "atom/atom",
+    "neovim/neovim"
+  ],
+  "end-to-end experience": [
+    "facebookincubator/create-react-app"
+  ],
+  "engines": [
+    "rails/rails"
+  ],
+  "enhancement": [
+    "freeCodeCamp/freeCodeCamp",
+    "vhf/free-programming-books",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "FortAwesome/Font-Awesome",
+    "airbnb/javascript",
+    "tensorflow/tensorflow",
+    "electron/electron",
+    "h5bp/html5-boilerplate",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "expressjs/express",
+    "vinta/awesome-python",
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "google/material-design-icons",
+    "driftyco/ionic",
+    "reactjs/redux",
+    "NARKOZ/hacker-scripts",
+    "jashkenas/backbone",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "pallets/flask",
+    "Dogfalo/materialize",
+    "nvbn/thefuck",
+    "webpack/webpack",
+    "django/django",
+    "yarnpkg/yarn",
+    "johnpapa/angular-styleguide",
+    "Alamofire/Alamofire",
+    "neovim/neovim",
+    "lodash/lodash",
+    "Trinea/android-open-project",
+    "tiimgreen/github-cheat-sheet",
+    "elastic/elasticsearch",
+    "wasabeef/awesome-android-ui",
+    "caolan/async",
+    "jashkenas/underscore",
+    "babel/babel",
+    "josephmisiti/awesome-machine-learning",
+    "select2/select2",
+    "open-source-society/computer-science",
+    "facebookincubator/create-react-app",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "enhancement-request": [
+    "nylas/N1"
+  ],
+  "entry-level": [
+    "neovim/neovim"
+  ],
+  "enum": [
+    "rails/rails"
+  ],
+  "enyo_backbone": [
+    "tastejs/todomvc"
+  ],
+  "epic": [
+    "TryGhost/Ghost"
+  ],
+  "epitome": [
+    "tastejs/todomvc"
+  ],
+  "errata": [
+    "getify/You-Dont-Know-JS"
+  ],
+  "error-from-open": [
+    "atom/atom"
+  ],
+  "error-from-pathwatcher": [
+    "atom/atom"
+  ],
+  "error-from-save": [
+    "atom/atom"
+  ],
+  "error-list": [
+    "Microsoft/vscode"
+  ],
+  "error-telemetry": [
+    "Microsoft/vscode"
+  ],
+  "errors": [
+    "nodejs/node",
+    "Alamofire/Alamofire"
+  ],
+  "es-proposal": [
+    "babel/babel"
+  ],
+  "es6 rework": [
+    "moment/moment"
+  ],
+  "etc-agenda": [
+    "expressjs/express"
+  ],
+  "event-loop": [
+    "neovim/neovim"
+  ],
+  "events": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node",
+    "driftyco/ionic",
+    "Modernizr/Modernizr"
+  ],
+  "examples": [
+    "twbs/bootstrap",
+    "expressjs/express",
+    "reactjs/redux"
+  ],
+  "exoskeleton": [
+    "tastejs/todomvc"
+  ],
+  "exp/beginner": [
+    "docker/docker"
+  ],
+  "exp/expert": [
+    "docker/docker"
+  ],
+  "exp/intermediate": [
+    "docker/docker"
+  ],
+  "expected behavior": [
+    "antirez/redis"
+  ],
+  "experimental": [
+    "babel/babel"
+  ],
+  "explorer-custom": [
+    "Microsoft/vscode"
+  ],
+  "explorer-files": [
+    "Microsoft/vscode"
+  ],
+  "extension problem": [
+    "adobe/brackets"
+  ],
+  "extension-candidate": [
+    "Microsoft/vscode"
+  ],
+  "extension-host": [
+    "Microsoft/vscode"
+  ],
+  "extensions": [
+    "jkbrzt/httpie",
+    "Microsoft/vscode"
+  ],
+  "external-bugs": [
+    "rg3/youtube-dl"
+  ],
+  "extjs_deftjs": [
+    "tastejs/todomvc"
+  ],
+  "f4m": [
+    "rg3/youtube-dl"
+  ],
+  "failing-tests": [
+    "tastejs/todomvc"
+  ],
+  "false result": [
+    "Modernizr/Modernizr"
+  ],
+  "feature": [
+    "twbs/bootstrap",
+    "FortAwesome/Font-Awesome",
+    "vuejs/vue",
+    "meteor/meteor",
+    "hakimel/reveal_js",
+    "jekyll/jekyll",
+    "jkbrzt/httpie",
+    "driftyco/ionic",
+    "blueimp/jQuery-File-Upload",
+    "TryGhost/Ghost",
+    "tiimgreen/github-cheat-sheet",
+    "elastic/elasticsearch",
+    "caolan/async"
+  ],
+  "feature request": [
+    "freeCodeCamp/freeCodeCamp",
+    "robbyrussell/oh-my-zsh",
+    "vuejs/vue",
+    "daneden/animate_css",
+    "nodejs/node",
+    "AFNetworking/AFNetworking",
+    "zurb/foundation-sites",
+    "Alamofire/Alamofire",
+    "tastejs/todomvc"
+  ],
+  "feature-request": [
+    "nodejs/node-v0_x-archive",
+    "nwjs/nw_js",
+    "google/material-design-lite",
+    "Microsoft/vscode"
+  ],
+  "feature_idea": [
+    "ansible/ansible"
+  ],
+  "feature_pull_request": [
+    "ansible/ansible"
+  ],
+  "features": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "feedback": [
+    "atom/atom",
+    "zurb/foundation-sites",
+    "pallets/flask"
+  ],
+  "feedback given": [
+    "github/gitignore"
+  ],
+  "feedback wanted": [
+    "reactjs/redux",
+    "zurb/foundation-sites"
+  ],
+  "feedback-wanted": [
+    "caolan/async"
+  ],
+  "feedback_needed": [
+    "elastic/elasticsearch"
+  ],
+  "file type icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "final-comment-period": [
+    "rust-lang/rust"
+  ],
+  "firefox": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "first time contributor": [
+    "tastejs/todomvc"
+  ],
+  "first-timers-only": [
+    "freeCodeCamp/freeCodeCamp",
+    "jekyll/jekyll"
+  ],
+  "fix": [
+    "h5bp/html5-boilerplate",
+    "jekyll/jekyll",
+    "necolas/normalize_css"
+  ],
+  "fix in progress": [
+    "adobe/brackets"
+  ],
+  "fix wanted": [
+    "TryGhost/Ghost"
+  ],
+  "fixed": [
+    "meteor/meteor",
+    "AFNetworking/AFNetworking",
+    "jashkenas/backbone",
+    "jashkenas/underscore"
+  ],
+  "fixed but not closed": [
+    "adobe/brackets"
+  ],
+  "fixed-in-libuv": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "fixed-in-upstream": [
+    "electron/electron"
+  ],
+  "flag: breaking change": [
+    "angular/angular"
+  ],
+  "flag: can be closed?": [
+    "angular/angular"
+  ],
+  "flake-has-meta": [
+    "kubernetes/kubernetes"
+  ],
+  "flaky-test": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "flex grid": [
+    "zurb/foundation-sites"
+  ],
+  "flex video": [
+    "zurb/foundation-sites"
+  ],
+  "flexible-presets": [
+    "moment/moment"
+  ],
+  "flight": [
+    "tastejs/todomvc"
+  ],
+  "float classes": [
+    "zurb/foundation-sites"
+  ],
+  "flow": [
+    "babel/babel"
+  ],
+  "food icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "footer": [
+    "driftyco/ionic"
+  ],
+  "for release note": [
+    "adobe/brackets"
+  ],
+  "for-new-contributors": [
+    "kubernetes/kubernetes"
+  ],
+  "foreign language translations": [
+    "getify/You-Dont-Know-JS"
+  ],
+  "form control icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "format": [
+    "Microsoft/vscode"
+  ],
+  "forms": [
+    "zurb/foundation-sites"
+  ],
+  "formula rename": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "forward-port": [
+    "jekyll/jekyll"
+  ],
+  "freebsd": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "freemasonry icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "freeze-slow-crash": [
+    "Microsoft/vscode"
+  ],
+  "freq1: low": [
+    "angular/angular"
+  ],
+  "freq2: medium": [
+    "angular/angular"
+  ],
+  "freq3: high": [
+    "angular/angular"
+  ],
+  "freq4: critical": [
+    "angular/angular"
+  ],
+  "frequency: high": [
+    "angular/angular_js"
+  ],
+  "frequency: low": [
+    "angular/angular_js"
+  ],
+  "frequency: moderate": [
+    "angular/angular_js"
+  ],
+  "friction": [
+    "jekyll/jekyll"
+  ],
+  "fs": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "further investigation required": [
+    "gulpjs/gulp"
+  ],
+  "future": [
+    "expressjs/express",
+    "google/material-design-lite"
+  ],
+  "future idea": [
+    "reactjs/redux",
+    "facebookincubator/create-react-app"
+  ],
+  "gce": [
+    "ansible/ansible"
+  ],
+  "gender icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "geo": [
+    "antirez/redis"
+  ],
+  "geo-restricted": [
+    "rg3/youtube-dl"
+  ],
+  "gh-pages": [
+    "rg3/youtube-dl"
+  ],
+  "git": [
+    "robbyrussell/oh-my-zsh",
+    "atom/atom",
+    "Microsoft/vscode"
+  ],
+  "github": [
+    "jekyll/jekyll"
+  ],
+  "global styles": [
+    "zurb/foundation-sites"
+  ],
+  "go": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "good first bug": [
+    "facebook/react",
+    "yarnpkg/yarn",
+    "Modernizr/Modernizr"
+  ],
+  "good first contribution": [
+    "nodejs/node"
+  ],
+  "good first issue": [
+    "callemall/material-ui"
+  ],
+  "good-first-patch": [
+    "rails/rails"
+  ],
+  "good-starter-issue": [
+    "nylas/N1"
+  ],
+  "grammar": [
+    "Microsoft/vscode"
+  ],
+  "graph visualizer": [
+    "tensorflow/tensorflow"
+  ],
+  "greenkeeper": [
+    "freeCodeCamp/freeCodeCamp",
+    "h5bp/html5-boilerplate",
+    "google/material-design-lite",
+    "callemall/material-ui",
+    "TryGhost/Ghost",
+    "lodash/lodash",
+    "Modernizr/Modernizr",
+    "babel/babel"
+  ],
+  "grid": [
+    "zurb/foundation-sites"
+  ],
+  "grunt": [
+    "twbs/bootstrap"
+  ],
+  "gui": [
+    "neovim/neovim"
+  ],
+  "gulp-cli": [
+    "gulpjs/gulp"
+  ],
+  "gulp-util": [
+    "gulpjs/gulp"
+  ],
+  "gulp4": [
+    "gulpjs/gulp"
+  ],
+  "gwt": [
+    "tastejs/todomvc"
+  ],
+  "gyp": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "hacktoberfest": [
+    "robbyrussell/oh-my-zsh",
+    "nylas/N1"
+  ],
+  "has-pr": [
+    "twbs/bootstrap"
+  ],
+  "has-pull-request": [
+    "jekyll/jekyll"
+  ],
+  "haskell": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "header": [
+    "driftyco/ionic"
+  ],
+  "heart": [
+    "lodash/lodash"
+  ],
+  "help wanted": [
+    "freeCodeCamp/freeCodeCamp",
+    "twbs/bootstrap",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "tensorflow/tensorflow",
+    "jquery/jquery",
+    "h5bp/html5-boilerplate",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "hakimel/reveal_js",
+    "nodejs/node",
+    "expressjs/express",
+    "Homebrew/legacy-homebrew",
+    "vinta/awesome-python",
+    "AFNetworking/AFNetworking",
+    "google/material-design-icons",
+    "driftyco/ionic",
+    "reactjs/redux",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "zurb/foundation-sites",
+    "Dogfalo/materialize",
+    "nvbn/thefuck",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "johnpapa/angular-styleguide",
+    "Alamofire/Alamofire",
+    "wasabeef/awesome-android-ui",
+    "caolan/async",
+    "jashkenas/underscore",
+    "tastejs/todomvc",
+    "babel/babel",
+    "josephmisiti/awesome-machine-learning",
+    "open-source-society/computer-science",
+    "facebookincubator/create-react-app",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "help-wanted": [
+    "electron/electron",
+    "atom/atom",
+    "jlevy/the-art-of-command-line",
+    "jekyll/jekyll",
+    "nylas/N1",
+    "neovim/neovim",
+    "ariya/phantomjs",
+    "kubernetes/kubernetes"
+  ],
+  "helper classes": [
+    "zurb/foundation-sites"
+  ],
+  "hi-pri": [
+    "yarnpkg/yarn"
+  ],
+  "high hanging fruit": [
+    "elastic/elasticsearch"
+  ],
+  "high priority": [
+    "adobe/brackets"
+  ],
+  "hls": [
+    "rg3/youtube-dl"
+  ],
+  "hodor": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "hodor ": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "hot-exit": [
+    "Microsoft/vscode"
+  ],
+  "hotlist: Ionic": [
+    "angular/angular"
+  ],
+  "hotlist: angular-core-team": [
+    "angular/angular"
+  ],
+  "hotlist: community-help": [
+    "angular/angular"
+  ],
+  "hotlist: error messages": [
+    "angular/angular"
+  ],
+  "hotlist: example tests": [
+    "angular/angular"
+  ],
+  "hotlist: material": [
+    "angular/angular_js"
+  ],
+  "hotlist: material2": [
+    "angular/angular"
+  ],
+  "hotlist: ng2migration": [
+    "angular/angular_js"
+  ],
+  "hotlist: sugar": [
+    "angular/angular"
+  ],
+  "html": [
+    "h5bp/html5-boilerplate",
+    "Microsoft/vscode"
+  ],
+  "http": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "http headers": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "http_parser": [
+    "nodejs/node"
+  ],
+  "https": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "i18n": [
+    "facebook/react",
+    "nodejs/node-v0_x-archive",
+    "rails/rails",
+    "atom/atom",
+    "getlantern/lantern",
+    "Microsoft/vscode",
+    "TryGhost/Ghost",
+    "nylas/N1"
+  ],
+  "iOS": [
+    "facebook/react-native",
+    "harvesthq/chosen"
+  ],
+  "icon alias": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "icon request": [
+    "google/material-design-icons"
+  ],
+  "icons": [
+    "h5bp/html5-boilerplate",
+    "driftyco/ionic"
+  ],
+  "idea": [
+    "resume/resume_github_com"
+  ],
+  "ideas": [
+    "expressjs/express"
+  ],
+  "ie/edge": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "impact/api": [
+    "docker/docker"
+  ],
+  "impact/changelog": [
+    "docker/docker"
+  ],
+  "impact/cli": [
+    "docker/docker"
+  ],
+  "impact/deprecation": [
+    "docker/docker"
+  ],
+  "impact/dockerfile": [
+    "docker/docker"
+  ],
+  "impact/documentation": [
+    "docker/docker"
+  ],
+  "important": [
+    "vuejs/vue",
+    "resume/resume_github_com",
+    "Microsoft/vscode"
+  ],
+  "importer": [
+    "TryGhost/Ghost"
+  ],
+  "improvement": [
+    "vuejs/vue",
+    "dypsilon/frontend-dev-bookmarks"
+  ],
+  "in progress": [
+    "freeCodeCamp/freeCodeCamp",
+    "vuejs/vue",
+    "nodejs/node-v0_x-archive",
+    "meteor/meteor",
+    "nodejs/node",
+    "Homebrew/legacy-homebrew",
+    "pallets/flask",
+    "TryGhost/Ghost",
+    "Alamofire/Alamofire",
+    "ansible/ansible"
+  ],
+  "in review": [
+    "vuejs/vue"
+  ],
+  "in-browser": [
+    "adobe/brackets"
+  ],
+  "in-flight": [
+    "google/material-design-lite"
+  ],
+  "in-progress": [
+    "atom/atom",
+    "jekyll/jekyll",
+    "resume/resume_github_com"
+  ],
+  "in-releasenotes": [
+    "Microsoft/vscode"
+  ],
+  "in-tracker": [
+    "google/material-design-lite"
+  ],
+  "inappropriate": [
+    "jashkenas/backbone"
+  ],
+  "incremental-regeneration": [
+    "jekyll/jekyll"
+  ],
+  "infinitescroll": [
+    "driftyco/ionic"
+  ],
+  "infrastructure": [
+    "reactjs/redux",
+    "google/material-design-lite",
+    "facebookincubator/create-react-app"
+  ],
+  "init": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "input": [
+    "neovim/neovim"
+  ],
+  "install": [
+    "robbyrussell/oh-my-zsh",
+    "nodejs/node",
+    "neovim/neovim"
+  ],
+  "install issue": [
+    "yarnpkg/yarn"
+  ],
+  "install-update": [
+    "Microsoft/vscode"
+  ],
+  "installation": [
+    "TryGhost/Ghost"
+  ],
+  "installation/startup": [
+    "tensorflow/tensorflow"
+  ],
+  "installer": [
+    "nodejs/node-v0_x-archive",
+    "atom/atom",
+    "getlantern/lantern"
+  ],
+  "integrated-terminal": [
+    "Microsoft/vscode"
+  ],
+  "integration": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "intellisense": [
+    "Microsoft/vscode"
+  ],
+  "intellisense-config": [
+    "Microsoft/vscode"
+  ],
+  "intellisense-expando": [
+    "Microsoft/vscode"
+  ],
+  "intellisense-jsdocs": [
+    "Microsoft/vscode"
+  ],
+  "intend to implement": [
+    "vuejs/vue"
+  ],
+  "internal": [
+    "jekyll/jekyll"
+  ],
+  "intl": [
+    "nodejs/node"
+  ],
+  "intl: localeAwareness": [
+    "adobe/brackets"
+  ],
+  "invalid": [
+    "freeCodeCamp/freeCodeCamp",
+    "vhf/free-programming-books",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "airbnb/javascript",
+    "electron/electron",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "nodejs/node",
+    "expressjs/express",
+    "jlevy/the-art-of-command-line",
+    "laravel/laravel",
+    "vinta/awesome-python",
+    "jkbrzt/httpie",
+    "google/material-design-icons",
+    "NARKOZ/hacker-scripts",
+    "jashkenas/backbone",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "nvbn/thefuck",
+    "django/django",
+    "rg3/youtube-dl",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "johnpapa/angular-styleguide",
+    "neovim/neovim",
+    "lodash/lodash",
+    "Trinea/android-open-project",
+    "wasabeef/awesome-android-ui",
+    "jashkenas/underscore",
+    "babel/babel",
+    "josephmisiti/awesome-machine-learning",
+    "select2/select2",
+    "open-source-society/computer-science",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "investigate": [
+    "expressjs/express"
+  ],
+  "io": [
+    "neovim/neovim"
+  ],
+  "iojs-backport": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "ionitron:closed": [
+    "driftyco/ionic"
+  ],
+  "ionitron:please resubmit": [
+    "driftyco/ionic"
+  ],
+  "ios": [
+    "d3/d3"
+  ],
+  "ios10": [
+    "driftyco/ionic"
+  ],
+  "isolates": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "iteration-plan": [
+    "Microsoft/vscode"
+  ],
+  "iteration-plan-draft": [
+    "Microsoft/vscode"
+  ],
+  "javascript": [
+    "h5bp/html5-boilerplate",
+    "zurb/foundation-sites",
+    "Microsoft/vscode"
+  ],
+  "javascript utilities": [
+    "zurb/foundation-sites"
+  ],
+  "jenkins": [
+    "elastic/elasticsearch"
+  ],
+  "job-control": [
+    "neovim/neovim"
+  ],
+  "jquery": [
+    "tastejs/todomvc"
+  ],
+  "jquery bug": [
+    "blueimp/jQuery-File-Upload"
+  ],
+  "js": [
+    "twbs/bootstrap"
+  ],
+  "json": [
+    "pallets/flask",
+    "Microsoft/vscode"
+  ],
+  "jvm bug": [
+    "elastic/elasticsearch"
+  ],
+  "keep-open": [
+    "kubernetes/kubernetes"
+  ],
+  "kendo": [
+    "tastejs/todomvc"
+  ],
+  "keybindings": [
+    "Microsoft/vscode"
+  ],
+  "keyboard": [
+    "driftyco/ionic"
+  ],
+  "kind/api-change": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/bug": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "kind/cleanup": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/design": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/documentation": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/enhancement": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "kind/experimental": [
+    "docker/docker"
+  ],
+  "kind/feature": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "kind/flake": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/friction": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/mesos-flake": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/new-api": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/old-docs": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/performance": [
+    "docker/docker"
+  ],
+  "kind/postmortem": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/question": [
+    "docker/docker"
+  ],
+  "kind/support": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/technical-debt": [
+    "kubernetes/kubernetes"
+  ],
+  "kind/upgrade-test-failure": [
+    "kubernetes/kubernetes"
+  ],
+  "knockback": [
+    "tastejs/todomvc"
+  ],
+  "knockoutjs": [
+    "tastejs/todomvc"
+  ],
+  "knockoutjs_require": [
+    "tastejs/todomvc"
+  ],
+  "known-fix": [
+    "meteor/meteor"
+  ],
+  "kscope": [
+    "getlantern/lantern"
+  ],
+  "label": [
+    "zurb/foundation-sites"
+  ],
+  "land-on-v4.x": [
+    "nodejs/node"
+  ],
+  "land-on-v6.x": [
+    "nodejs/node"
+  ],
+  "land_in_iojs.master": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "land_in_v0.10": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "land_in_v0.12": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "land_in_v3.x": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "languages": [
+    "tensorflow/tensorflow"
+  ],
+  "languages basic": [
+    "Microsoft/vscode"
+  ],
+  "last reviewed": [
+    "adobe/brackets"
+  ],
+  "latency": [
+    "antirez/redis"
+  ],
+  "later": [
+    "TryGhost/Ghost"
+  ],
+  "lavaca_require": [
+    "tastejs/todomvc"
+  ],
+  "lazy transclusion": [
+    "angular/angular_js"
+  ],
+  "lgtm": [
+    "kubernetes/kubernetes"
+  ],
+  "lib / src": [
+    "nodejs/node"
+  ],
+  "libc++": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "library": [
+    "zurb/foundation-sites"
+  ],
+  "libuv": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "libuv-integration": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "license": [
+    "neovim/neovim"
+  ],
+  "ligatures": [
+    "Microsoft/vscode"
+  ],
+  "lint": [
+    "zurb/foundation-sites"
+  ],
+  "linux": [
+    "d3/d3",
+    "electron/electron",
+    "nodejs/node-v0_x-archive",
+    "atom/atom",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "nylas/N1"
+  ],
+  "linux-distribution-specific": [
+    "electron/electron"
+  ],
+  "list": [
+    "driftyco/ionic"
+  ],
+  "list request": [
+    "sindresorhus/awesome"
+  ],
+  "loading-indicator": [
+    "driftyco/ionic"
+  ],
+  "loc: corrupted characters": [
+    "adobe/brackets"
+  ],
+  "loc: function": [
+    "adobe/brackets"
+  ],
+  "loc: not translated": [
+    "adobe/brackets"
+  ],
+  "loc: truncation/layout": [
+    "adobe/brackets"
+  ],
+  "loc: wrong translation": [
+    "adobe/brackets"
+  ],
+  "localization": [
+    "neovim/neovim"
+  ],
+  "logger": [
+    "Microsoft/vscode"
+  ],
+  "loose-milestone": [
+    "jekyll/jekyll"
+  ],
+  "lote": [
+    "yarnpkg/yarn"
+  ],
+  "low hanging fruit": [
+    "elastic/elasticsearch"
+  ],
+  "low priority": [
+    "expressjs/express",
+    "adobe/brackets"
+  ],
+  "low-priority": [
+    "nodejs/node-v0_x-archive",
+    "necolas/normalize_css"
+  ],
+  "lts": [
+    "nodejs/node"
+  ],
+  "lts-agenda": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "lts-watch-v4.x": [
+    "nodejs/node"
+  ],
+  "lts-watch-v6.x": [
+    "nodejs/node"
+  ],
+  "lua": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "mac": [
+    "atom/atom",
+    "Microsoft/vscode"
+  ],
+  "macOS": [
+    "electron/electron",
+    "ariya/phantomjs"
+  ],
+  "machine-dependent": [
+    "electron/electron"
+  ],
+  "macintosh": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "macos": [
+    "nodejs/node"
+  ],
+  "mail-sync": [
+    "nylas/N1"
+  ],
+  "maintainer feedback": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "maria": [
+    "tastejs/todomvc"
+  ],
+  "markdown": [
+    "hakimel/reveal_js",
+    "Microsoft/vscode"
+  ],
+  "marked for removal/rejection": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "marketing site": [
+    "zurb/foundation-sites"
+  ],
+  "marketplace": [
+    "Microsoft/vscode"
+  ],
+  "master": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "media": [
+    "TryGhost/Ghost"
+  ],
+  "media object": [
+    "zurb/foundation-sites"
+  ],
+  "media queries": [
+    "zurb/foundation-sites"
+  ],
+  "medical icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "medium priority": [
+    "adobe/brackets"
+  ],
+  "memory": [
+    "nodejs/node"
+  ],
+  "memory efficiency": [
+    "antirez/redis"
+  ],
+  "memory-leak": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "mentor-available": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "menu": [
+    "electron/electron",
+    "zurb/foundation-sites"
+  ],
+  "menus": [
+    "driftyco/ionic"
+  ],
+  "mercurial": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "meta": [
+    "twbs/bootstrap",
+    "electron/electron",
+    "nodejs/node-v0_x-archive",
+    "nodejs/node",
+    "nwjs/nw_js",
+    "expressjs/express",
+    "jekyll/jekyll"
+  ],
+  "metabug": [
+    "rust-lang/rust"
+  ],
+  "meteor": [
+    "twbs/bootstrap",
+    "zurb/foundation-sites"
+  ],
+  "metrics": [
+    "getlantern/lantern",
+    "Alamofire/Alamofire"
+  ],
+  "mips": [
+    "nodejs/node"
+  ],
+  "missing information": [
+    "gulpjs/gulp"
+  ],
+  "mobile": [
+    "TryGhost/Ghost"
+  ],
+  "modals": [
+    "driftyco/ionic"
+  ],
+  "module": [
+    "nodejs/node",
+    "ansible/ansible"
+  ],
+  "module-system": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "module:express-generator": [
+    "expressjs/express"
+  ],
+  "module:finalhandler": [
+    "expressjs/express"
+  ],
+  "module:router": [
+    "expressjs/express"
+  ],
+  "module_util": [
+    "ansible/ansible"
+  ],
+  "modules": [
+    "babel/babel"
+  ],
+  "modules system": [
+    "antirez/redis"
+  ],
+  "more-information-needed": [
+    "electron/electron",
+    "atom/atom"
+  ],
+  "move to backlog": [
+    "adobe/brackets"
+  ],
+  "move-to-brew": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "move-to-brew-evolution": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "move-to-homebrew-core": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "moz": [
+    "d3/d3"
+  ],
+  "mpd": [
+    "rg3/youtube-dl"
+  ],
+  "ms": [
+    "d3/d3"
+  ],
+  "multipart form data": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "native shell": [
+    "adobe/brackets"
+  ],
+  "natty": [
+    "getlantern/lantern"
+  ],
+  "navigation": [
+    "driftyco/ionic"
+  ],
+  "need repro": [
+    "vuejs/vue"
+  ],
+  "need-to-rewrite": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "need-to-split": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "needinfo": [
+    "nwjs/nw_js"
+  ],
+  "needs Adobe action": [
+    "adobe/brackets"
+  ],
+  "needs backmerge/rebase": [
+    "AFNetworking/AFNetworking"
+  ],
+  "needs backport": [
+    "rails/rails"
+  ],
+  "needs clarification": [
+    "yarnpkg/yarn"
+  ],
+  "needs confirmation": [
+    "yarnpkg/yarn"
+  ],
+  "needs documentation": [
+    "socketio/socket_io",
+    "Alamofire/Alamofire"
+  ],
+  "needs eslint rule change/addition": [
+    "airbnb/javascript"
+  ],
+  "needs feedback": [
+    "rails/rails",
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "needs followup": [
+    "airbnb/javascript"
+  ],
+  "needs help": [
+    "tiimgreen/github-cheat-sheet"
+  ],
+  "needs info": [
+    "github/gitignore",
+    "driftyco/ionic"
+  ],
+  "needs information": [
+    "select2/select2"
+  ],
+  "needs input": [
+    "jkbrzt/httpie"
+  ],
+  "needs investigation": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "needs more info": [
+    "Microsoft/vscode"
+  ],
+  "needs more information": [
+    "AFNetworking/AFNetworking"
+  ],
+  "needs rebase": [
+    "airbnb/javascript"
+  ],
+  "needs reply": [
+    "driftyco/ionic"
+  ],
+  "needs response": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "needs review": [
+    "AFNetworking/AFNetworking",
+    "adobe/brackets",
+    "pallets/flask"
+  ],
+  "needs tests": [
+    "expressjs/express",
+    "AFNetworking/AFNetworking",
+    "driftyco/ionic",
+    "Alamofire/Alamofire"
+  ],
+  "needs triage": [
+    "yarnpkg/yarn"
+  ],
+  "needs unit test": [
+    "adobe/brackets"
+  ],
+  "needs work": [
+    "rails/rails",
+    "pallets/flask"
+  ],
+  "needs-attention": [
+    "nylas/N1"
+  ],
+  "needs-crater": [
+    "rust-lang/rust"
+  ],
+  "needs-decision": [
+    "jekyll/jekyll"
+  ],
+  "needs-more-info": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "needs-ok-to-merge": [
+    "kubernetes/kubernetes"
+  ],
+  "needs-re-review": [
+    "jekyll/jekyll"
+  ],
+  "needs-rebase": [
+    "kubernetes/kubernetes"
+  ],
+  "needs-reproducing-case": [
+    "facebookincubator/create-react-app"
+  ],
+  "needs-reproduction": [
+    "atom/atom"
+  ],
+  "needs-review": [
+    "atom/atom",
+    "tastejs/todomvc"
+  ],
+  "needs-steps-to-reproduce": [
+    "nylas/N1"
+  ],
+  "needs-testing": [
+    "atom/atom"
+  ],
+  "needs-work": [
+    "jekyll/jekyll"
+  ],
+  "needs: breaking change": [
+    "angular/angular_js"
+  ],
+  "needs: browser fix": [
+    "angular/angular_js"
+  ],
+  "needs: docs": [
+    "angular/angular_js"
+  ],
+  "needs: feedback": [
+    "angular/angular_js"
+  ],
+  "needs: investigation": [
+    "angular/angular_js"
+  ],
+  "needs: jquery fix": [
+    "angular/angular_js"
+  ],
+  "needs: merging": [
+    "angular/angular_js"
+  ],
+  "needs: more info": [
+    "angular/angular_js"
+  ],
+  "needs: public api": [
+    "angular/angular_js"
+  ],
+  "needs: review": [
+    "angular/angular_js"
+  ],
+  "needs: test": [
+    "angular/angular_js"
+  ],
+  "needs: work": [
+    "angular/angular_js"
+  ],
+  "needs:devicetesting": [
+    "driftyco/ionic"
+  ],
+  "needs_info": [
+    "ansible/ansible"
+  ],
+  "needs_rebase": [
+    "ansible/ansible"
+  ],
+  "needs_revision": [
+    "ansible/ansible"
+  ],
+  "needs_triage": [
+    "ansible/ansible"
+  ],
+  "net": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "netbsd": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "network": [
+    "atom/atom"
+  ],
+  "networking": [
+    "antirez/redis",
+    "ansible/ansible"
+  ],
+  "new": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "new animation": [
+    "daneden/animate_css"
+  ],
+  "new app": [
+    "tastejs/todomvc"
+  ],
+  "new component": [
+    "zurb/foundation-sites"
+  ],
+  "new dependency": [
+    "babel/babel"
+  ],
+  "new feature": [
+    "h5bp/html5-boilerplate",
+    "zurb/foundation-sites",
+    "yarnpkg/yarn"
+  ],
+  "new formula": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "new icon": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "new resource": [
+    "dypsilon/frontend-dev-bookmarks"
+  ],
+  "new template": [
+    "github/gitignore"
+  ],
+  "new-command": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "new-major": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "new-user-experience": [
+    "nylas/N1"
+  ],
+  "new_module": [
+    "ansible/ansible"
+  ],
+  "new_plugin": [
+    "ansible/ansible"
+  ],
+  "next": [
+    "callemall/material-ui"
+  ],
+  "next release": [
+    "nvbn/thefuck"
+  ],
+  "no priority": [
+    "adobe/brackets"
+  ],
+  "node next": [
+    "socketio/socket_io"
+  ],
+  "nodejs": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "non critical bug": [
+    "antirez/redis"
+  ],
+  "non-issue": [
+    "elastic/elasticsearch"
+  ],
+  "non-release-blocker": [
+    "kubernetes/kubernetes"
+  ],
+  "not our issue": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "not-reproduced": [
+    "jekyll/jekyll"
+  ],
+  "not-reproducible": [
+    "Microsoft/vscode"
+  ],
+  "not_free?": [
+    "vhf/free-programming-books"
+  ],
+  "notable-change": [
+    "nodejs/node"
+  ],
+  "notice": [
+    "gulpjs/gulp"
+  ],
+  "npm": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "npm-module-specific": [
+    "meteor/meteor"
+  ],
+  "nsfw": [
+    "rg3/youtube-dl"
+  ],
+  "nw13": [
+    "nwjs/nw_js"
+  ],
+  "o": [
+    "d3/d3"
+  ],
+  "ocaml": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "off-canvas": [
+    "zurb/foundation-sites"
+  ],
+  "ok-to-merge": [
+    "kubernetes/kubernetes"
+  ],
+  "old-stable": [
+    "jekyll/jekyll"
+  ],
+  "old.Component-BuildSystem": [
+    "ariya/phantomjs"
+  ],
+  "old.Component-Logic": [
+    "ariya/phantomjs"
+  ],
+  "old.Domain-Qt": [
+    "ariya/phantomjs"
+  ],
+  "old.Domain-WebKit": [
+    "ariya/phantomjs"
+  ],
+  "old.Module-WebPage": [
+    "ariya/phantomjs"
+  ],
+  "old.Priority-High": [
+    "ariya/phantomjs"
+  ],
+  "old.Priority-Low": [
+    "ariya/phantomjs"
+  ],
+  "old.Priority-Medium": [
+    "ariya/phantomjs"
+  ],
+  "old.Regression": [
+    "ariya/phantomjs"
+  ],
+  "old.Status-Accepted": [
+    "ariya/phantomjs"
+  ],
+  "old.Status-NeedsReduction": [
+    "ariya/phantomjs"
+  ],
+  "old.Status-New": [
+    "ariya/phantomjs"
+  ],
+  "old.Type-Defect": [
+    "ariya/phantomjs"
+  ],
+  "old.Type-Enhancement": [
+    "ariya/phantomjs"
+  ],
+  "old.WontFix": [
+    "ariya/phantomjs"
+  ],
+  "old.cookies": [
+    "ariya/phantomjs"
+  ],
+  "old.docs": [
+    "ariya/phantomjs"
+  ],
+  "old.frames": [
+    "ariya/phantomjs"
+  ],
+  "old.webdriver": [
+    "ariya/phantomjs"
+  ],
+  "old: notice": [
+    "lodash/lodash"
+  ],
+  "old: underscore compat": [
+    "lodash/lodash"
+  ],
+  "olives": [
+    "tastejs/todomvc"
+  ],
+  "on hold": [
+    "zurb/foundation-sites"
+  ],
+  "on the roadmap": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "on-deck": [
+    "atom/atom"
+  ],
+  "on-hold": [
+    "twbs/bootstrap",
+    "resume/resume_github_com"
+  ],
+  "on-testplan": [
+    "Microsoft/vscode"
+  ],
+  "onhold": [
+    "rails/rails"
+  ],
+  "openacademy": [
+    "rails/rails"
+  ],
+  "openssl": [
+    "nodejs/node"
+  ],
+  "openstack": [
+    "ansible/ansible"
+  ],
+  "operations": [
+    "antirez/redis"
+  ],
+  "optimisation": [
+    "babel/babel"
+  ],
+  "optimization": [
+    "jekyll/jekyll"
+  ],
+  "origin: google": [
+    "angular/angular_js"
+  ],
+  "os": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "os x": [
+    "getlantern/lantern"
+  ],
+  "os-x": [
+    "nylas/N1"
+  ],
+  "out of scope": [
+    "select2/select2"
+  ],
+  "out-of-scope": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "owner_pr": [
+    "ansible/ansible"
+  ],
+  "package-idea": [
+    "atom/atom"
+  ],
+  "packaging": [
+    "pallets/flask"
+  ],
+  "pagination": [
+    "zurb/foundation-sites"
+  ],
+  "pairing with glyphicons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "parameter encoding": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "path": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "payment icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "pending": [
+    "vuejs/vue"
+  ],
+  "pending-feedback": [
+    "jekyll/jekyll"
+  ],
+  "pending-fixes": [
+    "rg3/youtube-dl"
+  ],
+  "pending-rebase": [
+    "jekyll/jekyll"
+  ],
+  "pending-reproducible-sample": [
+    "google/material-design-lite"
+  ],
+  "pending_action": [
+    "ansible/ansible"
+  ],
+  "perf": [
+    "d3/d3",
+    "Microsoft/vscode"
+  ],
+  "performance": [
+    "tensorflow/tensorflow",
+    "electron/electron",
+    "nodejs/node-v0_x-archive",
+    "apple/swift",
+    "atom/atom",
+    "nodejs/node",
+    "moment/moment",
+    "driftyco/ionic",
+    "adobe/brackets",
+    "webpack/webpack",
+    "yarnpkg/yarn",
+    "nylas/N1",
+    "neovim/neovim",
+    "ansible/ansible",
+    "caolan/async"
+  ],
+  "permissions": [
+    "TryGhost/Ghost"
+  ],
+  "pgp / encryption / signing": [
+    "nylas/N1"
+  ],
+  "php": [
+    "rg3/youtube-dl",
+    "Microsoft/vscode"
+  ],
+  "pinned": [
+    "rails/rails",
+    "jekyll/jekyll"
+  ],
+  "pkg": [
+    "d3/d3"
+  ],
+  "pkg: babylon": [
+    "babel/babel"
+  ],
+  "pkg: generator": [
+    "babel/babel"
+  ],
+  "pkg: object-rest-spread": [
+    "babel/babel"
+  ],
+  "pkg: register": [
+    "babel/babel"
+  ],
+  "pkg: traverse": [
+    "babel/babel"
+  ],
+  "plan-item": [
+    "Microsoft/vscode"
+  ],
+  "planned": [
+    "jkbrzt/httpie"
+  ],
+  "plastronjs": [
+    "tastejs/todomvc"
+  ],
+  "platform-linux": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "platform-osx": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "platform-windows": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "platform/arm": [
+    "docker/docker"
+  ],
+  "platform/desktop": [
+    "docker/docker"
+  ],
+  "platform/freebsd": [
+    "docker/docker"
+  ],
+  "platform/ibm-power": [
+    "docker/docker"
+  ],
+  "platform/ibm-z": [
+    "docker/docker"
+  ],
+  "platform/mac": [
+    "docker/docker"
+  ],
+  "platform/windows": [
+    "docker/docker"
+  ],
+  "platform:android": [
+    "driftyco/ionic"
+  ],
+  "platform:arm": [
+    "neovim/neovim"
+  ],
+  "platform:dragonflybsd": [
+    "neovim/neovim"
+  ],
+  "platform:freebsd": [
+    "neovim/neovim"
+  ],
+  "platform:illumos": [
+    "neovim/neovim"
+  ],
+  "platform:ios": [
+    "driftyco/ionic"
+  ],
+  "platform:linux": [
+    "neovim/neovim"
+  ],
+  "platform:macos": [
+    "neovim/neovim"
+  ],
+  "platform:mingw": [
+    "neovim/neovim"
+  ],
+  "platform:netbsd": [
+    "neovim/neovim"
+  ],
+  "platform:openbsd": [
+    "neovim/neovim"
+  ],
+  "platform:windows": [
+    "driftyco/ionic",
+    "neovim/neovim"
+  ],
+  "plugin": [
+    "robbyrussell/oh-my-zsh",
+    "hakimel/reveal_js",
+    "nylas/N1",
+    "neovim/neovim",
+    "ansible/ansible"
+  ],
+  "plugin manager": [
+    "neovim/neovim"
+  ],
+  "plugin-feature": [
+    "jekyll/jekyll"
+  ],
+  "polish": [
+    "Microsoft/vscode"
+  ],
+  "polymer": [
+    "yarnpkg/yarn",
+    "tastejs/todomvc"
+  ],
+  "popover": [
+    "driftyco/ionic"
+  ],
+  "port to plugin": [
+    "Modernizr/Modernizr"
+  ],
+  "portability": [
+    "antirez/redis"
+  ],
+  "post-mortem": [
+    "nodejs/node"
+  ],
+  "postprocessors": [
+    "rg3/youtube-dl"
+  ],
+  "potentially-source-breaking": [
+    "apple/swift"
+  ],
+  "ppc": [
+    "nodejs/node"
+  ],
+  "pr": [
+    "nodejs/node-v0_x-archive",
+    "expressjs/express"
+  ],
+  "pr_action: cleanup": [
+    "angular/angular"
+  ],
+  "pr_action: discuss": [
+    "angular/angular"
+  ],
+  "pr_action: merge": [
+    "angular/angular"
+  ],
+  "pr_action: review": [
+    "angular/angular"
+  ],
+  "pr_state: LGTM": [
+    "angular/angular"
+  ],
+  "pr_state: WIP": [
+    "angular/angular"
+  ],
+  "pr_state: blocked": [
+    "angular/angular"
+  ],
+  "print": [
+    "zurb/foundation-sites"
+  ],
+  "printing": [
+    "electron/electron"
+  ],
+  "priority/P0": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "priority/P1": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "priority/P2": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "priority/P3": [
+    "docker/docker",
+    "kubernetes/kubernetes"
+  ],
+  "priority/awaiting-more-evidence": [
+    "kubernetes/kubernetes"
+  ],
+  "priority/backlog": [
+    "kubernetes/kubernetes"
+  ],
+  "priority/critical-urgent": [
+    "kubernetes/kubernetes"
+  ],
+  "priority/failing-test": [
+    "kubernetes/kubernetes"
+  ],
+  "priority/important-longterm": [
+    "kubernetes/kubernetes"
+  ],
+  "priority/important-soon": [
+    "kubernetes/kubernetes"
+  ],
+  "priority:important": [
+    "jekyll/jekyll"
+  ],
+  "priority:low": [
+    "jekyll/jekyll"
+  ],
+  "priority:urgent": [
+    "jekyll/jekyll"
+  ],
+  "privacy": [
+    "getlantern/lantern"
+  ],
+  "private api": [
+    "babel/babel"
+  ],
+  "probably user-land": [
+    "gulpjs/gulp"
+  ],
+  "problem with plugin": [
+    "gulpjs/gulp"
+  ],
+  "process": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "process.nextTick": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "process/cherry-pick": [
+    "docker/docker"
+  ],
+  "process/cherry-picked": [
+    "docker/docker"
+  ],
+  "process/docs-cherry-pick": [
+    "docker/docker"
+  ],
+  "process/docs-cherry-picked": [
+    "docker/docker"
+  ],
+  "process/merge-to-master": [
+    "docker/docker"
+  ],
+  "process/merged-to-master": [
+    "docker/docker"
+  ],
+  "progress": [
+    "Alamofire/Alamofire"
+  ],
+  "progress bar": [
+    "zurb/foundation-sites"
+  ],
+  "progress reporting": [
+    "AFNetworking/AFNetworking"
+  ],
+  "project config": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "project management": [
+    "neovim/neovim"
+  ],
+  "promises": [
+    "nodejs/node"
+  ],
+  "proposal": [
+    "atom/atom"
+  ],
+  "protocol": [
+    "electron/electron"
+  ],
+  "provider": [
+    "neovim/neovim"
+  ],
+  "proxied sites list": [
+    "getlantern/lantern"
+  ],
+  "proxy": [
+    "Microsoft/vscode"
+  ],
+  "pubsub": [
+    "antirez/redis"
+  ],
+  "pull request wanted": [
+    "airbnb/javascript"
+  ],
+  "pull-requests-encouraged": [
+    "meteor/meteor"
+  ],
+  "punycode": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "puremvc": [
+    "tastejs/todomvc"
+  ],
+  "python": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "python3": [
+    "jkbrzt/httpie",
+    "ansible/ansible"
+  ],
+  "querystring": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "question": [
+    "freeCodeCamp/freeCodeCamp",
+    "vhf/free-programming-books",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "robbyrussell/oh-my-zsh",
+    "FortAwesome/Font-Awesome",
+    "airbnb/javascript",
+    "electron/electron",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "nodejs/node",
+    "expressjs/express",
+    "jlevy/the-art-of-command-line",
+    "Homebrew/legacy-homebrew",
+    "vinta/awesome-python",
+    "AFNetworking/AFNetworking",
+    "jkbrzt/httpie",
+    "google/material-design-icons",
+    "driftyco/ionic",
+    "reactjs/redux",
+    "adobe/brackets",
+    "NARKOZ/hacker-scripts",
+    "jashkenas/backbone",
+    "gulpjs/gulp",
+    "zurb/foundation-sites",
+    "pallets/flask",
+    "Dogfalo/materialize",
+    "nvbn/thefuck",
+    "webpack/webpack",
+    "django/django",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "johnpapa/angular-styleguide",
+    "Alamofire/Alamofire",
+    "neovim/neovim",
+    "lodash/lodash",
+    "Trinea/android-open-project",
+    "tiimgreen/github-cheat-sheet",
+    "wasabeef/awesome-android-ui",
+    "caolan/async",
+    "jashkenas/underscore",
+    "josephmisiti/awesome-machine-learning",
+    "select2/select2",
+    "open-source-society/computer-science",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "queue": [
+    "caolan/async"
+  ],
+  "queue/blocks-others": [
+    "kubernetes/kubernetes"
+  ],
+  "queue/critical-fix": [
+    "kubernetes/kubernetes"
+  ],
+  "queue/fix": [
+    "kubernetes/kubernetes"
+  ],
+  "queue/multiple-rebases": [
+    "kubernetes/kubernetes"
+  ],
+  "radio": [
+    "driftyco/ionic"
+  ],
+  "rails": [
+    "zurb/foundation-sites"
+  ],
+  "railties": [
+    "rails/rails"
+  ],
+  "range": [
+    "driftyco/ionic"
+  ],
+  "rappidjs": [
+    "tastejs/todomvc"
+  ],
+  "reachability": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "react": [
+    "airbnb/javascript",
+    "tastejs/todomvc",
+    "babel/babel"
+  ],
+  "readline": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "ready": [
+    "freeCodeCamp/freeCodeCamp",
+    "driftyco/ionic",
+    "pallets/flask"
+  ],
+  "ready to merge": [
+    "zurb/foundation-sites"
+  ],
+  "rebase-required": [
+    "resume/resume_github_com"
+  ],
+  "rebuild/*": [
+    "docker/docker"
+  ],
+  "rebuild/arm": [
+    "docker/docker"
+  ],
+  "rebuild/experimental": [
+    "docker/docker"
+  ],
+  "rebuild/janky": [
+    "docker/docker"
+  ],
+  "rebuild/userns": [
+    "docker/docker"
+  ],
+  "rebuild/vendor": [
+    "docker/docker"
+  ],
+  "rebuild/win2lin": [
+    "docker/docker"
+  ],
+  "rebuild/windowsRS1": [
+    "docker/docker"
+  ],
+  "refactor": [
+    "jekyll/jekyll",
+    "zurb/foundation-sites",
+    "neovim/neovim"
+  ],
+  "refresher": [
+    "driftyco/ionic"
+  ],
+  "regression": [
+    "vuejs/vue",
+    "rails/rails",
+    "atom/atom",
+    "nwjs/nw_js",
+    "rg3/youtube-dl",
+    "elastic/elasticsearch"
+  ],
+  "regression-from-stable-to-beta": [
+    "rust-lang/rust"
+  ],
+  "regression-from-stable-to-nightly": [
+    "rust-lang/rust"
+  ],
+  "regression-from-stable-to-stable": [
+    "rust-lang/rust"
+  ],
+  "related to external library": [
+    "driftyco/ionic"
+  ],
+  "release": [
+    "facebook/react",
+    "expressjs/express",
+    "jekyll/jekyll"
+  ],
+  "release blocker": [
+    "rails/rails"
+  ],
+  "release highlight": [
+    "elastic/elasticsearch"
+  ],
+  "release-14": [
+    "adobe/brackets"
+  ],
+  "release-blocker": [
+    "kubernetes/kubernetes"
+  ],
+  "release-note": [
+    "kubernetes/kubernetes"
+  ],
+  "release-note-action-required": [
+    "kubernetes/kubernetes"
+  ],
+  "release-note-label-needed": [
+    "kubernetes/kubernetes"
+  ],
+  "release-note-none": [
+    "kubernetes/kubernetes"
+  ],
+  "relnotes": [
+    "rust-lang/rust"
+  ],
+  "removed": [
+    "AFNetworking/AFNetworking"
+  ],
+  "reopen-later": [
+    "neovim/neovim"
+  ],
+  "repl": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "replication": [
+    "antirez/redis"
+  ],
+  "repro-exists": [
+    "nodejs/node"
+  ],
+  "req": [
+    "d3/d3"
+  ],
+  "request": [
+    "necolas/normalize_css",
+    "rg3/youtube-dl",
+    "Alamofire/Alamofire"
+  ],
+  "request adapter": [
+    "Alamofire/Alamofire"
+  ],
+  "request retrier": [
+    "Alamofire/Alamofire"
+  ],
+  "request serializers": [
+    "AFNetworking/AFNetworking"
+  ],
+  "requires-changes": [
+    "atom/atom"
+  ],
+  "requires-release-czar-attention": [
+    "kubernetes/kubernetes"
+  ],
+  "research": [
+    "google/material-design-lite"
+  ],
+  "resiliency": [
+    "elastic/elasticsearch"
+  ],
+  "resolution: can't reproduce": [
+    "angular/angular_js"
+  ],
+  "resolution: duplicate": [
+    "angular/angular_js"
+  ],
+  "resolution: fixed": [
+    "angular/angular_js"
+  ],
+  "resolution: invalid": [
+    "angular/angular_js"
+  ],
+  "resolution: not core": [
+    "angular/angular_js"
+  ],
+  "resolution: won't fix": [
+    "angular/angular_js"
+  ],
+  "resolution: works as expected": [
+    "angular/angular_js"
+  ],
+  "resolved in staging": [
+    "freeCodeCamp/freeCodeCamp"
+  ],
+  "response": [
+    "Alamofire/Alamofire"
+  ],
+  "response handlers": [
+    "Alamofire/Alamofire"
+  ],
+  "response serializers": [
+    "AFNetworking/AFNetworking"
+  ],
+  "response validation": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "responsive navigation": [
+    "zurb/foundation-sites"
+  ],
+  "resubmit PR": [
+    "vhf/free-programming-books"
+  ],
+  "result": [
+    "Alamofire/Alamofire"
+  ],
+  "retest-not-required": [
+    "kubernetes/kubernetes"
+  ],
+  "retest-not-required-docs-only": [
+    "kubernetes/kubernetes"
+  ],
+  "reveal": [
+    "zurb/foundation-sites"
+  ],
+  "review": [
+    "elastic/elasticsearch",
+    "tastejs/todomvc"
+  ],
+  "reviewed": [
+    "google/material-design-lite"
+  ],
+  "reviewed once": [
+    "babel/babel"
+  ],
+  "revisit": [
+    "nodejs/node-v0_x-archive",
+    "jlevy/the-art-of-command-line"
+  ],
+  "revisit-at-release": [
+    "neovim/neovim"
+  ],
+  "rewrite": [
+    "moment/moment"
+  ],
+  "right to left support": [
+    "zurb/foundation-sites"
+  ],
+  "roadmap": [
+    "docker/docker"
+  ],
+  "robustness": [
+    "neovim/neovim"
+  ],
+  "routing": [
+    "rails/rails"
+  ],
+  "rpc": [
+    "neovim/neovim"
+  ],
+  "runtime": [
+    "neovim/neovim"
+  ],
+  "rust-2-breakage-wishlist": [
+    "rust-lang/rust"
+  ],
+  "s390": [
+    "nodejs/node"
+  ],
+  "sammyjs": [
+    "tastejs/todomvc"
+  ],
+  "sandbox": [
+    "electron/electron",
+    "Homebrew/legacy-homebrew"
+  ],
+  "scm": [
+    "Microsoft/vscode"
+  ],
+  "scripting": [
+    "antirez/redis"
+  ],
+  "scripts": [
+    "tiimgreen/github-cheat-sheet"
+  ],
+  "scroll": [
+    "driftyco/ionic"
+  ],
+  "scss": [
+    "zurb/foundation-sites"
+  ],
+  "search": [
+    "Microsoft/vscode"
+  ],
+  "searchbar": [
+    "driftyco/ionic"
+  ],
+  "second edition": [
+    "getify/You-Dont-Know-JS"
+  ],
+  "security": [
+    "electron/electron",
+    "rails/rails",
+    "atom/atom",
+    "nodejs/node",
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "getlantern/lantern",
+    "Alamofire/Alamofire",
+    "antirez/redis"
+  ],
+  "segfault": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "select": [
+    "driftyco/ionic"
+  ],
+  "self-hosting / contributing": [
+    "nylas/N1"
+  ],
+  "semver-breaking: guide change": [
+    "airbnb/javascript"
+  ],
+  "semver-exempt": [
+    "facebook/react"
+  ],
+  "semver-major": [
+    "facebook/react",
+    "nodejs/node"
+  ],
+  "semver-minor": [
+    "facebook/react",
+    "nodejs/node"
+  ],
+  "semver-minor: tighten rules to match guide": [
+    "airbnb/javascript"
+  ],
+  "semver-patch": [
+    "facebook/react"
+  ],
+  "semver-patch: loosen/fix/document rules": [
+    "airbnb/javascript"
+  ],
+  "sentinel": [
+    "antirez/redis"
+  ],
+  "serenadejs": [
+    "tastejs/todomvc"
+  ],
+  "server": [
+    "TryGhost/Ghost",
+    "neovim/neovim"
+  ],
+  "service": [
+    "driftyco/ionic"
+  ],
+  "session": [
+    "pallets/flask"
+  ],
+  "session delegate": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "severity1: confusing": [
+    "angular/angular"
+  ],
+  "severity2: inconvenient": [
+    "angular/angular"
+  ],
+  "severity3: broken": [
+    "angular/angular"
+  ],
+  "severity4: memleak": [
+    "angular/angular"
+  ],
+  "severity5: regression": [
+    "angular/angular"
+  ],
+  "severity6: security": [
+    "angular/angular"
+  ],
+  "severity: broken expected use": [
+    "angular/angular_js"
+  ],
+  "severity: confusing": [
+    "angular/angular_js"
+  ],
+  "severity: crash / freeze": [
+    "angular/angular_js"
+  ],
+  "severity: inconvenient": [
+    "angular/angular_js"
+  ],
+  "severity: memory leak": [
+    "angular/angular_js"
+  ],
+  "severity: regression": [
+    "angular/angular_js"
+  ],
+  "severity: security": [
+    "angular/angular_js"
+  ],
+  "shell": [
+    "neovim/neovim"
+  ],
+  "ship list": [
+    "twbs/bootstrap"
+  ],
+  "shipit": [
+    "jekyll/jekyll",
+    "ansible/ansible"
+  ],
+  "showcase": [
+    "google/material-design-lite"
+  ],
+  "sig/api-machinery": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/apps": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/auth": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/autoscaling": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/aws": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/cli": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/cluster-lifecycle": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/cluster-ops": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/contributor-experience": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/docs": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/federation": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/instrumentation": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/network": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/node": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/onprem": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/openstack": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/rktnetes": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/scalability": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/scheduling": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/service-catalog": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/storage": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/testing": [
+    "kubernetes/kubernetes"
+  ],
+  "sig/windows": [
+    "kubernetes/kubernetes"
+  ],
+  "site": [
+    "tastejs/todomvc"
+  ],
+  "site-support-request": [
+    "rg3/youtube-dl"
+  ],
+  "size/L": [
+    "kubernetes/kubernetes"
+  ],
+  "size/M": [
+    "kubernetes/kubernetes"
+  ],
+  "size/S": [
+    "kubernetes/kubernetes"
+  ],
+  "size/XL": [
+    "kubernetes/kubernetes"
+  ],
+  "size/XS": [
+    "kubernetes/kubernetes"
+  ],
+  "size/XXL": [
+    "kubernetes/kubernetes"
+  ],
+  "skflow": [
+    "tensorflow/tensorflow"
+  ],
+  "slidebox": [
+    "driftyco/ionic"
+  ],
+  "slider": [
+    "zurb/foundation-sites"
+  ],
+  "slides": [
+    "driftyco/ionic"
+  ],
+  "smalloc": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "smartos": [
+    "nodejs/node"
+  ],
+  "smiley icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "snippets": [
+    "Microsoft/vscode"
+  ],
+  "solaris": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "soma": [
+    "tastejs/todomvc"
+  ],
+  "somajs_require": [
+    "tastejs/todomvc"
+  ],
+  "source-cleanup": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "sourcemaps": [
+    "babel/babel"
+  ],
+  "spec update": [
+    "tastejs/todomvc"
+  ],
+  "spine": [
+    "tastejs/todomvc"
+  ],
+  "sport icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "stackoverflow": [
+    "tensorflow/tensorflow"
+  ],
+  "stale": [
+    "rails/rails",
+    "jekyll/jekyll",
+    "kubernetes/kubernetes"
+  ],
+  "stalled": [
+    "tensorflow/tensorflow",
+    "nodejs/node",
+    "elastic/elasticsearch"
+  ],
+  "stapes": [
+    "tastejs/todomvc"
+  ],
+  "stapes_require": [
+    "tastejs/todomvc"
+  ],
+  "stata-try-to-reproduce": [
+    "antirez/redis"
+  ],
+  "state-approved": [
+    "antirez/redis"
+  ],
+  "state-cannot-replicate": [
+    "antirez/redis"
+  ],
+  "state-design-effort-needed": [
+    "antirez/redis"
+  ],
+  "state-doc-needed": [
+    "antirez/redis"
+  ],
+  "state-op-waiting-for-reply": [
+    "antirez/redis"
+  ],
+  "state-proposed-feature": [
+    "antirez/redis"
+  ],
+  "state-review-needed": [
+    "antirez/redis"
+  ],
+  "state-test-needed": [
+    "antirez/redis"
+  ],
+  "state-wait-original-poster-reply": [
+    "antirez/redis"
+  ],
+  "state-work-needed": [
+    "antirez/redis"
+  ],
+  "state: Blocked": [
+    "angular/angular"
+  ],
+  "state: Follow Up": [
+    "angular/angular"
+  ],
+  "state: Need repro": [
+    "angular/angular"
+  ],
+  "state: Needs Design": [
+    "angular/angular"
+  ],
+  "status/0-triage": [
+    "docker/docker"
+  ],
+  "status/1-design-review": [
+    "docker/docker"
+  ],
+  "status/2-code-review": [
+    "docker/docker"
+  ],
+  "status/3-docs-review": [
+    "docker/docker"
+  ],
+  "status/4-merge": [
+    "docker/docker"
+  ],
+  "status/accepted": [
+    "docker/docker"
+  ],
+  "status/claimed": [
+    "docker/docker"
+  ],
+  "status/confirmed": [
+    "docker/docker"
+  ],
+  "status/failing-ci": [
+    "docker/docker"
+  ],
+  "status/more-info-needed": [
+    "docker/docker"
+  ],
+  "status/needs-attention": [
+    "docker/docker"
+  ],
+  "status/needs-vendoring": [
+    "docker/docker"
+  ],
+  "stdio": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "stream": [
+    "nodejs/node"
+  ],
+  "streams": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "string_decoder": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "subscribers": [
+    "TryGhost/Ghost"
+  ],
+  "subtitles": [
+    "rg3/youtube-dl"
+  ],
+  "suggest": [
+    "Microsoft/vscode"
+  ],
+  "suggestion": [
+    "jekyll/jekyll"
+  ],
+  "superenv": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "support": [
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "support question": [
+    "babel/babel"
+  ],
+  "support_request": [
+    "ansible/ansible"
+  ],
+  "swift": [
+    "Alamofire/Alamofire"
+  ],
+  "swift interoperability": [
+    "AFNetworking/AFNetworking"
+  ],
+  "swift package manager": [
+    "Alamofire/Alamofire"
+  ],
+  "swift-evolution-approved": [
+    "apple/swift"
+  ],
+  "swift-evolution-pending-discussion": [
+    "apple/swift"
+  ],
+  "switch": [
+    "zurb/foundation-sites"
+  ],
+  "symbol-search": [
+    "Microsoft/vscode"
+  ],
+  "table": [
+    "zurb/foundation-sites"
+  ],
+  "tabs": [
+    "driftyco/ionic",
+    "zurb/foundation-sites"
+  ],
+  "tag: breaking change": [
+    "babel/babel",
+    "facebookincubator/create-react-app"
+  ],
+  "tag: bug fix": [
+    "babel/babel",
+    "facebookincubator/create-react-app"
+  ],
+  "tag: deprecation": [
+    "babel/babel"
+  ],
+  "tag: documentation": [
+    "babel/babel",
+    "facebookincubator/create-react-app"
+  ],
+  "tag: enhancement": [
+    "facebookincubator/create-react-app"
+  ],
+  "tag: internal": [
+    "babel/babel",
+    "facebookincubator/create-react-app"
+  ],
+  "tag: new feature": [
+    "babel/babel",
+    "facebookincubator/create-react-app"
+  ],
+  "tag: polish": [
+    "babel/babel"
+  ],
+  "tag: spec compliancy": [
+    "babel/babel"
+  ],
+  "tap": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "tap/click": [
+    "driftyco/ionic"
+  ],
+  "task metrics": [
+    "Alamofire/Alamofire"
+  ],
+  "tasks": [
+    "Microsoft/vscode"
+  ],
+  "tc agenda": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "tc meeting": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "team": [
+    "jekyll/jekyll"
+  ],
+  "team/api (deprecated - do not use)": [
+    "kubernetes/kubernetes"
+  ],
+  "team/cluster (deprecated - do not use)": [
+    "kubernetes/kubernetes"
+  ],
+  "team/control-plane (deprecated - do not use)": [
+    "kubernetes/kubernetes"
+  ],
+  "team/gke": [
+    "kubernetes/kubernetes"
+  ],
+  "team/huawei": [
+    "kubernetes/kubernetes"
+  ],
+  "team/mesosphere": [
+    "kubernetes/kubernetes"
+  ],
+  "team/redhat": [
+    "kubernetes/kubernetes"
+  ],
+  "team/test-infra": [
+    "kubernetes/kubernetes"
+  ],
+  "team/ux (deprecated - do not use)": [
+    "kubernetes/kubernetes"
+  ],
+  "telemetry": [
+    "Microsoft/vscode"
+  ],
+  "templates": [
+    "zurb/foundation-sites"
+  ],
+  "tensorboard": [
+    "tensorflow/tensorflow"
+  ],
+  "test": [
+    "d3/d3",
+    "nodejs/node-v0_x-archive",
+    "nodejs/node",
+    "nwjs/nw_js",
+    "ansible/ansible",
+    "elastic/elasticsearch"
+  ],
+  "test-needed": [
+    "rg3/youtube-dl"
+  ],
+  "test-todo": [
+    "nwjs/nw_js"
+  ],
+  "test_pull_requests": [
+    "ansible/ansible"
+  ],
+  "testability": [
+    "getlantern/lantern"
+  ],
+  "testers needed": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "testing": [
+    "pallets/flask",
+    "antirez/redis"
+  ],
+  "testplan-item": [
+    "Microsoft/vscode"
+  ],
+  "tests": [
+    "freeCodeCamp/freeCodeCamp",
+    "expressjs/express",
+    "jekyll/jekyll",
+    "AFNetworking/AFNetworking",
+    "zurb/foundation-sites",
+    "yarnpkg/yarn",
+    "TryGhost/Ghost",
+    "Alamofire/Alamofire",
+    "neovim/neovim",
+    "babel/babel"
+  ],
+  "text editor icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "that one issue": [
+    "daneden/animate_css"
+  ],
+  "theme": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "themes": [
+    "jekyll/jekyll",
+    "Microsoft/vscode",
+    "TryGhost/Ghost"
+  ],
+  "thin icon": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "third party issue": [
+    "rails/rails"
+  ],
+  "thorax": [
+    "tastejs/todomvc"
+  ],
+  "thorax_lumber": [
+    "tastejs/todomvc"
+  ],
+  "thumbnail": [
+    "zurb/foundation-sites"
+  ],
+  "timeline": [
+    "Alamofire/Alamofire"
+  ],
+  "timer": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "timers": [
+    "nodejs/node"
+  ],
+  "tls": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "tmux": [
+    "robbyrussell/oh-my-zsh"
+  ],
+  "todo": [
+    "moment/moment"
+  ],
+  "toggle": [
+    "driftyco/ionic"
+  ],
+  "tokenization": [
+    "Microsoft/vscode"
+  ],
+  "too-much-info": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "tools": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "tooltip": [
+    "zurb/foundation-sites"
+  ],
+  "top bar": [
+    "zurb/foundation-sites"
+  ],
+  "tracing": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "tracking": [
+    "atom/atom",
+    "adobe/brackets"
+  ],
+  "translation": [
+    "freeCodeCamp/freeCodeCamp",
+    "adobe/brackets",
+    "tiimgreen/github-cheat-sheet"
+  ],
+  "translations": [
+    "jlevy/the-art-of-command-line"
+  ],
+  "transparent-window": [
+    "electron/electron"
+  ],
+  "transportation icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "travis": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "travis ci": [
+    "Alamofire/Alamofire"
+  ],
+  "tray": [
+    "electron/electron"
+  ],
+  "triage/issue/bugreport": [
+    "electron/electron"
+  ],
+  "triage/issue/community": [
+    "electron/electron"
+  ],
+  "triage/issue/offtopic": [
+    "electron/electron"
+  ],
+  "triage/issue/request": [
+    "electron/electron"
+  ],
+  "triage/pr/bugfix": [
+    "electron/electron"
+  ],
+  "triage/pr/docs": [
+    "electron/electron"
+  ],
+  "triage/pr/feature": [
+    "electron/electron"
+  ],
+  "triaged": [
+    "atom/atom",
+    "nwjs/nw_js"
+  ],
+  "troopjs_require": [
+    "tastejs/todomvc"
+  ],
+  "tsc-agenda": [
+    "nodejs/node-v0_x-archive",
+    "expressjs/express"
+  ],
+  "tty": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "tui": [
+    "neovim/neovim"
+  ],
+  "tv-provider-account-needed": [
+    "rg3/youtube-dl"
+  ],
+  "tvOS": [
+    "AFNetworking/AFNetworking"
+  ],
+  "type: RFC / discussion / question": [
+    "angular/angular"
+  ],
+  "type: bug": [
+    "angular/angular_js",
+    "angular/angular"
+  ],
+  "type: chore": [
+    "angular/angular_js",
+    "angular/angular"
+  ],
+  "type: docs": [
+    "angular/angular_js"
+  ],
+  "type: feature": [
+    "angular/angular_js",
+    "angular/angular"
+  ],
+  "type: infrastructure": [
+    "angular/angular_js"
+  ],
+  "type: perf": [
+    "angular/angular_js"
+  ],
+  "type: refactor": [
+    "angular/angular_js",
+    "angular/angular"
+  ],
+  "type: test": [
+    "angular/angular_js"
+  ],
+  "type:bug/performance": [
+    "tensorflow/tensorflow"
+  ],
+  "type:build/install": [
+    "tensorflow/tensorflow"
+  ],
+  "type:docs": [
+    "tensorflow/tensorflow"
+  ],
+  "type:feature": [
+    "tensorflow/tensorflow"
+  ],
+  "type:support": [
+    "tensorflow/tensorflow"
+  ],
+  "typescript": [
+    "Microsoft/vscode"
+  ],
+  "typescript-angular": [
+    "tastejs/todomvc"
+  ],
+  "typescript-backbone": [
+    "tastejs/todomvc"
+  ],
+  "typo": [
+    "tiimgreen/github-cheat-sheet"
+  ],
+  "typography": [
+    "atom/atom",
+    "zurb/foundation-sites"
+  ],
+  "ubuntu": [
+    "getlantern/lantern"
+  ],
+  "udacity": [
+    "tensorflow/tensorflow"
+  ],
+  "ui": [
+    "atom/atom",
+    "neovim/neovim"
+  ],
+  "uikit extensions": [
+    "AFNetworking/AFNetworking"
+  ],
+  "unable to repro": [
+    "yarnpkg/yarn"
+  ],
+  "uncaught-exception": [
+    "atom/atom"
+  ],
+  "under-review": [
+    "atom/atom"
+  ],
+  "underlying tools": [
+    "facebookincubator/create-react-app"
+  ],
+  "undetermined": [
+    "jekyll/jekyll"
+  ],
+  "unknown": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "up-for-grabs": [
+    "jekyll/jekyll"
+  ],
+  "updated": [
+    "AFNetworking/AFNetworking"
+  ],
+  "upgrade": [
+    "elastic/elasticsearch"
+  ],
+  "upload request": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "upstream": [
+    "jkbrzt/httpie",
+    "Microsoft/vscode",
+    "Modernizr/Modernizr",
+    "babel/babel"
+  ],
+  "upstream issue": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "upstream-chromium": [
+    "nwjs/nw_js"
+  ],
+  "upstream/pathutil-should-fix": [
+    "jekyll/jekyll"
+  ],
+  "upstream:issue": [
+    "jekyll/jekyll"
+  ],
+  "url": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "url cache": [
+    "Alamofire/Alamofire"
+  ],
+  "url connection": [
+    "AFNetworking/AFNetworking"
+  ],
+  "url protocol": [
+    "Alamofire/Alamofire"
+  ],
+  "url session": [
+    "AFNetworking/AFNetworking",
+    "Alamofire/Alamofire"
+  ],
+  "url-whatwg": [
+    "nodejs/node"
+  ],
+  "usability": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "usage": [
+    "neovim/neovim"
+  ],
+  "user configuration": [
+    "Homebrew/legacy-homebrew"
+  ],
+  "util": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "ux": [
+    "jekyll/jekyll",
+    "Microsoft/vscode",
+    "neovim/neovim"
+  ],
+  "ux-meeting": [
+    "Microsoft/vscode"
+  ],
+  "v0.05.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.05.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.06.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.07.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.07.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.08.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.09.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.10": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "v0.10.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.11.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.12": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "v0.12.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.12.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.13": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "v0.13.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.13.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.14.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.14.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.14.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.14.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.15.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.15.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.15.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.16.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.16.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.16.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.16.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.16.4": [
+    "elastic/elasticsearch"
+  ],
+  "v0.16.5": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.10": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.4": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.5": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.6": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.7": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.8": [
+    "elastic/elasticsearch"
+  ],
+  "v0.17.9": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.4": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.5": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.6": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.7": [
+    "elastic/elasticsearch"
+  ],
+  "v0.18.8": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.0.RC1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.0.RC2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.0.RC3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.10": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.11": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.12": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.13": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.4": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.5": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.6": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.7": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.8": [
+    "elastic/elasticsearch"
+  ],
+  "v0.19.9": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.0.RC1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.4": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.5": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.6": [
+    "elastic/elasticsearch"
+  ],
+  "v0.20.7": [
+    "elastic/elasticsearch"
+  ],
+  "v0.8": [
+    "nodejs/node-v0_x-archive"
+  ],
+  "v0.90.0": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.0.Beta1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.0.RC1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.0.RC2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.1": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.10": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.11": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.12": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.13": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.14": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.2": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.3": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.4": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.5": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.6": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.7": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.8": [
+    "elastic/elasticsearch"
+  ],
+  "v0.90.9": [
+    "elastic/elasticsearch"
+  ],
+  "v1": [
+    "driftyco/ionic"
+  ],
+  "v1-bug": [
+    "google/material-design-lite"
+  ],
+  "v1.0.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.0.Beta1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.0.Beta2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.0.RC1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.0.RC2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.0.4": [
+    "elastic/elasticsearch"
+  ],
+  "v1.1.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.1.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.1.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.1.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.2.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.2.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.2.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.2.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.2.4": [
+    "elastic/elasticsearch"
+  ],
+  "v1.2.5": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.10": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.4": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.5": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.6": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.7": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.8": [
+    "elastic/elasticsearch"
+  ],
+  "v1.3.9": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.0.Beta1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.4": [
+    "elastic/elasticsearch"
+  ],
+  "v1.4.5": [
+    "elastic/elasticsearch"
+  ],
+  "v1.5.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.5.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.5.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.5.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.6.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.6.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.6.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.6.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.0": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.1": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.2": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.3": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.4": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.5": [
+    "elastic/elasticsearch"
+  ],
+  "v1.7.6": [
+    "elastic/elasticsearch"
+  ],
+  "v2": [
+    "driftyco/ionic"
+  ],
+  "v2-component": [
+    "google/material-design-lite"
+  ],
+  "v2.0.0": [
+    "elastic/elasticsearch"
+  ],
+  "v2.0.0-beta1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.0.0-beta2": [
+    "elastic/elasticsearch"
+  ],
+  "v2.0.0-rc1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.0.1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.0.2": [
+    "elastic/elasticsearch"
+  ],
+  "v2.0.3": [
+    "elastic/elasticsearch"
+  ],
+  "v2.1.0": [
+    "elastic/elasticsearch"
+  ],
+  "v2.1.1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.1.2": [
+    "elastic/elasticsearch"
+  ],
+  "v2.1.3": [
+    "elastic/elasticsearch"
+  ],
+  "v2.2.0": [
+    "elastic/elasticsearch"
+  ],
+  "v2.2.1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.2.2": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.0": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.2": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.3": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.4": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.5": [
+    "elastic/elasticsearch"
+  ],
+  "v2.3.6": [
+    "elastic/elasticsearch"
+  ],
+  "v2.4.0": [
+    "elastic/elasticsearch"
+  ],
+  "v2.4.1": [
+    "elastic/elasticsearch"
+  ],
+  "v2.4.2": [
+    "elastic/elasticsearch"
+  ],
+  "v2.4.3": [
+    "elastic/elasticsearch"
+  ],
+  "v2.4.4": [
+    "elastic/elasticsearch"
+  ],
+  "v2.4.5": [
+    "elastic/elasticsearch"
+  ],
+  "v3": [
+    "twbs/bootstrap"
+  ],
+  "v4": [
+    "twbs/bootstrap"
+  ],
+  "v4.x": [
+    "nodejs/node"
+  ],
+  "v5.0.0": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-alpha1": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-alpha2": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-alpha3": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-alpha4": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-alpha5": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-beta1": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.0-rc1": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.1": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.2": [
+    "elastic/elasticsearch"
+  ],
+  "v5.0.3": [
+    "elastic/elasticsearch"
+  ],
+  "v5.1.1": [
+    "elastic/elasticsearch"
+  ],
+  "v5.1.2": [
+    "elastic/elasticsearch"
+  ],
+  "v5.1.3": [
+    "elastic/elasticsearch"
+  ],
+  "v5.2.0": [
+    "elastic/elasticsearch"
+  ],
+  "v5.2.1": [
+    "elastic/elasticsearch"
+  ],
+  "v5.3.0": [
+    "elastic/elasticsearch"
+  ],
+  "v6.0.0": [
+    "elastic/elasticsearch"
+  ],
+  "v6.x": [
+    "nodejs/node"
+  ],
+  "v7.0.0": [
+    "elastic/elasticsearch"
+  ],
+  "v7.x": [
+    "nodejs/node"
+  ],
+  "verification-found": [
+    "Microsoft/vscode"
+  ],
+  "verification-needed": [
+    "Microsoft/vscode"
+  ],
+  "verified": [
+    "Microsoft/vscode"
+  ],
+  "version/1.0": [
+    "docker/docker"
+  ],
+  "version/1.1": [
+    "docker/docker"
+  ],
+  "version/1.10": [
+    "docker/docker"
+  ],
+  "version/1.11": [
+    "docker/docker"
+  ],
+  "version/1.12": [
+    "docker/docker"
+  ],
+  "version/1.13": [
+    "docker/docker"
+  ],
+  "version/1.2": [
+    "docker/docker"
+  ],
+  "version/1.3": [
+    "docker/docker"
+  ],
+  "version/1.4": [
+    "docker/docker"
+  ],
+  "version/1.5": [
+    "docker/docker"
+  ],
+  "version/1.6": [
+    "docker/docker"
+  ],
+  "version/1.7": [
+    "docker/docker"
+  ],
+  "version/1.8": [
+    "docker/docker"
+  ],
+  "version/1.9": [
+    "docker/docker"
+  ],
+  "version/master": [
+    "docker/docker"
+  ],
+  "version/unsupported": [
+    "docker/docker"
+  ],
+  "video player icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "viml": [
+    "neovim/neovim"
+  ],
+  "virtualscroll": [
+    "driftyco/ionic"
+  ],
+  "visibility classes": [
+    "zurb/foundation-sites"
+  ],
+  "vm": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "vmware": [
+    "ansible/ansible"
+  ],
+  "votes needed": [
+    "lodash/lodash"
+  ],
+  "vscode-build": [
+    "Microsoft/vscode"
+  ],
+  "waiting": [
+    "pallets/flask"
+  ],
+  "waiting for feedback": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "waiting for user feedback": [
+    "callemall/material-ui"
+  ],
+  "waiting:reply": [
+    "neovim/neovim"
+  ],
+  "waiting:repro": [
+    "neovim/neovim"
+  ],
+  "waiting_on_contributor": [
+    "ansible/ansible"
+  ],
+  "waiting_on_maintainer": [
+    "ansible/ansible"
+  ],
+  "watchOS": [
+    "AFNetworking/AFNetworking"
+  ],
+  "web application icons": [
+    "FortAwesome/Font-Awesome"
+  ],
+  "webkit": [
+    "d3/d3"
+  ],
+  "webpack-1": [
+    "webpack/webpack"
+  ],
+  "webpack-2": [
+    "webpack/webpack"
+  ],
+  "webpack-3": [
+    "webpack/webpack"
+  ],
+  "webserver module": [
+    "ariya/phantomjs"
+  ],
+  "website": [
+    "nodejs/node-v0_x-archive",
+    "Microsoft/vscode"
+  ],
+  "webview": [
+    "electron/electron",
+    "Microsoft/vscode"
+  ],
+  "wiki": [
+    "tastejs/todomvc"
+  ],
+  "windows": [
+    "electron/electron",
+    "nodejs/node-v0_x-archive",
+    "atom/atom",
+    "nodejs/node",
+    "jekyll/jekyll",
+    "jkbrzt/httpie",
+    "getlantern/lantern",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "nylas/N1",
+    "ansible/ansible"
+  ],
+  "wip": [
+    "d3/d3"
+  ],
+  "wishlist": [
+    "facebook/react",
+    "tastejs/todomvc"
+  ],
+  "wkwebview plugin": [
+    "driftyco/ionic"
+  ],
+  "won't fix": [
+    "Alamofire/Alamofire",
+    "elastic/elasticsearch"
+  ],
+  "wont fix": [
+    "h5bp/html5-boilerplate",
+    "AFNetworking/AFNetworking",
+    "necolas/normalize_css",
+    "caolan/async"
+  ],
+  "wont-fix": [
+    "jekyll/jekyll"
+  ],
+  "wontfix": [
+    "freeCodeCamp/freeCodeCamp",
+    "vhf/free-programming-books",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "robbyrussell/oh-my-zsh",
+    "FortAwesome/Font-Awesome",
+    "airbnb/javascript",
+    "jquery/jquery",
+    "electron/electron",
+    "vuejs/vue",
+    "daneden/animate_css",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "atom/atom",
+    "hakimel/reveal_js",
+    "nodejs/node",
+    "nwjs/nw_js",
+    "expressjs/express",
+    "vinta/awesome-python",
+    "jkbrzt/httpie",
+    "google/material-design-icons",
+    "driftyco/ionic",
+    "reactjs/redux",
+    "NARKOZ/hacker-scripts",
+    "jashkenas/backbone",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "nvbn/thefuck",
+    "django/django",
+    "yarnpkg/yarn",
+    "johnpapa/angular-styleguide",
+    "neovim/neovim",
+    "lodash/lodash",
+    "Trinea/android-open-project",
+    "wasabeef/awesome-android-ui",
+    "jashkenas/underscore",
+    "josephmisiti/awesome-machine-learning",
+    "select2/select2",
+    "open-source-society/computer-science",
+    "facebookincubator/create-react-app",
+    "minimaxir/big-list-of-naughty-strings"
+  ],
+  "work-in-progress": [
+    "atom/atom",
+    "tiimgreen/github-cheat-sheet"
+  ],
+  "workaround1: obvious": [
+    "angular/angular"
+  ],
+  "workaround2: non-obvious": [
+    "angular/angular"
+  ],
+  "workaround3: complex": [
+    "angular/angular"
+  ],
+  "workaround4: none": [
+    "angular/angular"
+  ],
+  "workbench": [
+    "Microsoft/vscode"
+  ],
+  "workbench-tabs": [
+    "Microsoft/vscode"
+  ],
+  "workflow": [
+    "zurb/foundation-sites"
+  ],
+  "wrong-repo": [
+    "atom/atom"
+  ],
+  "yepnope": [
+    "Modernizr/Modernizr"
+  ],
+  "yui": [
+    "tastejs/todomvc"
+  ],
+  "ziplist": [
+    "antirez/redis"
+  ],
+  "zlib": [
+    "nodejs/node-v0_x-archive",
+    "nodejs/node"
+  ],
+  "zoom": [
+    "Microsoft/vscode"
+  ],
+  "¯\\_(ツ)_/¯": [
+    "jekyll/jekyll"
+  ],
+  "★": [
+    "jekyll/jekyll"
+  ],
+  "★★": [
+    "jekyll/jekyll"
+  ],
+  "★★★": [
+    "jekyll/jekyll"
+  ],
+  "★★★★": [
+    "jekyll/jekyll"
+  ],
+  "★★★★★": [
+    "jekyll/jekyll"
+  ]
+}

@@ -1,5 +1,5 @@
 const GithubApi = require('github');
-const githubCredentials = require('./github.credentials.js');
+const githubCredentials = require('../github.credentials.js');
 
 
 const github = new GithubApi({
@@ -33,8 +33,30 @@ const getMostStarred = (page = 1, per_page = 100) => github.search
   .then(results => results.items)
 
 
+/*
+ * Get repositories index by label
+ * Returns {
+ *   'accesibility': ['facebook/react', 'google/hammerrow'],
+ *   ...
+ * }
+ */
+const getReposByLabel = (page = 1) => {
+
+  getLabelsForMostPopularRepos(page)
+    .then(labels => {
+        labels = R.map(repo => ({ labels: repo.labels, id: repo.id }), labels)
+        labels = R.map(repo => R.map(label => ({ label, id: repo.id}), repo.labels), labels)
+        const flatLabels = R.flatten(labels)
+
+        var reduceToLabelsBy = R.reduceBy((acc, repo) => acc.concat(repo.id), []);
+        return reduceToLabelsBy(repo => repo.label)(flatLabels);
+    });
+
+}
+
 module.exports = {
   github,
   getMostStarred,
-  getAllLabels
+  getAllLabels,
+  getReposByLabel
 }
