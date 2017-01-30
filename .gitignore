@@ -39,3 +39,7 @@ jspm_packages
 firebase.credentials.json
 github.credentials.js
 .DS_Store
+
+venv/
+.ipynb_checkpoints/
+__pycache__
