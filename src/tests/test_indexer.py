@@ -1,3 +1,7 @@
+import yaml
 
-def test_random():
-    assert 1 == 1
+
+
+def test_get_configs__retrieves_all(tmpdir):
+    print(tmpdir)
+    assert 1 == 2
