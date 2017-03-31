@@ -27,3 +27,11 @@ class Github(GithubClient):
         """
         for repo in self.repos_by_stars():
             yield ((label, repo) for label in repo.get_labels())
+
+
+class Firebase():
+
+    def __init__(self):
+        pass
+
+
