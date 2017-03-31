@@ -1,13 +1,14 @@
 import argparse
-import labels
-from services import github
 import os
 
 
 DESCRIPTION = 'OpenSourcery'
 DEST_HELP = 'The destination of output'
+
+INDEX_ACTION = 'index'
+
 ACTION_HELP = 'The type of action to take'
-ACTION_CHOICES = ['labels']
+ACTION_CHOICES = [INDEX_ACTION]
 ACTION = 'action'
 
 EXPECTED_ENV_VARS = [
@@ -29,7 +30,7 @@ def main():
     parser.add_argument(ACTION, choices=ACTION_CHOICES, help=ACTION_HELP)
     args = parser.parse_args()
 
-    if args.action == ACTION:
+    if args.action == INDEX_ACTION:
         pass
 
 

@@ -4,3 +4,7 @@ projects:
     labels:
       - "good first bug"
       - "Good First Task"
+  - repo: react-native
+    labels:
+      - "Good First Task"
+      - "Help Wanted"

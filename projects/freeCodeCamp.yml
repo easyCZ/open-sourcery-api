@@ -1,0 +1,6 @@
+owner: freeCodeCamp
+projects:
+  - repo: freeCodeCamp
+    labels:
+      - "help wanted"
+      - "first-timers-only"
