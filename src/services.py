@@ -5,7 +5,9 @@ from github import Github as GithubClient
 class Github(GithubClient):
 
     def __init__(self):
-        print(os.environ['GITHUB_KEY'], os.environ['GITHUB_SECRET'])
+        """
+        OpenSourcery custom github access layer
+        """
         super().__init__(
             client_id=os.environ['GITHUB_KEY'],
             client_secret=os.environ['GITHUB_SECRET'],
@@ -14,6 +16,9 @@ class Github(GithubClient):
         )
 
     def repos_by_stars(self):
+        """
+        Find all repositories ordered by stars
+        """
         return self.search_repositories('stars:>1', 'stars')
 
     def labels_by_stars(self):

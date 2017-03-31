@@ -1,0 +1,6 @@
+owner: facebook
+projects:
+  - repo: react
+    labels:
+      - "good first bug"
+      - "Good First Task"
