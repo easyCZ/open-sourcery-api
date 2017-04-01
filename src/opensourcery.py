@@ -13,7 +13,8 @@ ACTION = 'action'
 
 EXPECTED_ENV_VARS = [
     'GITHUB_KEY',
-    'GITHUB_SECRET'
+    'GITHUB_SECRET',
+    'FIREBASE_KEY'
 ]
 
 

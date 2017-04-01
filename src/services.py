@@ -1,4 +1,5 @@
 import os
+import pyrebase
 from github import Github as GithubClient
 
 
@@ -29,9 +30,16 @@ class Github(GithubClient):
             yield ((label, repo) for label in repo.get_labels())
 
 
-class Firebase():
+class Firebase(object):
 
     def __init__(self):
+        config = {}
+        self.firebase = pyrebase.initialize_app(config)
+        self.db = self.firebase.database()
+
+    def get_repository(self, id):
+        repo = self.db.child('repositories').get()
+        return repo
+
+    def get_or_create_repo(self, repo):
         pass
-
-
