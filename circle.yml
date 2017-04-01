@@ -12,4 +12,4 @@ dependencies:
 
 test:
   override:
-    - python -m pytest
+    - cd src && python -m pytest
