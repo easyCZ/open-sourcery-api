@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"github.com/opensourcery-io/api/services"
 	"github.com/opensourcery-io/api/models"
 	"gopkg.in/yaml.v2"
+	"encoding/json"
+	"strings"
+	"github.com/opensourcery-io/api/services"
 )
 
 func readProjectDef(filepath string) (*models.ProjectDef, error) {
@@ -47,6 +49,82 @@ func listProjectDefs(dir string) ([]*models.ProjectDef, error) {
 	return defs, nil
 }
 
+
+
+func transform() {
+	jsonFile := "/Users/milanpavlik/golang/src/github.com/opensourcery-io/api/labels_by_repos_relevant_2.json"
+	data, err := ioutil.ReadFile(jsonFile)
+	if err != nil {
+		panic(err)
+	}
+	// { label: ["owner/repo"], ... }
+	var parsed map[string][]string
+
+	if err := json.Unmarshal(data, &parsed); err != nil {
+		panic(err)
+	}
+
+	for label, repos := range parsed {
+		for _, repoPath := range repos {
+			tokens := strings.SplitN(repoPath, "/", 1)
+			owner := tokens[0]
+			repository := tokens[1]
+
+			def, err := readProjectDef("/Users/milanpavlik/golang/src/github.com/opensourcery-io/api/projects" + owner + ".yml")
+			if err != nil {
+				def = &models.ProjectDef{
+					Owner: owner,
+					Projects: []models.RepositoryLabels{},
+				}
+			}
+
+			repoLabels :=
+
+			repoLabel := models.RepositoryLabels{
+				Repo: repository,
+
+			}
+			def.Projects = append(def.Projects, )
+
+		}
+	}
+
+	gh := services.NewGithubService()
+
+	for label, repos := range parsed {
+
+		projects := make([]models.RepositoryLabels, 0)
+
+		for _, name := range repos {
+
+
+			repo, err := gh.GetRepo(owner, repository)
+			if err != nil {
+				panic(err)
+			}
+			project := models.RepositoryLabels{
+				Repo: *repo.Name,
+
+			}
+
+
+
+		}
+
+		def := &models.ProjectDef{
+			Owner: *repo.Owner.Name,
+			Projects: []models.RepositoryLabels{
+				models.RepositoryLabels{
+					Repo:
+				},
+			},
+		}
+	}
+
+	fmt.Println(parsed)
+
+}
+
 func main() {
 	//fb, err := services.NewFirebaseService("/Users/milanpavlik/golang/src/github.com/opensourcery-io/open-sourcery-firebase-adminsdk-f4ddp-83f1d4c231.json")
 	//gh := services.NewGithubService()
@@ -74,11 +152,12 @@ func main() {
 	//	}
 	//
 	//}
+	transform()
 
-	logosService := services.NewLogosApiService()
-	logo, _ := logosService.Search("facebook")
-
-	fmt.Printf("%v", logo)
+	//logosService := services.NewLogosApiService()
+	//logo, _ := logosService.Search("facebook")
+	//
+	//fmt.Printf("%v", logo)
 
 	//
 

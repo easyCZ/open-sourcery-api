@@ -1,0 +1,146 @@
+{
+  "e-mentor": [
+    "rust-lang/rust"
+  ],
+  "complexity:low": [
+    "neovim/neovim"
+  ],
+  "pr welcome": [
+    "socketio/socket_io",
+    "ReactiveX/RxJava"
+  ],
+  "pick me up": [
+    "adobe/brackets"
+  ],
+  "prs plz!": [
+    "angular/angular_js"
+  ],
+  "entry-level": [
+    "neovim/neovim"
+  ],
+  "contribution welcome": [
+    "vuejs/vue",
+    "NARKOZ/hacker-scripts"
+  ],
+  "helpwanted": [
+    "golang/go"
+  ],
+  "easyfix": [
+    "ansible/ansible"
+  ],
+  "good first issue": [
+    "callemall/material-ui"
+  ],
+  "beginner-friendly": [
+    "babel/babel"
+  ],
+  "starter bug": [
+    "adobe/brackets"
+  ],
+  "good first bug": [
+    "facebook/react",
+    "yarnpkg/yarn",
+    "Modernizr/Modernizr"
+  ],
+  "contributor friendly": [
+    "kennethreitz/requests"
+  ],
+  "up-for-grabs": [
+    "jekyll/jekyll",
+    "moment/moment"
+  ],
+  "d1: easy (contrib. difficulty)": [
+    "webpack/webpack"
+  ],
+  "help-wanted": [
+    "electron/electron",
+    "atom/atom",
+    "jlevy/the-art-of-command-line",
+    "jekyll/jekyll",
+    "nylas/N1",
+    "neovim/neovim",
+    "ariya/phantomjs",
+    "kubernetes/kubernetes"
+  ],
+  "patch welcome": [
+    "jquery/jquery"
+  ],
+  "good first task": [
+    "facebook/react-native"
+  ],
+  "beginner": [
+    "electron/electron",
+    "atom/atom",
+    "Microsoft/vscode",
+    "TryGhost/Ghost"
+  ],
+  "good first contribution": [
+    "nodejs/node"
+  ],
+  "effort1: easy (hours)": [
+    "angular/angular"
+  ],
+  "size/s": [
+    "kubernetes/kubernetes"
+  ],
+  "d0: my first commit (contrib. difficulty)": [
+    "webpack/webpack"
+  ],
+  "first time contributor": [
+    "tastejs/todomvc"
+  ],
+  "good-first-patch": [
+    "rails/rails"
+  ],
+  "first-timers-only": [
+    "freeCodeCamp/freeCodeCamp",
+    "jekyll/jekyll"
+  ],
+  "help wanted": [
+    "freeCodeCamp/freeCodeCamp",
+    "twbs/bootstrap",
+    "sindresorhus/awesome",
+    "getify/You-Dont-Know-JS",
+    "tensorflow/tensorflow",
+    "jquery/jquery",
+    "h5bp/html5-boilerplate",
+    "apple/swift",
+    "jwasham/google-interview-university",
+    "hakimel/reveal_js",
+    "nodejs/node",
+    "expressjs/express",
+    "Homebrew/legacy-homebrew",
+    "vinta/awesome-python",
+    "AFNetworking/AFNetworking",
+    "google/material-design-icons",
+    "driftyco/ionic",
+    "reactjs/redux",
+    "google/material-design-lite",
+    "gulpjs/gulp",
+    "zurb/foundation-sites",
+    "Dogfalo/materialize",
+    "nvbn/thefuck",
+    "yarnpkg/yarn",
+    "Microsoft/vscode",
+    "johnpapa/angular-styleguide",
+    "Alamofire/Alamofire",
+    "wasabeef/awesome-android-ui",
+    "caolan/async",
+    "jashkenas/underscore",
+    "tastejs/todomvc",
+    "babel/babel",
+    "josephmisiti/awesome-machine-learning",
+    "open-source-society/computer-science",
+    "facebookincubator/create-react-app",
+    "minimaxir/big-list-of-naughty-strings",
+    "facebook/react-native",
+    "moment/moment",
+    "chartjs/Chart_js"
+  ],
+  "d2: medium (contrib. difficulty)": [
+    "webpack/webpack"
+  ],
+  "beginner friendly": [
+    "pallets/flask"
+  ]
+}

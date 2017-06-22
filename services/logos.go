@@ -29,6 +29,12 @@ type LogosApiService struct {
 func (service *LogosApiService) Search(query string) (*Logo, error) {
 	endpoint := LOGOS_API_URL + "?q=" + url.QueryEscape(query)
 
+	req, err := http.NewRequest("GET", endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("User-Agent", "OpenSourcery/1.0")
+
 	response, err := service.client.Get(endpoint)
 	payload, err := ioutil.ReadAll(response.Body)
 	defer response.Body.Close()
