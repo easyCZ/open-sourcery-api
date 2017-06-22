@@ -6,3 +6,7 @@ machine:
 dependencies:
   override:
     - go get -t -d -v ./...
+
+test:
+  override:
+    - go test -v -race ./...
