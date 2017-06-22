@@ -78,7 +78,6 @@ func transform() {
 				}
 			}
 
-			repoLabels :=
 
 			repoLabel := models.RepositoryLabels{
 				Repo: repository,
@@ -127,6 +126,7 @@ func transform() {
 
 func main() {
 	//fb, err := services.NewFirebaseService("/Users/milanpavlik/golang/src/github.com/opensourcery-io/open-sourcery-firebase-adminsdk-f4ddp-83f1d4c231.json")
+
 	//gh := services.NewGithubService()
 	//
 	//dir, err := os.Getwd()

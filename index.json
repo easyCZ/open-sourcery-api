@@ -1,0 +1,216 @@
+{
+  "AFNetworking/AFNetworking": [
+    "help wanted"
+  ],
+  "Alamofire/Alamofire": [
+    "help wanted"
+  ],
+  "Dogfalo/materialize": [
+    "help wanted"
+  ],
+  "Homebrew/legacy-homebrew": [
+    "help wanted"
+  ],
+  "Microsoft/vscode": [
+    "help wanted",
+    "beginner"
+  ],
+  "Modernizr/Modernizr": [
+    "good first bug"
+  ],
+  "NARKOZ/hacker-scripts": [
+    "contribution welcome"
+  ],
+  "ReactiveX/RxJava": [
+    "pr welcome"
+  ],
+  "TryGhost/Ghost": [
+    "beginner"
+  ],
+  "adobe/brackets": [
+    "pick me up",
+    "starter bug"
+  ],
+  "angular/angular": [
+    "effort1: easy (hours)"
+  ],
+  "angular/angular_js": [
+    "prs plz!"
+  ],
+  "ansible/ansible": [
+    "easyfix"
+  ],
+  "apple/swift": [
+    "help wanted"
+  ],
+  "ariya/phantomjs": [
+    "help-wanted"
+  ],
+  "atom/atom": [
+    "help-wanted",
+    "beginner"
+  ],
+  "babel/babel": [
+    "help wanted",
+    "beginner-friendly"
+  ],
+  "callemall/material-ui": [
+    "good first issue"
+  ],
+  "caolan/async": [
+    "help wanted"
+  ],
+  "chartjs/Chart_js": [
+    "help wanted"
+  ],
+  "driftyco/ionic": [
+    "help wanted"
+  ],
+  "electron/electron": [
+    "help-wanted",
+    "beginner"
+  ],
+  "expressjs/express": [
+    "help wanted"
+  ],
+  "facebook/react": [
+    "good first bug"
+  ],
+  "facebook/react-native": [
+    "help wanted",
+    "good first task"
+  ],
+  "facebookincubator/create-react-app": [
+    "help wanted"
+  ],
+  "freeCodeCamp/freeCodeCamp": [
+    "help wanted",
+    "first-timers-only"
+  ],
+  "getify/You-Dont-Know-JS": [
+    "help wanted"
+  ],
+  "golang/go": [
+    "helpwanted"
+  ],
+  "google/material-design-icons": [
+    "help wanted"
+  ],
+  "google/material-design-lite": [
+    "help wanted"
+  ],
+  "gulpjs/gulp": [
+    "help wanted"
+  ],
+  "h5bp/html5-boilerplate": [
+    "help wanted"
+  ],
+  "hakimel/reveal_js": [
+    "help wanted"
+  ],
+  "jashkenas/underscore": [
+    "help wanted"
+  ],
+  "jekyll/jekyll": [
+    "help-wanted",
+    "up-for-grabs",
+    "first-timers-only"
+  ],
+  "jlevy/the-art-of-command-line": [
+    "help-wanted"
+  ],
+  "johnpapa/angular-styleguide": [
+    "help wanted"
+  ],
+  "josephmisiti/awesome-machine-learning": [
+    "help wanted"
+  ],
+  "jquery/jquery": [
+    "help wanted",
+    "patch welcome"
+  ],
+  "jwasham/google-interview-university": [
+    "help wanted"
+  ],
+  "kennethreitz/requests": [
+    "contributor friendly"
+  ],
+  "kubernetes/kubernetes": [
+    "size/s",
+    "help-wanted"
+  ],
+  "minimaxir/big-list-of-naughty-strings": [
+    "help wanted"
+  ],
+  "moment/moment": [
+    "help wanted",
+    "up-for-grabs"
+  ],
+  "neovim/neovim": [
+    "help-wanted",
+    "entry-level",
+    "complexity:low"
+  ],
+  "nodejs/node": [
+    "help wanted",
+    "good first contribution"
+  ],
+  "nvbn/thefuck": [
+    "help wanted"
+  ],
+  "nylas/N1": [
+    "help-wanted"
+  ],
+  "open-source-society/computer-science": [
+    "help wanted"
+  ],
+  "pallets/flask": [
+    "beginner friendly"
+  ],
+  "rails/rails": [
+    "good-first-patch"
+  ],
+  "reactjs/redux": [
+    "help wanted"
+  ],
+  "rust-lang/rust": [
+    "e-mentor"
+  ],
+  "sindresorhus/awesome": [
+    "help wanted"
+  ],
+  "socketio/socket_io": [
+    "pr welcome"
+  ],
+  "tastejs/todomvc": [
+    "help wanted",
+    "first time contributor"
+  ],
+  "tensorflow/tensorflow": [
+    "help wanted"
+  ],
+  "twbs/bootstrap": [
+    "help wanted"
+  ],
+  "vinta/awesome-python": [
+    "help wanted"
+  ],
+  "vuejs/vue": [
+    "contribution welcome"
+  ],
+  "wasabeef/awesome-android-ui": [
+    "help wanted"
+  ],
+  "webpack/webpack": [
+    "d1: easy (contrib. difficulty)",
+    "d2: medium (contrib. difficulty)",
+    "d0: my first commit (contrib. difficulty)"
+  ],
+  "yarnpkg/yarn": [
+    "help wanted",
+    "good first bug"
+  ],
+  "zurb/foundation-sites": [
+    "help wanted"
+  ]
+}

@@ -43,5 +43,6 @@ func (fire *FirebaseService) StoreIssue(issue *github.Issue) error {
 	if err != nil {
 		return err
 	}
+
 	return issuesFb.Set(issue)
 }
