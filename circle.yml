@@ -2,3 +2,8 @@ machine:
 
   golang:
     version: 1.8.1
+
+dependencies:
+  override:
+	- go get -t -d -v ./...
+    - go build -v
