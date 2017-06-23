@@ -1,7 +1,6 @@
 package updater
 
 import (
-	"fmt"
 	"io/ioutil"
 	"gopkg.in/yaml.v2"
 	"github.com/opensourcery-io/api/services"
@@ -9,6 +8,7 @@ import (
 	"github.com/opensourcery-io/api/models"
 	"strings"
 	"github.com/golang/glog"
+	"fmt"
 )
 
 const (
@@ -79,7 +79,7 @@ func (u *Updater) Update() ([]*models.Issue, error) {
 	for project, labels := range *index {
 		tokens := strings.SplitN(project, "/", 2)
 		if len(tokens) < 2 {
-			glog.Error("Failed to parse "+project, err)
+			glog.Errorf("Failed to parse %v. Err: %v", project, err)
 			continue
 		}
 
@@ -101,7 +101,10 @@ func (u *Updater) Update() ([]*models.Issue, error) {
 
 	}
 
-	fmt.Println(allIssues)
+	limit, err := u.GithubService.GetRateLimit()
+	fmt.Println(limit)
+
+	//fmt.Println(allIssues)
 
 	// TODO: Store to firebase
 	issuesToStore := make([]*models.Issue, 0)

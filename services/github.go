@@ -35,7 +35,12 @@ func (g *GithubService) GetIssuesWithLabels(owner, repository string, labels []s
 	return issues, err
 }
 
-func (g *GithubService) GetRepo(owner, name string) (*github.Repository ,error) {
+func (g *GithubService) GetRepo(owner, name string) (*github.Repository, error) {
 	repo, _, err := g.client.Repositories.Get(context.Background(), owner, name)
 	return repo, err
+}
+
+func (g *GithubService) GetRateLimit() (*github.RateLimits, error) {
+	limits, _, err := g.client.RateLimits(context.Background())
+	return limits, err
 }
