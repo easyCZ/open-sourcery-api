@@ -8,15 +8,13 @@ import (
 	"github.com/opensourcery-io/api/models"
 	"strings"
 	"github.com/golang/glog"
-	"fmt"
 )
 
 const (
-	UPDATE_ACTION                 = "update"
-	PRINT_ACTION                  = "print"
-	DEFAULT_INDEX_FILEPATH        = "./index.json"
-	DEFAULT_ACTION                = UPDATE_ACTION
-	FIREBASE_CREDENTIALS_FILEPATH = "/Users/milanpavlik/golang/src/github.com/opensourcery-io/open-sourcery-firebase-adminsdk-f4ddp-83f1d4c231.json"
+	UPDATE_ACTION          = "update"
+	PRINT_ACTION           = "print"
+	DEFAULT_INDEX_FILEPATH = "./index.json"
+	DEFAULT_ACTION         = UPDATE_ACTION
 )
 
 type ProjectsIndex map[string][]string
@@ -44,17 +42,17 @@ func NewUpdater(
 	}
 }
 
-func NewDefaultUpdater() *Updater {
-	//fbs, err := services.NewFirebaseService(FIREBASE_CREDENTIALS_FILEPATH)
-	//if err != nil {
-	//	panic("Failed to create updater")
-	//}
+func NewDefaultUpdater(firebaseCredsFile string) *Updater {
+	fbs, err := services.NewFirebaseService(firebaseCredsFile)
+	if err != nil {
+		panic("Failed to create updater")
+	}
 	return NewUpdater(
 		DEFAULT_INDEX_FILEPATH,
 		DEFAULT_ACTION,
 		services.NewGithubService(),
 		services.NewLogosApiService(),
-		nil,
+		fbs,
 	)
 }
 
@@ -72,39 +70,56 @@ func (u *Updater) loadProjectsIndex() (*ProjectsIndex, error) {
 	return &index, nil
 }
 
-func (u *Updater) Update() ([]*models.Issue, error) {
-	index, err := u.loadProjectsIndex()
-	allIssues := make([]*github.Issue, 0)
+func (u *Updater) updateProject(project string, labels []string, chn chan<- []*github.Issue) {
+	glog.Infof("Processing %v", project)
+	tokens := strings.SplitN(project, "/", 2)
+	if len(tokens) < 2 {
+		glog.Errorf("Failed to parse %v. Err: %v", project)
+	}
 
-	for project, labels := range *index {
-		tokens := strings.SplitN(project, "/", 2)
-		if len(tokens) < 2 {
-			glog.Errorf("Failed to parse %v. Err: %v", project, err)
+	owner, repo := tokens[0], tokens[1]
+	//logo, err := u.LogosService.Search(repo)
+	//if err != nil {
+	//	glog.Warningf("Failed to get logo for %v, continuing. Err: %v", logo, err)
+	//}
+
+	allIssues := make([]*github.Issue, 0)
+	for _, label := range labels {
+		issues, err := u.GithubService.GetIssuesWithLabels(owner, repo, []string{label})
+		if err != nil {
+			glog.Errorf("Failed to get allIssues for %v and label %v. Err: %v", project, label, err)
 			continue
 		}
 
-		owner, repo := tokens[0], tokens[1]
-		//logo, err := u.LogosService.Search(repo)
-		//if err != nil {
-		//	glog.Warningf("Failed to get logo for %v, continuing. Err: %v", logo, err)
-		//}
+		allIssues = append(allIssues, issues...)
+	}
+	chn <- allIssues
+	glog.Infof("Finished %v", project)
+}
 
-		for _, label := range labels {
-			issues, err := u.GithubService.GetIssuesWithLabels(owner, repo, []string{label})
-			if err != nil {
-				glog.Errorf("Failed to get allIssues for %v and label %v. Err: %v", project, label, err)
-				continue
-			}
+func (u *Updater) Update() ([]*models.Issue, error) {
+	index, err := u.loadProjectsIndex()
+	if err != nil {
+		glog.Errorf("Failed to parse projects index. Err: %v", err)
+	}
+	glog.Infof("Loaded projects index with %v items", len(*index))
 
-			allIssues = append(allIssues, issues...)
-		}
+	allIssuesChn := make(chan []*github.Issue, len(*index))
 
+	for project, labels := range *index {
+		go u.updateProject(project, labels, allIssuesChn)
+	}
+
+	allIssues := make([]*github.Issue, 0)
+	for i := 0; i< len(*index); i++ {
+		issues := <- allIssuesChn
+		allIssues = append(allIssues, issues...)
 	}
 
 	limit, err := u.GithubService.GetRateLimit()
-	fmt.Println(limit)
+	glog.Infof("Github Rate Limit: %v", limit)
 
-	//fmt.Println(allIssues)
+	//fmt.Println(allIssuesChn)
 
 	// TODO: Store to firebase
 	issuesToStore := make([]*models.Issue, 0)
