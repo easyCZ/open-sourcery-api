@@ -34,7 +34,7 @@
   "angular/angular": [
     "effort1: easy (hours)"
   ],
-  "angular/angular_js": [
+  "angular/angular.js": [
     "prs plz!"
   ],
   "ansible/ansible": [
@@ -60,7 +60,7 @@
   "caolan/async": [
     "help wanted"
   ],
-  "chartjs/Chart_js": [
+  "chartjs/Chart.js": [
     "help wanted"
   ],
   "driftyco/ionic": [
@@ -105,7 +105,7 @@
   "h5bp/html5-boilerplate": [
     "help wanted"
   ],
-  "hakimel/reveal_js": [
+  "hakimel/reveal.js": [
     "help wanted"
   ],
   "jashkenas/underscore": [
@@ -179,7 +179,7 @@
   "sindresorhus/awesome": [
     "help wanted"
   ],
-  "socketio/socket_io": [
+  "socketio/socket.io": [
     "pr welcome"
   ],
   "tastejs/todomvc": [
