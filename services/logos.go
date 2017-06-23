@@ -7,26 +7,20 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"errors"
-	"fmt"
 )
 
 type Logo struct {
 	Name string `json:"name"`
-	Url string `json:"logoURL"`
+	Url  string `json:"logoURL"`
 }
 
-
-type LogosService interface {
-	Search(query string) (*Logo, error)
+type LogoService struct {
+	client *http.Client
 }
 
 const LOGOS_API_URL string = "https://logos-api.funkreich.de/"
 
-type LogosApiService struct {
-	client *http.Client
-}
-
-func (service *LogosApiService) Search(query string) (*Logo, error) {
+func (service *LogoService) Search(query string) (*Logo, error) {
 	endpoint := LOGOS_API_URL + "?q=" + url.QueryEscape(query)
 
 	req, err := http.NewRequest("GET", endpoint, nil)
@@ -43,8 +37,6 @@ func (service *LogosApiService) Search(query string) (*Logo, error) {
 		return nil, err
 	}
 
-	fmt.Println(string(payload))
-
 	var logos []Logo
 	if err := json.Unmarshal(payload, &logos); err != nil {
 		return nil, err
@@ -56,11 +48,10 @@ func (service *LogosApiService) Search(query string) (*Logo, error) {
 	return nil, errors.New("No results")
 }
 
-func NewLogosApiService() *LogosService {
-	var lgs LogosService = &LogosApiService{
+func NewLogoService() *LogoService {
+	return &LogoService{
 		client: &http.Client{
 			Timeout: time.Second * 10,
 		},
 	}
-	return &lgs
 }

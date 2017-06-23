@@ -24,13 +24,13 @@ type Updater struct {
 	Action          string // print or write to firebase
 	GithubService   *services.GithubService
 	FirebaseService *services.FirebaseService
-	LogosService    *services.LogosService
+	LogosService    *services.LogoService
 }
 
 func NewUpdater(
 	index, action string,
 	ghs *services.GithubService,
-	lgs *services.LogosService,
+	lgs *services.LogoService,
 	fbs *services.FirebaseService) *Updater {
 
 	return &Updater{
@@ -51,7 +51,7 @@ func NewDefaultUpdater(firebaseCredsFile string) *Updater {
 		DEFAULT_INDEX_FILEPATH,
 		DEFAULT_ACTION,
 		services.NewGithubService(),
-		services.NewLogosApiService(),
+		services.NewLogoService(),
 		fbs,
 	)
 }
@@ -78,10 +78,10 @@ func (u *Updater) updateProject(project string, labels []string, chn chan<- []*g
 	}
 
 	owner, repo := tokens[0], tokens[1]
-	//logo, err := u.LogosService.Search(repo)
-	//if err != nil {
-	//	glog.Warningf("Failed to get logo for %v, continuing. Err: %v", logo, err)
-	//}
+	_, err := u.LogosService.Search(repo)
+	if err != nil {
+		glog.Warningf("Failed to get logo for %v, continuing. Err: %v", repo, err)
+	}
 
 	allIssues := make([]*github.Issue, 0)
 	for _, label := range labels {
@@ -90,6 +90,8 @@ func (u *Updater) updateProject(project string, labels []string, chn chan<- []*g
 			glog.Errorf("Failed to get allIssues for %v and label %v. Err: %v", project, label, err)
 			continue
 		}
+
+		// transform to a models.Issue
 
 		allIssues = append(allIssues, issues...)
 	}
@@ -105,23 +107,40 @@ func (u *Updater) Update() ([]*models.Issue, error) {
 	glog.Infof("Loaded projects index with %v items", len(*index))
 
 	allIssuesChn := make(chan []*github.Issue, len(*index))
+	defer close(allIssuesChn)
 
 	for project, labels := range *index {
-		go u.updateProject(project, labels, allIssuesChn)
+		go func(project string, labels []string) {
+			u.updateProject(project, labels, allIssuesChn)
+		}(project, labels)
+
 	}
 
 	allIssues := make([]*github.Issue, 0)
-	for i := 0; i< len(*index); i++ {
-		issues := <- allIssuesChn
+	for i := 0; i < len(*index); i++ {
+		issues := <-allIssuesChn
 		allIssues = append(allIssues, issues...)
 	}
 
 	limit, err := u.GithubService.GetRateLimit()
 	glog.Infof("Github Rate Limit: %v", limit)
 
-	//fmt.Println(allIssuesChn)
+	errors := u.FirebaseService.StoreIssues(allIssues)
+	errCount := 0
+	for i := 0; i < len(allIssues); i++ {
+		err := <-errors
+		if err != nil {
+			errCount += 1
+		}
+	}
+	close(errors)
 
-	// TODO: Store to firebase
+	if errCount > 0 {
+		glog.Errorf("Encountered %v/%v errors when storing issues", errCount, len(allIssues))
+	} else {
+		glog.Infof("Stored %v issues", len(allIssues))
+	}
+
 	issuesToStore := make([]*models.Issue, 0)
 
 	return issuesToStore, nil
