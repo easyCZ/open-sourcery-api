@@ -9,3 +9,8 @@ type ProjectDef struct {
 	Owner    string `yaml: owner`
 	Projects []RepositoryLabels `yaml: projects`
 }
+
+type Issue struct {
+
+}
+

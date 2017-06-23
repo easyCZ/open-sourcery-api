@@ -1,92 +1,110 @@
-package main
+package updater
 
 import (
 	"fmt"
-	"os"
 	"io/ioutil"
-	"github.com/opensourcery-io/api/models"
 	"gopkg.in/yaml.v2"
 	"github.com/opensourcery-io/api/services"
 	"github.com/google/go-github/github"
+	"github.com/opensourcery-io/api/models"
+	"strings"
+	"github.com/golang/glog"
 )
 
-func readProjectDef(filepath string) (*models.ProjectDef, error) {
-	file, err := ioutil.ReadFile(filepath)
-	if err != nil {
-		return nil, err
-	}
+const (
+	UPDATE_ACTION                 = "update"
+	PRINT_ACTION                  = "print"
+	DEFAULT_INDEX_FILEPATH        = "./index.json"
+	DEFAULT_ACTION                = UPDATE_ACTION
+	FIREBASE_CREDENTIALS_FILEPATH = "/Users/milanpavlik/golang/src/github.com/opensourcery-io/open-sourcery-firebase-adminsdk-f4ddp-83f1d4c231.json"
+)
 
-	p := models.ProjectDef{}
+type ProjectsIndex map[string][]string
 
-	if err := yaml.Unmarshal(file, &p); err != nil {
-		return nil, err
-	}
-
-	fmt.Print(p)
-
-	return &p, nil
+type Updater struct {
+	Index           string // location of index file
+	Action          string // print or write to firebase
+	GithubService   *services.GithubService
+	FirebaseService *services.FirebaseService
+	LogosService    *services.LogosService
 }
 
-func listProjectDefs(dir string) ([]*models.ProjectDef, error) {
-	files, err := ioutil.ReadDir(dir)
+func NewUpdater(
+	index, action string,
+	ghs *services.GithubService,
+	lgs *services.LogosService,
+	fbs *services.FirebaseService) *Updater {
+
+	return &Updater{
+		Index:           index,
+		Action:          action,
+		GithubService:   ghs,
+		LogosService:    lgs,
+		FirebaseService: fbs,
+	}
+}
+
+func NewDefaultUpdater() *Updater {
+	//fbs, err := services.NewFirebaseService(FIREBASE_CREDENTIALS_FILEPATH)
+	//if err != nil {
+	//	panic("Failed to create updater")
+	//}
+	return NewUpdater(
+		DEFAULT_INDEX_FILEPATH,
+		DEFAULT_ACTION,
+		services.NewGithubService(),
+		services.NewLogosApiService(),
+		nil,
+	)
+}
+
+func (u *Updater) loadProjectsIndex() (*ProjectsIndex, error) {
+	file, err := ioutil.ReadFile(u.Index)
 	if err != nil {
 		return nil, err
 	}
 
-	defs := make([]*models.ProjectDef, 0)
-	for _, file := range files {
-		if !file.IsDir() {
-			filename := dir + "/" + file.Name()
-			projectDef, err := readProjectDef(filename)
+	index := ProjectsIndex{}
+	if err := yaml.Unmarshal(file, &index); err != nil {
+		return nil, err
+	}
+
+	return &index, nil
+}
+
+func (u *Updater) Update() ([]*models.Issue, error) {
+	index, err := u.loadProjectsIndex()
+	allIssues := make([]*github.Issue, 0)
+
+	for project, labels := range *index {
+		tokens := strings.SplitN(project, "/", 2)
+		if len(tokens) < 2 {
+			glog.Error("Failed to parse "+project, err)
+			continue
+		}
+
+		owner, repo := tokens[0], tokens[1]
+		//logo, err := u.LogosService.Search(repo)
+		//if err != nil {
+		//	glog.Warningf("Failed to get logo for %v, continuing. Err: %v", logo, err)
+		//}
+
+		for _, label := range labels {
+			issues, err := u.GithubService.GetIssuesWithLabels(owner, repo, []string{label})
 			if err != nil {
-				return nil, err
-			}
-			defs = append(defs, projectDef)
-		}
-
-	}
-
-	return defs, nil
-}
-
-func main() {
-	fb, err := services.NewFirebaseService("/Users/milanpavlik/golang/src/github.com/opensourcery-io/open-sourcery-firebase-adminsdk-f4ddp-83f1d4c231.json")
-
-	gh := services.NewGithubService()
-
-	dir, err := os.Getwd()
-	if err != nil {
-		fmt.Errorf("Failed to get cwd %v", err)
-	}
-	projectDefs, err := listProjectDefs(dir + "/projects")
-	issues := make([]*github.Issue, 0)
-
-	for _, projectDef := range projectDefs {
-		for _, project := range projectDef.Projects {
-			for _, label := range project.Labels {
-				iss, _ := gh.GetIssuesWithLabels(projectDef.Owner, project.Repo, []string{label})
-				issues = append(issues, iss...)
+				glog.Errorf("Failed to get allIssues for %v and label %v. Err: %v", project, label, err)
+				continue
 			}
 
-		}
-	}
-
-	for _, issue := range issues {
-		if err := fb.StoreIssue(issue); err != nil {
-			fmt.Errorf("Failed to store issue %v", err)
+			allIssues = append(allIssues, issues...)
 		}
 
 	}
 
-	logosService := services.NewLogosApiService()
-	logo, _ := logosService.Search("facebook")
+	fmt.Println(allIssues)
 
-	fmt.Printf("%v", logo)
+	// TODO: Store to firebase
+	issuesToStore := make([]*models.Issue, 0)
 
-	for _, issue := range issues {
-		for _, label := range issue.Labels {
-			fmt.Printf("%s\n", *label.Name)
-		}
-	}
-
+	return issuesToStore, nil
 }

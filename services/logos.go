@@ -56,10 +56,11 @@ func (service *LogosApiService) Search(query string) (*Logo, error) {
 	return nil, errors.New("No results")
 }
 
-func NewLogosApiService() LogosService {
-	return &LogosApiService{
+func NewLogosApiService() *LogosService {
+	var lgs LogosService = &LogosApiService{
 		client: &http.Client{
 			Timeout: time.Second * 10,
 		},
 	}
+	return &lgs
 }
