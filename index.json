@@ -212,5 +212,8 @@
   ],
   "zurb/foundation-sites": [
     "help wanted"
+  ],
+  "google/go-github": [
+    "good for beginner"
   ]
 }
