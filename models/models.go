@@ -1,16 +1,26 @@
 package models
 
-type RepositoryLabels struct {
-	Repo   string `yaml: repo`
-	Labels []string `yaml: labels`
-}
-
-type ProjectDef struct {
-	Owner    string `yaml: owner`
-	Projects []RepositoryLabels `yaml: projects`
-}
+import (
+	"github.com/google/go-github/github"
+	"time"
+)
 
 type Issue struct {
-
+	Id int
+	Owner *github.User
+	Repo string
+	Title string
+	Date *time.Time
+	HtmlUrl string
 }
 
+func IssueFromGithubIssue(ghIssue *github.Issue) *Issue {
+	return &Issue{
+		Id: ghIssue.GetID(),
+		Owner: ghIssue.Repository.Owner,
+		Repo: *ghIssue.Repository.Name,
+		Title: *ghIssue.Title,
+		Date: ghIssue.CreatedAt,
+		HtmlUrl: ghIssue.GetHTMLURL(),
+	}
+}

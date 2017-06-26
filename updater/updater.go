@@ -25,13 +25,15 @@ type Updater struct {
 	GithubService   *services.GithubService
 	FirebaseService *services.FirebaseService
 	LogosService    *services.LogoService
+	SearchService   services.SearchService
 }
 
 func NewUpdater(
 	index, action string,
 	ghs *services.GithubService,
 	lgs *services.LogoService,
-	fbs *services.FirebaseService) *Updater {
+	fbs *services.FirebaseService,
+	ss services.SearchService) *Updater {
 
 	return &Updater{
 		Index:           index,
@@ -39,6 +41,7 @@ func NewUpdater(
 		GithubService:   ghs,
 		LogosService:    lgs,
 		FirebaseService: fbs,
+		SearchService:   ss,
 	}
 }
 
@@ -53,6 +56,7 @@ func NewDefaultUpdater(firebaseCredsFile string) *Updater {
 		services.NewGithubService(),
 		services.NewLogoService(),
 		fbs,
+		services.NewAlgoliaSearch(),
 	)
 }
 

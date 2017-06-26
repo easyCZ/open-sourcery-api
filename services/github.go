@@ -7,14 +7,19 @@ import (
 	"github.com/golang/glog"
 )
 
+const (
+	ENV_GITHUB_CLIENT string = "GITHUB_CLIENT"
+	ENV_GITHUB_SECRET string = "GITHUB_SECRET"
+)
+
 type GithubService struct {
 	client *github.Client
 }
 
 func NewGithubService() *GithubService {
 	transport := &github.UnauthenticatedRateLimitedTransport{
-		ClientID:     os.Getenv("GITHUB_CLIENT"),
-		ClientSecret: os.Getenv("GITHUB_SECRET"),
+		ClientID:     os.Getenv(ENV_GITHUB_CLIENT),
+		ClientSecret: os.Getenv(ENV_GITHUB_SECRET),
 	}
 	return &GithubService{
 		client: github.NewClient(transport.Client()),
