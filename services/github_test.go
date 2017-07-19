@@ -6,8 +6,9 @@ import (
 	"github.com/google/go-github/github"
 	"github.com/stretchr/testify/assert"
 	"time"
-	"fmt"
 )
+
+
 
 func TestGithubService_GetIssuesWithLabels(t *testing.T) {
 	ghs := NewGithubService()
@@ -18,9 +19,6 @@ func TestGithubService_GetIssuesWithLabels(t *testing.T) {
 		},
 	})
 
-	first := issues[0]
-	fmt.Println(first.Repository)
-	fmt.Println(first.Repository.Owner)
 	//var dat map[string]interface{}
 	//bytes, _ := ioutil.ReadAll(resp.Body)
 	//if err := json.Unmarshal(bytes, &dat); err != nil {
@@ -32,8 +30,8 @@ func TestGithubService_GetIssuesWithLabels(t *testing.T) {
 	assert.Nil(t, err)
 	assert.NotEmpty(t, issues)
 
+	first := issues[0]
 	time.Sleep(2 * time.Second)
-
 
 	assert.NotNil(t, first.Repository)
 }

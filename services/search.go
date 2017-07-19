@@ -14,6 +14,7 @@ const (
 
 type SearchService interface {
 	IndexIssue(issue *models.Issue) error
+	IndexIssues(issue []*models.Issue) error
 }
 
 type AlgoliaSearch struct {

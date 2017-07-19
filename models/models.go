@@ -1,26 +1,21 @@
 package models
 
 import (
-	"github.com/google/go-github/github"
 	"time"
 )
 
 type Issue struct {
-	Id int
-	Owner *github.User
-	Repo string
-	Title string
-	Date *time.Time
-	HtmlUrl string
+	Id        int
+	Owner     string
+	Repo      string
+	Title     string
+	CreatedAt *time.Time
+	HtmlUrl   string
+	Labels    []string
 }
 
-func IssueFromGithubIssue(ghIssue *github.Issue) *Issue {
-	return &Issue{
-		Id: ghIssue.GetID(),
-		Owner: ghIssue.Repository.Owner,
-		Repo: *ghIssue.Repository.Name,
-		Title: *ghIssue.Title,
-		Date: ghIssue.CreatedAt,
-		HtmlUrl: ghIssue.GetHTMLURL(),
-	}
+type OSProject struct {
+	Owner  string
+	Repo   string
+	Labels []string
 }

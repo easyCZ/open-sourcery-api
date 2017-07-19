@@ -4,10 +4,9 @@ import (
 	"io/ioutil"
 	"gopkg.in/yaml.v2"
 	"github.com/opensourcery-io/api/services"
-	"github.com/google/go-github/github"
 	"github.com/opensourcery-io/api/models"
-	"strings"
 	"github.com/golang/glog"
+	"fmt"
 )
 
 const (
@@ -16,8 +15,6 @@ const (
 	DEFAULT_INDEX_FILEPATH = "./index.json"
 	DEFAULT_ACTION         = UPDATE_ACTION
 )
-
-type ProjectsIndex map[string][]string
 
 type Updater struct {
 	Index           string // location of index file
@@ -74,54 +71,61 @@ func (u *Updater) loadProjectsIndex() (*ProjectsIndex, error) {
 	return &index, nil
 }
 
-func (u *Updater) updateProject(project string, labels []string, chn chan<- []*github.Issue) {
-	glog.Infof("Processing %v", project)
-	tokens := strings.SplitN(project, "/", 2)
-	if len(tokens) < 2 {
-		glog.Errorf("Failed to parse %v. Err: %v", project)
-	}
+func (u *Updater) getIssuesForProject(owner, repo string, labels []string, chn chan<- []*models.Issue) {
+	name := fmt.Sprintf("%v/%v", owner, repo)
+	glog.Infof("Processing %v", name)
 
-	owner, repo := tokens[0], tokens[1]
 	_, err := u.LogosService.Search(repo)
 	if err != nil {
 		glog.Warningf("Failed to get logo for %v, continuing. Err: %v", repo, err)
 	}
 
-	allIssues := make([]*github.Issue, 0)
+	allIssues := make([]*models.Issue, 0)
 	for _, label := range labels {
-		issues, err := u.GithubService.GetIssuesWithLabels(owner, repo, []string{label})
+		ghIssues, err := u.GithubService.GetIssuesWithLabels(owner, repo, []string{label})
 		if err != nil {
-			glog.Errorf("Failed to get allIssues for %v and label %v. Err: %v", project, label, err)
+			glog.Errorf("Failed to get allIssues for %v and label %v. Err: %v", name, label, err)
 			continue
 		}
 
 		// transform to a models.Issue
-
-		allIssues = append(allIssues, issues...)
+		// may process duplicates but we don't care
+		for _, ghIssue := range ghIssues {
+			allIssues = append(allIssues, &models.Issue{
+				Id:        ghIssue.GetID(),
+				Owner:     owner,
+				Repo:      repo,
+				Title:     *ghIssue.Title,
+				CreatedAt: ghIssue.CreatedAt,
+				HtmlUrl:   ghIssue.GetHTMLURL(),
+				Labels:    labels,
+			})
+		}
 	}
 	chn <- allIssues
-	glog.Infof("Finished %v", project)
+	glog.Infof("Finished %v", name)
 }
 
 func (u *Updater) Update() ([]*models.Issue, error) {
-	index, err := u.loadProjectsIndex()
+	index, err := LoadIndex(u.Index)
 	if err != nil {
 		glog.Errorf("Failed to parse projects index. Err: %v", err)
+		return nil, err
 	}
-	glog.Infof("Loaded projects index with %v items", len(*index))
 
-	allIssuesChn := make(chan []*github.Issue, len(*index))
+	allIssuesChn := make(chan []*models.Issue, len(index))
 	defer close(allIssuesChn)
 
-	for project, labels := range *index {
-		go func(project string, labels []string) {
-			u.updateProject(project, labels, allIssuesChn)
-		}(project, labels)
+	for _, project := range index {
+		go func(owner, repo string, labels []string) {
+			u.getIssuesForProject(owner, repo, labels, allIssuesChn)
+		}(project.Owner, project.Repo, project.Labels)
 
 	}
 
-	allIssues := make([]*github.Issue, 0)
-	for i := 0; i < len(*index); i++ {
+	// collect
+	allIssues := make([]*models.Issue, 0)
+	for i := 0; i < len(index); i++ {
 		issues := <-allIssuesChn
 		allIssues = append(allIssues, issues...)
 	}
@@ -145,7 +149,17 @@ func (u *Updater) Update() ([]*models.Issue, error) {
 		glog.Infof("Stored %v issues", len(allIssues))
 	}
 
-	issuesToStore := make([]*models.Issue, 0)
+	err = u.SearchService.IndexIssues(allIssues)
+	if err != nil {
+		glog.Errorf("Failed to index issues. Err: %v", err)
+	}
 
-	return issuesToStore, nil
+	//err = u.FirebaseService.ReverseIndexIssuesByLabels(allIssues)
+	//if err != nil {
+	//	glog.Errorf("Failed to create reverse index. Err: %v", err)
+	//}
+
+
+
+	return allIssues, nil
 }
