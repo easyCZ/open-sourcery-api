@@ -12,6 +12,8 @@ func verifyEnvVariables() {
 	required := []string{
 		services.ENV_GITHUB_CLIENT,
 		services.ENV_GITHUB_SECRET,
+		services.ENV_ALGOLIA_CLIENT,
+		services.ENV_ALGOLIA_SECRET,
 	}
 
 	for _, key := range required {
