@@ -1,16 +1,21 @@
 package models
 
-type RepositoryLabels struct {
-	Repo   string `yaml: repo`
-	Labels []string `yaml: labels`
-}
-
-type ProjectDef struct {
-	Owner    string `yaml: owner`
-	Projects []RepositoryLabels `yaml: projects`
-}
+import (
+	"time"
+)
 
 type Issue struct {
-
+	Id        int
+	Owner     string
+	Repo      string
+	Title     string
+	CreatedAt *time.Time
+	HtmlUrl   string
+	Labels    []string
 }
 
+type OSProject struct {
+	Owner  string
+	Repo   string
+	Labels []string
+}
